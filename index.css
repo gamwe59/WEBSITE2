@@ -26,8 +26,6 @@ body {
 
 main {
     width: 65%;
-    align-self: center;
-    justify-self: center;
     background-image: url("/images/main.jpg");
     border-radius: 20px;
     padding: 15px;
@@ -37,9 +35,9 @@ main {
         0px 0px 10px white;
     text-align: center;
     color: black;
-    position: relative;
-    top: 50px;
     box-shadow: 0px 0px 15px black;
+    margin: auto;
+    margin-top: 50px;
 }
 
 img {
@@ -49,8 +47,6 @@ img {
 nav {
     width: 50%;
     height: 30%;
-    align-self: center;
-    justify-self: center;
     background-image: url("/images/main.jpg");
     border-radius: 20px;
     padding: 15px;
@@ -60,7 +56,7 @@ nav {
         0px 0px 10px white;
     text-align: center;
     color: black;
-    position: relative;
-    top: 60px;
+    margin: auto;
+    margin-top: 15px;
     box-shadow: 0px 0px 15px black;
 }
