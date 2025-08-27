@@ -1,12 +1,10 @@
 import yuri from "/yuri.json" with { type: "json" }
 
 function randImg() {
-  var size = yuri.length
-  var x = Math.floor(size * Math.random())
-  document.getElementById('txt').textContent="faaagot"
-  document.getElementById('image').src = yuri[x];
+  let size = yuri.length
+  let x = Math.floor(size * Math.random())
+  document.getElementById('txt').textContent=yuri[x].toString()
+  document.getElementById('yuri').src = yuri[x];
 }
 
-window.onload = function() {
-    randImg();
-}
+randImg();
