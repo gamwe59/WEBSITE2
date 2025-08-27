@@ -10,11 +10,6 @@
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     </head>
     <body>
-        <div class="background">
-
-        </div>
-    </body>
-    <body>
         <main>
             <!-- html semantics —— you should use h<1-6> as a description
                     not for their size; use css to change its font-size instead
@@ -36,5 +31,22 @@
             <a href="https://a6hawk.com/kill/kill.webm"><img src="https://a6hawk.com/kill/killa6hawk.gif"></a>
             <a href="https://winterecy.com"><img src="https://winterecy.com/media/img/blinkies/winterecy-blinkie.gif"></a>
         </nav>
+        <div class="yuri">
+            <h3>Random Yuri:</h3>
+            <script type="text/javascript">
+                import yuri from "/yuri.json" with { type: "json" }
+                function getImageTag() {
+                    var img = '<img src=\"';
+                    var randomIndex = Math.floor(Math.random() * yuri.length);
+                    img += yuri[randomIndex];
+                    img += '\" alt=\"yuri from my yuri folder\"/>';
+                    return img;
+                }
+            </script>
+            
+            <script type="text/javascript">
+                document.write(getImageTag());
+            </script>
+        </div>
     </body>
 </html>
