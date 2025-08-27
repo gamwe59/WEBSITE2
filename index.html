@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,20 +34,11 @@
         </nav>
         <div class="yuri">
             <h3>Random Yuri:</h3>
-            <script type="text/javascript">
-                import yuri from "/yuri.json" with { type: "json" }
-                function getImageTag() {
-                    var img = '<img src=\"';
-                    var randomIndex = Math.floor(Math.random() * yuri.length);
-                    img += yuri[randomIndex];
-                    img += '\" alt=\"yuri from my yuri folder\"/>';
-                    return img;
-                }
-            </script>
-            
-            <script type="text/javascript">
-                document.write(getImageTag());
-            </script>
+
+            <p id="txt"></p>
+
+            <img id="yuri">
+
         </div>
     </body>
 </html>
