@@ -17,6 +17,13 @@ body {
     background-position-y: auto;
 }
 
+.title {
+    display:flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
 main {
     width: 65%;
     border-radius: 20px;
@@ -29,6 +36,11 @@ main {
     margin: auto;
     margin-top: 50px;
     background-color: rgba(255, 207, 241, 0.767);
+}
+
+main img{
+    height: 70px;
+    border-radius: 50%;
 }
 
 .wife{
@@ -45,12 +57,8 @@ main {
     background-color: rgba(250, 153, 221, 0.5);
 }
 
-img {
-    height: 30px;
-}
-
 .yuri{
-    width:55vw;
+    width:fit-content;
     border-radius: 20px;
     padding: 15px;
     background-size: 100% 100%;
@@ -66,9 +74,11 @@ img {
 
 .yuriimg {
     border-radius: 20px;
-    width: 50vw;
+    width: 30vw;
     height:auto;
     box-shadow: 0px 0px 30px white, 0 0 15px white inset;
+    margin-left: 7px;
+    margin-right: 7px;
 }
 
 nav {
@@ -86,4 +96,8 @@ nav {
     margin: auto;
     margin-top: 15px;
     box-shadow: 0px 0px 30px white, 0 0 15px white inset;
+}
+
+nav img {
+    height: 30px;
 }
