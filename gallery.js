@@ -8,6 +8,7 @@ const maxLoaded = 15;
 let div = document.getElementById("gallery")
 const unsortedDiv = document.getElementById("unsorted")
 const loadButton = document.getElementById("load")
+let USP = new URLSearchParams(document.location.search);
 
 const validParams = {sort: "added"}
 const url = window.location
@@ -23,7 +24,7 @@ function addImgs() {
         var str = data.name;
         str = str.replace(/\s+/g, '-').toLowerCase();
 
-        obj.href = "./view?i="+str
+        obj.href = "./gallery/view.html?img="+str
         let img = document.createElement("img")
         img.src = data.src
         img.alt = data.name
