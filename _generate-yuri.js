@@ -8,5 +8,5 @@ const files = fs.readdirSync(dir)
 const output = JSON.stringify(files.map(f => "/yurifolder/" + f))
 
 
-fs.writeFileSync("yuri.json", output);
+fs.writeFileSync("yuriunsorted.json", output);
 console.log("✅ yuri.html updated with", files.length, "images.");
