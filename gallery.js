@@ -4,7 +4,7 @@ let gallery = {}
 let curLoadedFromGallery = 0
 
 const validParams = {sort: "date"}
-const searchParams = new URLSearchParams(params)
+const searchParams = new URLSearchParams(validParams)
 
 function sort() {
 
