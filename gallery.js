@@ -24,7 +24,7 @@ function addImgs() {
         var str = data.name;
         str = str.replace(/\s+/g, '-').toLowerCase();
 
-        obj.href = "./gallery/view.html?img="+str
+        obj.href = "./gallery/view?img="+str
         let img = document.createElement("img")
         img.src = data.src
         img.alt = data.name
