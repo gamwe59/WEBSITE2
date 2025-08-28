@@ -1,0 +1,201 @@
+{
+	"digital": {
+		"long": "digital art",
+		"type": "medium"
+	},
+	"traditional": {
+		"long": "traditional art",
+		"type": "medium"
+	},
+	
+	"speech": {
+		"long": "communication",
+		"type": "intimacy"
+	},
+	"physical": {
+		"long": "physical",
+		"type": "intimacy"
+	},
+	"lphysical": {
+		"long": "light physical",
+		"type": "intimacy"
+	},
+	"hphysical": {
+		"long": "heavy physical",
+		"type": "intimacy"
+	},
+	
+	"danbooru": {
+		"long": "danbooru",
+		"type": "site"
+	},
+	"twitter": {
+		"long": "twitter",
+		"type": "site"
+	},
+	"reddit": {
+		"long": "reddit",
+		"type": "site"
+	},
+	
+	"butch": {
+		"long": "butch",
+		"type": "expression"
+	},
+	"femme": {
+		"long": "femme",
+		"type": "expression"
+	},
+	"stud": {
+		"long": "stud",
+		"type": "expression"
+	},
+	"futch": {
+		"long": "futch",
+		"type": "expression"
+	},
+	
+	"toxic": {
+		"long": "toxic",
+		"type": "genre"
+	},
+	"wholesome": {
+		"long": "wholesome",
+		"type": "genre"
+	},
+	"doomed": {
+		"long": "doomed",
+		"type": "genre"
+	},
+	
+	"1girl": {
+		"long": "1 girl",
+		"type": "girls"
+	},
+	"2girls": {
+		"long": "2 girls",
+		"type": "girls"
+	},
+	"3girls": {
+		"long": "3 girls",
+		"type": "girls"
+	},
+	"4girls": {
+		"long": "4 girls",
+		"type": "girls"
+	},
+	"5girls": {
+		"long": "5 girls",
+		"type": "girls"
+	},
+	"6girls": {
+		"long": "6 girls",
+		"type": "girls"
+	},
+	"7girls": {
+		"long": "7 girls",
+		"type": "girls"
+	},
+	"8girls": {
+		"long": "8 girls",
+		"type": "girls"
+	},
+	
+	"comic": {
+		"long": "comic",
+		"type": "style"
+    },
+	"color": {
+		"long": "color",
+		"type": "style"
+    },
+	"sketch": {
+		"long": "sketch",
+		"type": "style"
+    },
+	
+	"texting": {
+		"long": "messaging",
+		"type": "content"
+	},
+	"kissing": {
+		"long": "kissing",
+		"type": "content"
+	},
+	"cuddling": {
+		"long": "cuddling",
+		"type": "content"
+	},
+	
+	
+	
+	
+	
+	
+	
+	"co09": {
+		"long": "class of '09",
+		"type": "origin"
+	},
+	"vocaloid": {
+		"long": "vocaloid",
+		"type": "origin"
+	},
+	"vsynth": {
+		"long": "vocal synth",
+		"type": "origin"
+	},
+	"utauloid": {
+		"long": "utauloid",
+		"type": "origin"
+	},
+	"synthvloid": {
+		"long": "synthvloid",
+		"type": "origin"
+	},
+	"nichijou": {
+		"long": "nichijou",
+		"type": "origin"
+	},
+	"lovelive": {
+		"long": "love live!",
+		"type": "origin"
+	},
+	"pjsk": {
+		"long": "project sekai",
+		"type": "origin"
+	},
+	"tgswiiwagaa": {
+		"long": "tgswiiwagaa (green yuri)",
+		"type": "origin"
+	},
+	
+	"nicole": {
+		"long": "nicole",
+		"type": "character"
+	},
+	"jecka": {
+		"long": "jecka",
+		"type": "character"
+	},
+	"ari": {
+		"long": "ari",
+		"type": "character"
+	},
+	"miku": {
+		"long": "hatsune miku",
+		"type": "character"
+	},
+	"teto": {
+		"long": "kasane teto",
+		"type": "character"
+	},
+	"rei": {
+		"long": "adachi rei",
+		"type": "character"
+	},
+	"uta": {
+		"long": "uta utane",
+		"type": "character"
+	}
+}
