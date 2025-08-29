@@ -36,7 +36,7 @@ function generateTags() {
     for (const [key, tag] of Object.entries(img.tags)) {
         let l = document.createElement("li")
         let obj = document.createElement("a")
-        obj.href = "./gallery?t="+tag
+        obj.href = ".?t="+tag
         obj.textContent = tag
         tags.append(l)
         l.append(obj)
