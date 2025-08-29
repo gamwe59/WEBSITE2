@@ -1,5 +1,4 @@
 body {
-    background-color: rgb(85, 47, 68);
     font-family: "Inter", sans-serif;
     width: 100%;
     height: 100%;
@@ -7,6 +6,58 @@ body {
     background-size: cover;
     background-position-x: center;
     background-position-y: auto;
+}
+
+.wrapper {
+    display:flex;
+    height:100%
+}
+
+.main {
+    background-color: rgb(85, 47, 68);
+    flex-grow: 1;
+    transition-duration: 0.5s;
+    margin-right:30px;
+}
+
+.paneltoggle {
+    width: 30px;
+    height:100%;
+    position:fixed;
+    top: 50%;
+    transform: translate(-100%, -50%);
+    flex-shrink: 0;
+    display:grid;
+    place-items: center;
+    border:none;
+    cursor:pointer;
+}
+
+.sidepanel {
+    position:fixed;
+    top: 50%;
+    left: 100%;
+    transform: translate(0%, -50%);
+    height:101vh;
+    width:300px;
+    flex-shrink:0;
+    background-color: rgb(59, 37, 49);
+    color:white;
+    z-index:3;
+    transition-duration: 0.3s;
+}
+
+.side-panel-content {
+    padding:15px;
+}
+
+.side-panel-open .sidepanel {
+    display:initial;
+    transform: translate(-100%, -50%);
+}
+
+.side-panel-open .main {
+    filter:brightness(40%);
 }
 
 main {
@@ -18,38 +69,53 @@ main {
     margin-top: 15px;
 }
 
-div {
+.gallery {
     width:fit-content;
     padding:10px;
-}
-
-.gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
     align-items: flex-start;
     gap:5px;
+    transition-duration: 0.2s;
+}
+
+.gallery:hover {
+    align-items: flex-start;
 }
 
 .gallery a {
     height: 350px;
     width:auto;
+    align-self: center;
+    justify-self: center;
+    transition-duration: 0.2s;
+}
+
+.gallery a:hover{
+    display:block;
+    transform:scale(110%);
+    box-shadow: 0px 0px 25px black, 0px 0px 10px black;
+    z-index: 2;
 }
 
 .gallery img {
     width:100%;
     height:100%;
-    margin:auto;
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-button {
+.load {
     border: none;
     padding: 15px;
-    border-radius: 25px;
+    border-radius: 50px;
     text-shadow: 0px 0px 10px rgb(0, 0, 0);
     text-align: center;
     color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 0px white, 0 0 0px white inset;
+    box-shadow: 0px 0px 0px black;
     margin: 0 auto;
     display:block;
     margin-bottom: 35px;
@@ -57,10 +123,11 @@ button {
     background-color: rgb(236, 171, 217);
     text-decoration: none;
     transition-duration: 0.2s;
+    transition-delay: 0ms;
     font-size: large;
     cursor:pointer
 }
 
-button:hover {
-    box-shadow: 0px 0px 15px white, 0 0 15px white inset;
+.load:hover {
+    box-shadow: 0px 0px 15px black;
 }

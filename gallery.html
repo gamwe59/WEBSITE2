@@ -15,17 +15,30 @@
     <meta data-react-helmet="true" name="theme-color" content="ff99e7">
 </head>
 <body>
-    <main>
-        <h1>yuri gallery!!</h1>
-    </main>
-    <div class="gallery" id="gallery">
-        <script type="module" src="gallery.js"></script>
+    <script type="module" src="gallery.js"></script>
+    <script type="module" src="gallerysidebar.js"></script>
+    <div class="wrapper side-panel-open">
+        <div class="main">
+            <main>
+                <h1>yuri gallery!!</h1>
+            </main>
+            <div class="gallery" id="gallery">
+            </div>
+            <main>
+                <h1>yuri that isnt in the database yet:</h1>
+                <p>(that means theres no link to the source nor view page) (and also no filters or sorting)</p>
+            </main>
+            <div class="gallery" id="unsorted"></div>
+            <button class="load" id="load">LOAD MORE YURI</button>
+        </div>
+        <div class="sidepanel">
+            <button class="paneltoggle" id="paneltoggle">
+
+            </button>
+            <div class="side-panel-content" id="sidepanel">
+                <p>side panel content</p>
+            </div>
+        </div>
     </div>
-    <main>
-        <h1>yuri that isnt in the database yet:</h1>
-        <p>(that means theres no link to the source nor view page) (and also no filters or sorting)</p>
-    </main>
-    <div class="gallery" id="unsorted"></div>
-    <button id="load">LOAD MORE YURI</button>
 </body>
 </html>

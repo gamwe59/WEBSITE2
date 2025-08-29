@@ -8,6 +8,7 @@ const maxLoaded = 15;
 let div = document.getElementById("gallery")
 const unsortedDiv = document.getElementById("unsorted")
 const loadButton = document.getElementById("load")
+const panelButton = document.getElementById("paneltoggle")
 let USP = new URLSearchParams(document.location.search);
 
 const validParams = {sort: "added"}
@@ -105,5 +106,8 @@ function resetFilters() {
     addImgs()
 }
 
-
 resetFilters()
+
+panelButton.onclick = function() {
+    document.querySelector(".wrapper").classList.toggle("side-panel-open")
+}
