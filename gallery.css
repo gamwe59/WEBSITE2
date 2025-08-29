@@ -14,7 +14,7 @@ body {
 }
 
 .main {
-    background-color: rgb(85, 47, 68);
+    background-color: rgb(59, 37, 49);
     flex-grow: 1;
     transition-duration: 0.5s;
     margin-right:30px;
@@ -23,7 +23,7 @@ body {
 .paneltoggle {
     width: 30px;
     height:100%;
-    position:fixed;
+    position:absolute;
     top: 50%;
     transform: translate(-100%, -50%);
     flex-shrink: 0;
@@ -31,24 +31,48 @@ body {
     place-items: center;
     border:none;
     cursor:pointer;
+    background-color: rgb(85, 47, 68);
+    box-shadow: -5px 0px 10px black;
 }
 
 .sidepanel {
-    position:fixed;
+    position:absolute;
     top: 50%;
     left: 100%;
     transform: translate(0%, -50%);
-    height:101vh;
+    height:100%;
     width:300px;
     flex-shrink:0;
     background-color: rgb(59, 37, 49);
     color:white;
     z-index:3;
     transition-duration: 0.3s;
+
+}
+
+.side-panel-content p {
+    font-size: large;
 }
 
 .side-panel-content {
     padding:15px;
+}
+.side-panel-content button {
+    font-family: "Inter", sans-serif;
+    border:none;
+    cursor:pointer;
+    background: transparent;
+    font-size: medium;
+    color:rgb(189, 112, 163);
+    text-decoration: none;
+}
+.tag-selected {
+    color:rgb(241, 189, 224) !important;
+    text-decoration: underline !important;
+}
+
+.side-panel-content li {
+    list-style: inside;
 }
 
 .side-panel-open .sidepanel {
@@ -61,23 +85,25 @@ body {
 }
 
 main {
-    border-radius: 20px;
-    text-shadow: 0px 0px 10px rgb(0, 0, 0);
     text-align: center;
     color: rgb(255, 255, 255);
     margin: auto;
-    margin-top: 15px;
+    padding:20px
 }
 
 .gallery {
-    width:fit-content;
-    padding:10px;
+    width:85%;
+    padding:30px;
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
     align-items: flex-start;
+    position:relative;
+    margin:auto;
     gap:5px;
     transition-duration: 0.2s;
+    background-color: rgb(85, 47, 68);
+    box-shadow: 0px 0px 15px black;
 }
 
 .gallery:hover {
@@ -85,7 +111,7 @@ main {
 }
 
 .gallery a {
-    height: 350px;
+    height:350px;
     width:auto;
     align-self: center;
     justify-self: center;
@@ -94,7 +120,7 @@ main {
 
 .gallery a:hover{
     display:block;
-    transform:scale(110%);
+    transform:scale(105%);
     box-shadow: 0px 0px 25px black, 0px 0px 10px black;
     z-index: 2;
 }

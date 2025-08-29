@@ -9,12 +9,17 @@ let div = document.getElementById("gallery")
 const unsortedDiv = document.getElementById("unsorted")
 const loadButton = document.getElementById("load")
 const panelButton = document.getElementById("paneltoggle")
+const buttons = document.querySelectorAll("[id='tagbutton']")
 let USP = new URLSearchParams(document.location.search);
-
-const validParams = {sort: "added"}
-const url = window.location
+let url = new URL(window.location.href)
 
 let params = {sort: "added", tags: []}
+
+function removeImgs() {
+    div.innerHTML = '';
+    unsortedDiv.innerHTML = '';
+    curLoadedFromGallery = 0;
+}
 
 function addImgs() {
     loopLoaded = 0;
@@ -106,8 +111,50 @@ function resetFilters() {
     addImgs()
 }
 
-resetFilters()
+function setParams() {
+    let tags = USP.getAll("t")
+    params.tags = tags.slice()
+    removeImgs()
+    gallery = yuri.slice()
+    sort(gallery)
+    addImgs()
+}
+
+function clickTagButton(button, tag) {
+    let found = USP.has("t", tag)
+    if (found) {
+        USP.delete("t", tag)
+        url.searchParams.delete("t", tag)
+        button.classList.remove("tag-selected")
+    } else {
+        USP.append("t", tag)
+        url.searchParams.append("t", tag)
+        button.classList.add("tag-selected")
+    }
+    history.pushState({}, '', url.href)
+    setParams()
+}
+
+function siteLoaded() {
+    let tags = USP.getAll("t")
+    
+    for (const [key, button] of Object.entries(buttons)) {
+        if (tags.includes(button.class)) {
+            console.log(button.class)
+            button.classList.add("tag-selected")
+        }
+    }
+    setParams()
+}
+
+for (const [key, button] of Object.entries(buttons)) {
+    button.onclick = function() {
+        clickTagButton(button, button.class)
+    }
+}
 
 panelButton.onclick = function() {
     document.querySelector(".wrapper").classList.toggle("side-panel-open")
 }
+
+siteLoaded()
