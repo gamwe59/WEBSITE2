@@ -130,12 +130,20 @@
 		"long": "hugging",
 		"type": "content"
 	},
+	"sleeping": {
+		"long": "sleeping",
+		"type": "content"
+	},
 	"party": {
 		"long": "party/gathering",
 		"type": "content"
 	},
 	"beach": {
 		"long": "beach",
+		"type": "content"
+	},
+	"mall": {
+		"long": "mall",
 		"type": "content"
 	},
 	"texting": {
@@ -161,6 +169,10 @@
 		"long": "tgswiiwagaa (green yuri)",
 		"type": "origin"
 	},
+	"koandmi": {
+		"long": "koharu and minato",
+		"type": "origin"
+	},
 	"vsynth": {
 		"long": "vocal synth",
 		"type": "origin"
@@ -183,6 +195,10 @@
 	},
 	"pjsk": {
 		"long": "project sekai",
+		"type": "origin"
+	},
+	"btr": {
+		"long": "bocchi the rock!",
 		"type": "origin"
 	},
 	
@@ -244,6 +260,38 @@
 	},
 	"levi": {
 		"long": "levi",
+		"type":"character"
+	},
+	"aya": {
+		"long": "aya oosawa",
+		"type":"character"
+	},
+	"mitsuki": {
+		"long": "mitsuki koga",
+		"type":"character"
+	},
+	"bocchi": {
+		"long": "hitori bocchi gotoh",
+		"type":"character"
+	},
+	"nijika": {
+		"long": "nijika ijichi",
+		"type":"character"
+	},
+	"ryo": {
+		"long": "ryo yamada",
+		"type":"character"
+	},
+	"kita": {
+		"long": "kita ikuyo",
+		"type":"character"
+	},
+	"koharu": {
+		"long": "koharu",
+		"type":"character"
+	},
+	"minato": {
+		"long": "minato",
 		"type":"character"
 	}
 }
