@@ -4,7 +4,7 @@ import unsorted from "/yuriunsorted.json" with { type: "json" }
 let gallery = {}
 let curLoadedFromGallery = 0
 let loopLoaded = 0
-const maxLoaded = 15;
+const maxLoaded = 50;
 let div = document.getElementById("gallery")
 const unsortedDiv = document.getElementById("unsorted")
 const loadButton = document.getElementById("load")
