@@ -32,7 +32,6 @@ function validURL() {
 }
 
 function generateTags() {
-    console.log(img.tags)
     for (const [key, tag] of Object.entries(img.tags)) {
         let l = document.createElement("li")
         let obj = document.createElement("a")
@@ -48,6 +47,13 @@ function loadDetails() {
     link.href = img.link
     src.src = img.src
     added.textContent = "Time added: "+img.added
+}
+
+function createEmbed() {
+    var m = document.createElement("meta")
+    m.setAttribute('property', 'og:image')
+    m.content = img.src  
+    document.getElementsByTagName('head')[0].appendChild(m);
 }
 
 validURL()
