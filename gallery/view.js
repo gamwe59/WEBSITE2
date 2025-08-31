@@ -50,14 +50,6 @@ function loadDetails() {
     added.textContent = "Time added: "+img.added
 }
 
-function createEmbed() {
-    var m = document.createElement("meta")
-    m.setAttribute('property', 'og:image')
-    m.content = img.src  
-    document.getElementsByTagName('head')[0].appendChild(m);
-}
-
 validURL()
 loadDetails()
 generateTags()
-createEmbed()
