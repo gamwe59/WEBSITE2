@@ -24,6 +24,10 @@
 		"long": "heavy physical",
 		"type": "intimacy"
 	},
+	"activity": {
+		"long": "activity",
+		"type": "intimacy"
+	},
 	
 	"danbooru": {
 		"long": "danbooru",
@@ -113,17 +117,29 @@
 		"long": "sketch",
 		"type": "style"
     },
-	
-	"texting": {
-		"long": "messaging",
-		"type": "content"
-	},
+
 	"kissing": {
 		"long": "kissing",
 		"type": "content"
 	},
 	"cuddling": {
 		"long": "cuddling",
+		"type": "content"
+	},
+	"hugging": {
+		"long": "hugging",
+		"type": "content"
+	},
+	"party": {
+		"long": "party/gathering",
+		"type": "content"
+	},
+	"beach": {
+		"long": "beach",
+		"type": "content"
+	},
+	"texting": {
+		"long": "messaging",
 		"type": "content"
 	},
 	
@@ -137,12 +153,20 @@
 		"long": "class of '09",
 		"type": "origin"
 	},
-	"vocaloid": {
-		"long": "vocaloid",
+	"gfmanual": {
+		"long": "girlfriend manual",
+		"type": "origin"
+	},
+	"tgswiiwagaa": {
+		"long": "tgswiiwagaa (green yuri)",
 		"type": "origin"
 	},
 	"vsynth": {
 		"long": "vocal synth",
+		"type": "origin"
+	},
+	"vocaloid": {
+		"long": "vocaloid",
 		"type": "origin"
 	},
 	"utauloid": {
@@ -157,16 +181,8 @@
 		"long": "nichijou",
 		"type": "origin"
 	},
-	"lovelive": {
-		"long": "love live!",
-		"type": "origin"
-	},
 	"pjsk": {
 		"long": "project sekai",
-		"type": "origin"
-	},
-	"tgswiiwagaa": {
-		"long": "tgswiiwagaa (green yuri)",
 		"type": "origin"
 	},
 	
@@ -181,6 +197,22 @@
 	"ari": {
 		"long": "ari",
 		"type": "character"
+	},
+	"kelly": {
+		"long": "kelly",
+		"type":"character"
+	},
+	"megan": {
+		"long": "megan",
+		"type":"character"
+	},
+	"emily": {
+		"long": "emily",
+		"type":"character"
+	},
+	"karen": {
+		"long": "karen",
+		"type":"character"
 	},
 	"miku": {
 		"long": "hatsune miku",
@@ -197,5 +229,21 @@
 	"uta": {
 		"long": "uta utane",
 		"type": "character"
+	},
+	"yoshino": {
+		"long": "yoshino naganohara",
+		"type":"character"
+	},
+	"tamamura": {
+		"long": "tamamura",
+		"type":"character"
+	},
+	"athena": {
+		"long": "athena",
+		"type":"character"
+	},
+	"levi": {
+		"long": "levi",
+		"type":"character"
 	}
 }

@@ -59,6 +59,19 @@ select {
     z-index:2;
     transition-duration: 0.3s;
 }
+.buttinfo {
+    width:30px;
+    height:100%;
+    position:fixed;
+    top: 50%;
+    left: 0%;
+    transform: translate(-10px, -50%);
+    writing-mode: vertical-lr;
+    vertical-align:middle;
+    font-size: medium;
+    font-family: "Inter", sans-serif;
+    color:white
+}
 
 .sidepanel {
     position:fixed;

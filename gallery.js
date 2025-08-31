@@ -146,7 +146,6 @@ function siteLoaded() {
     
     for (const [key, button] of Object.entries(buttons)) {
         if (tags.includes(button.class)) {
-            console.log(button.class)
             button.classList.add("tag-selected")
         }
     }
