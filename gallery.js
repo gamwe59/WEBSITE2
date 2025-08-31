@@ -45,6 +45,16 @@ function addImgs() {
             break;
         }
     }
+    if (n == 0) {
+        console.log("theres nothing.")
+        let video = document.createElement("video")
+        let vsrc = document.createElement("source")
+        vsrc.src = "./images/theresnothing.mp4"
+        vsrc.type = "video/mp4"
+        video.setAttribute("controls", "controls")
+        video.appendChild(vsrc)
+        div.appendChild(video)
+    }
     addUnsortedImgs()
 }
 

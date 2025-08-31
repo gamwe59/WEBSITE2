@@ -72,6 +72,9 @@ select {
     font-family: "Inter", sans-serif;
     color:white
 }
+video {
+    width: 500px;
+}
 
 .sidepanel {
     position:fixed;
