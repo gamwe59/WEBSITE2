@@ -10,7 +10,7 @@ body {
 
 .wrapper {
     display:flex;
-    height:100%
+    height:fit-content;
 }
 
 .main {
@@ -20,23 +20,48 @@ body {
     margin-right:30px;
 }
 
+select {
+    border:none;
+    font-size: medium;
+    padding:5px;
+    background-color: rgb(85, 47, 68);
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+    color:white;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    cursor:pointer;
+}
+.descending {
+    border:none;
+    font-size: medium;
+    padding:5px;
+    background-color: rgb(85, 47, 68);
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+    color:white;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    cursor:pointer;
+}
+
 .paneltoggle {
-    width: 30px;
-    height:100%;
-    position:absolute;
+    width: 330px;
+    height:150%;
+    position:fixed;
     top: 50%;
-    transform: translate(-100%, -50%);
-    flex-shrink: 0;
-    display:grid;
-    place-items: center;
+    left: 100%;
+    transform: translate(-30px, -50%);
     border:none;
     cursor:pointer;
     background-color: rgb(85, 47, 68);
-    box-shadow: -5px 0px 10px black;
+    box-shadow: 0px 0px 10px black;
+    z-index:2;
+    transition-duration: 0.3s;
 }
 
 .sidepanel {
-    position:absolute;
+    position:fixed;
     top: 50%;
     left: 100%;
     transform: translate(0%, -50%);
@@ -47,7 +72,8 @@ body {
     color:white;
     z-index:3;
     transition-duration: 0.3s;
-
+    overflow-y: scroll;
+    overflow-x:hidden;
 }
 
 .side-panel-content p {
@@ -57,7 +83,8 @@ body {
 .side-panel-content {
     padding:15px;
 }
-.side-panel-content button {
+
+#tagbutton {
     font-family: "Inter", sans-serif;
     border:none;
     cursor:pointer;
@@ -78,6 +105,10 @@ body {
 .side-panel-open .sidepanel {
     display:initial;
     transform: translate(-100%, -50%);
+}
+
+.side-panel-open .paneltoggle {
+    transform: translate(-330px, -50%);
 }
 
 .side-panel-open .main {

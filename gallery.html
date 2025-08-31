@@ -32,13 +32,26 @@
             <button class="load" id="load">LOAD MORE YURI</button>
         </div>
         <div class="sidepanel">
-            <button class="paneltoggle" id="paneltoggle">
+            <div class="side-panel-content" id="sidepanelsort">
+                <p><str>SORT BY</str></p>
+                <div class="sortContent">
+                    <select name="sort by" id="sort">
+                        <option>date added</option>
+                        <option>name</option>
+                    </select>
+                    <button class="descending" id="descending">
+                        (DESCENDING)
+                    </button>
+                </div>
 
-            </button>
+            </div>
             <div class="side-panel-content" id="sidepanel">
                 <p><str>FILTERS</str></p>
             </div>
         </div>
+        <button class="paneltoggle" id="paneltoggle">
+
+        </button>
     </div>
 </body>
 </html>

@@ -10,10 +10,13 @@ const unsortedDiv = document.getElementById("unsorted")
 const loadButton = document.getElementById("load")
 const panelButton = document.getElementById("paneltoggle")
 const buttons = document.querySelectorAll("[id='tagbutton']")
+const select = document.getElementById("sort")
+const sortSett = document.getElementById("descending")
 let USP = new URLSearchParams(document.location.search);
 let url = new URL(window.location.href)
 
 let params = {sort: "added", tags: []}
+let sortBy = true //true = descending, false = ascending
 
 function removeImgs() {
     div.innerHTML = '';
@@ -77,6 +80,9 @@ function insertionSort(arr) {
             j--;
         }
         arr[j+1]=obj;
+    }
+    if (sortBy) {
+        arr.reverse()
     }
     return arr;
 }
@@ -156,5 +162,36 @@ for (const [key, button] of Object.entries(buttons)) {
 panelButton.onclick = function() {
     document.querySelector(".wrapper").classList.toggle("side-panel-open")
 }
+
+document.addEventListener('input', function (event) {
+
+	// Only run on our select menu
+	if (event.target.id !== 'sort') return;
+
+	// Do stuff...
+    console.log(event.target.value)
+    if (event.target.value == "name") {
+        params.sort = "name"
+    } else {
+        params.sort = "added"
+    }
+    setParams()
+
+}, false);
+
+sortSett.onclick = function() {
+    sortBy = !sortBy
+    if (sortBy) {
+        sortSett.textContent = "(DESCENDING)"
+    } else {
+        sortSett.textContent = "(ASCENDING)"
+    }
+    setParams()
+}
+
+select.selectedIndex = 0;
+sortBy = true
+sortSett.textContent = "(DESCENDING)"
+
 
 siteLoaded()
