@@ -34,11 +34,22 @@ function addImgs() {
         str = str.replace(/\s+/g, '-').toLowerCase();
 
         obj.href = "./gallery/view?img="+str
-        let img = document.createElement("img")
-        let src = data.src
-        src = src.replace("?","%3F")
-        src = src.replace("&","%26")
-        img.src = "//img.femboy.skin/?url="+data.src+"&output=webp&default=1" //if gif add &n=-1
+        let img
+        if (data.tags.includes("here")) {
+            img = document.createElement("img")
+            img.src = data.src
+        } else if (data.tags.includes("image")) {
+            img = document.createElement("img")
+            let src = data.src
+            src = src.replace("?","%3F")
+            src = src.replace("&","%26")
+            img.src = "//img.femboy.skin/?url="+src+"&output=webp&default=1" //if gif add &n=-1
+        } else if (data.tags.includes("video")) {
+            img = document.createElement("video")
+            img.src = data.src
+            img.setAttribute("controls", "controls")
+            img.type = "video/mp4"
+        }
         img.alt = data.name
         div.append(obj)
         obj.appendChild(img)
@@ -51,11 +62,10 @@ function addImgs() {
     if (n == 0) {
         console.log("theres nothing.")
         let video = document.createElement("video")
-        let vsrc = document.createElement("source")
-        vsrc.src = "./images/theresnothing.mp4"
-        vsrc.type = "video/mp4"
+        video.src = "./images/theresnothing.mp4"
+        video.type = "video/mp4"
+        video.setAttribute("class", "theresnothing")
         video.setAttribute("controls", "controls")
-        video.appendChild(vsrc)
         div.appendChild(video)
     }
     addUnsortedImgs()

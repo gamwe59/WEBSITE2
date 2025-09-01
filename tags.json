@@ -8,6 +8,15 @@
 		"type": "medium"
 	},
 	
+	"video": {
+		"long": "video",
+		"type": "format"
+	},
+	"image": {
+		"long": "image",
+		"type": "format"
+	},
+	
 	"speech": {
 		"long": "communication",
 		"type": "intimacy"
@@ -39,6 +48,14 @@
 	},
 	"reddit": {
 		"long": "reddit",
+		"type": "site"
+	},
+	"pinterest": {
+		"long": "pinterest",
+		"type": "site"
+	},
+	"here": {
+		"long": "local file",
 		"type": "site"
 	},
 	
@@ -161,6 +178,10 @@
 	
 	
 	
+	"yuriontop": {
+		"long": "yurion.top",
+		"type": "origin"
+	},
 	"co09": {
 		"long": "class of '09",
 		"type": "origin"
@@ -205,7 +226,84 @@
 		"long": "bocchi the rock!",
 		"type": "origin"
 	},
+
+	"vixen": {
+		"long": "_vixen_",
+		"type": "artist"
+	},
+	"sabrina": {
+		"long": "_vixen_",
+		"type": "artist"
+	},
+	"alfaidopasta": {
+		"long": "alfaidopasta",
+		"type": "artist"
+	},
+	"adricheri": {
+		"long": "adricheri_art",
+		"type": "artist"
+	},
+	"snowiicat": {
+		"long": "snowii_cat",
+		"type": "artist"
+	},
+	"emilu-enjuangas": {
+		"long": "emilu-enjuangas",
+		"type": "artist"
+	},
+	"hinaten": {
+		"long": "hinaten",
+		"type": "artist"
+	},
+	"saefira": {
+		"long": "saefira",
+		"type": "artist"
+	},
+	"reil3t": {
+		"long": "reil3t",
+		"type": "artist"
+	},
+	"hegaiii": {
+		"long": "hegaiii",
+		"type": "artist"
+	},
+	"moriinakasa": {
+		"long": "moriinakasa",
+		"type": "artist"
+	},
+	"hyaluronaruma": {
+		"long": "hyaluronaruma",
+		"type": "artist"
+	},
+	"liamickpie": {
+		"long": "liamickpie",
+		"type": "artist"
+	},
+	"kiminkiis": {
+		"long": "v_ylxr",
+		"type": "artist"
+	},
+	"vylxr": {
+		"long": "kiminkiis",
+		"type": "artist"
+	},
+	"kuva5z": {
+		"long": "rev (kuva5z)",
+		"type": "artist"
+	},
+	"mafuenareal": {
+		"long": "mafuenareal",
+		"type": "artist"
+	},
 	
+	"emilosophy": {
+		"long": "emily emilosophy",
+		"type": "character"
+	},
+	"losingmymaybles": {
+		"long": "may losingmymaybles",
+		"type": "character"
+	},
 	"nicole": {
 		"long": "nicole",
 		"type": "character"
@@ -296,6 +394,22 @@
 	},
 	"minato": {
 		"long": "minato",
+		"type":"character"
+	},
+	"mizuki": {
+		"long": "mizuki",
+		"type":"character"
+	},
+	"ena": {
+		"long": "ena",
+		"type":"character"
+	},
+	"mafuyuu": {
+		"long": "mafuyuu",
+		"type":"character"
+	},
+	"kanade": {
+		"long": "kanade",
 		"type":"character"
 	}
 }
