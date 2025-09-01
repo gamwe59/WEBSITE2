@@ -3,12 +3,14 @@ import unsorted from "/yuriunsorted.json" with { type: "json" }
 
 let gallery = {}
 let curLoadedFromGallery = 0
+let curLoadedFromUnsorted = 0
 let loopLoaded = 0
-const maxLoaded = yuri.length;
+const maxLoaded = 20;
 let div = document.getElementById("gallery")
 const unsortedDiv = document.getElementById("unsorted")
 const loadButton = document.getElementById("load")
 const panelButton = document.getElementById("paneltoggle")
+const unsortedInfo = document.getElementById("unsortedInfo")
 const buttons = document.querySelectorAll("[id='tagbutton']")
 const select = document.getElementById("sort")
 const sortSett = document.getElementById("descending")
@@ -73,8 +75,11 @@ function addImgs() {
 
 function addUnsortedImgs() {
     let n = unsorted.length;
-    console.log(curLoadedFromGallery)
-    for (let i = curLoadedFromGallery; i < n; i++) {
+    if (loopLoaded>=maxLoaded) {
+        unsortedInfo.setAttribute("class", "hidden")
+        unsortedDiv.setAttribute("class", "hidden")
+    }
+    for (let i = curLoadedFromUnsorted; i < n; i++) {
         if (loopLoaded>=maxLoaded) {
             break;
         }
@@ -84,8 +89,10 @@ function addUnsortedImgs() {
         img.src = unsorted[i]
         unsortedDiv.append(obj)
         obj.appendChild(img)
-        curLoadedFromGallery++;
+        curLoadedFromUnsorted++;
         loopLoaded++;
+        unsortedInfo.removeAttribute("class")
+        unsortedDiv.setAttribute("class", "gallery")
         if (loopLoaded>=maxLoaded) {
             break;
         }

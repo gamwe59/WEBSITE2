@@ -6,6 +6,7 @@ body {
     background-size: cover;
     background-position-x: center;
     background-position-y: auto;
+    background-color: rgb(59, 37, 49);
 }
 
 .wrapper {
@@ -185,6 +186,10 @@ main {
 .theresnothing {
     width:500px !important;
     height:auto !important;
+}
+
+.hidden {
+    visibility: hidden;
 }
 
 .load {
