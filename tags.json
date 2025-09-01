@@ -182,6 +182,10 @@
 		"long": "yurion.top",
 		"type": "origin"
 	},
+	"lovedeficit": {
+		"long": "love deficit",
+		"type": "origin"
+	},
 	"co09": {
 		"long": "class of '09",
 		"type": "origin"
@@ -226,7 +230,15 @@
 		"long": "bocchi the rock!",
 		"type": "origin"
 	},
+	"lol": {
+		"long": "league of legends",
+		"type": "origin"
+	},
 
+	"imaishikis": {
+		"long": "imaishikis (my favorite)",
+		"type": "artist"
+	},
 	"vixen": {
 		"long": "_vixen_",
 		"type": "artist"
@@ -302,6 +314,14 @@
 	},
 	"losingmymaybles": {
 		"long": "may losingmymaybles",
+		"type": "character"
+	},
+	"jie": {
+		"long": "jie",
+		"type": "character"
+	},
+	"blair": {
+		"long": "blair",
 		"type": "character"
 	},
 	"nicole": {
@@ -410,6 +430,14 @@
 	},
 	"kanade": {
 		"long": "kanade",
+		"type":"character"
+	},
+	"mfortune": {
+		"long": "miss fortune",
+		"type":"character"
+	},
+	"katarina": {
+		"long": "katarina",
 		"type":"character"
 	}
 }
