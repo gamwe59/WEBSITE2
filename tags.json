@@ -134,6 +134,10 @@
 		"long": "sleeping",
 		"type": "content"
 	},
+	"date": {
+		"long": "date",
+		"type": "content"
+	},
 	"party": {
 		"long": "party/gathering",
 		"type": "content"
