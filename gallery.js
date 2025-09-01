@@ -4,7 +4,7 @@ import unsorted from "/yuriunsorted.json" with { type: "json" }
 let gallery = {}
 let curLoadedFromGallery = 0
 let loopLoaded = 0
-const maxLoaded = 50;
+const maxLoaded = 12;
 let div = document.getElementById("gallery")
 const unsortedDiv = document.getElementById("unsorted")
 const loadButton = document.getElementById("load")
@@ -35,7 +35,10 @@ function addImgs() {
 
         obj.href = "./gallery/view?img="+str
         let img = document.createElement("img")
-        img.src = data.src
+        let src = data.src
+        src = src.replace("?","%3F")
+        src = src.replace("&","%26")
+        img.src = "//img.femboy.skin/?url="+data.src+"&output=webp" //if gif add &n=-1
         img.alt = data.name
         div.append(obj)
         obj.appendChild(img)
@@ -60,7 +63,11 @@ function addImgs() {
 
 function addUnsortedImgs() {
     let n = unsorted.length;
+    console.log(curLoadedFromGallery)
     for (let i = curLoadedFromGallery; i < n; i++) {
+        if (loopLoaded>=maxLoaded) {
+            break;
+        }
         let obj = document.createElement("a")
         obj.href = unsorted[i]
         let img = document.createElement("img")
