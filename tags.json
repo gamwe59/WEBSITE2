@@ -171,6 +171,18 @@
 		"long": "messaging",
 		"type": "content"
 	},
+	"smoking": {
+		"long": "smoking",
+		"type": "content"
+	},
+	"guitar": {
+		"long": "guitar",
+		"type": "content"
+	},
+	"muscles": {
+		"long": "muscles",
+		"type": "content"
+	},
 	
 	
 	
@@ -244,7 +256,7 @@
 		"type": "artist"
 	},
 	"sabrina": {
-		"long": "_vixen_",
+		"long": "sabrina",
 		"type": "artist"
 	},
 	"alfaidopasta": {
@@ -292,11 +304,15 @@
 		"type": "artist"
 	},
 	"kiminkiis": {
-		"long": "v_ylxr",
+		"long": "kiminkiis",
+		"type": "artist"
+	},
+	"aurawra21": {
+		"long": "aurawra21",
 		"type": "artist"
 	},
 	"vylxr": {
-		"long": "kiminkiis",
+		"long": "v_ylxr",
 		"type": "artist"
 	},
 	"kuva5z": {
@@ -305,6 +321,10 @@
 	},
 	"mafuenareal": {
 		"long": "mafuenareal",
+		"type": "artist"
+	},
+	"hg6": {
+		"long": "___hg6",
 		"type": "artist"
 	},
 	
