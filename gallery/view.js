@@ -60,6 +60,28 @@ link.onclick = function() {
     window.open(link.href)
 }
 
+function checkIfReady(resolve){
+    const interval = setInterval(() => {
+        console.log("checking if ready...");
+        if(src.width != 0) resolve(interval);
+    }, 10);
+}
+
+function ready(interval){ 
+    clearInterval(interval) 
+    console.log("ready.") 
+    let obj = document.getElementById("src")
+    let width = obj.width
+    console.log(width)
+    if (width != 0) {
+        tags.setAttribute("style", "width:"+width+"px;")
+        link.setAttribute("style", "width:"+width+"px;")
+    }
+}
+
 validURL()
 loadDetails()
 generateTags()
+
+const waitUntilReady = new Promise(checkIfReady); 
+waitUntilReady.then(ready);
