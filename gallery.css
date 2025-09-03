@@ -9,6 +9,21 @@ body {
     background-color: rgb(59, 37, 49);
 }
 
+.nextTo {
+    display:flex;
+    height: fit-content;
+    align-items: center;
+    justify-content:center;
+}
+.arrow {
+    border: none;
+    height:15px;
+    width:15px;
+    background: none;
+    color:white;
+
+}
+
 .wrapper {
     display:flex;
     height:fit-content;
@@ -113,7 +128,13 @@ select {
 }
 
 .side-panel-content li {
-    list-style: inside;
+    padding:0px;
+    list-style-type:none;
+    margin-left: 5px;
+}
+.side-panel-content ul {
+    padding:5px;
+    list-style-type: none;
 }
 
 .side-panel-open .sidepanel {

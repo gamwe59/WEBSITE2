@@ -14,6 +14,7 @@ const unsortedInfo = document.getElementById("unsortedInfo")
 const buttons = document.querySelectorAll("[id='tagbutton']")
 const select = document.getElementById("sort")
 const sortSett = document.getElementById("descending")
+const curLoadedText = document.getElementById("curloaded")
 let USP = new URLSearchParams(document.location.search);
 let url = new URL(window.location.href)
 
@@ -32,10 +33,8 @@ function addImgs() {
     for (let i = curLoadedFromGallery; i < n; i++) {
         let data = gallery[i]
         let obj = document.createElement("a")
-        var str = data.name;
-        str = str.replace(/\s+/g, '-').toLowerCase();
 
-        obj.href = "./gallery/view?img="+str
+        obj.href = "./gallery/view?img="+data.id
         let img
         if (data.tags.includes("here")) {
             img = document.createElement("img")
@@ -70,6 +69,7 @@ function addImgs() {
         video.setAttribute("controls", "controls")
         div.appendChild(video)
     }
+    curLoadedText.innerHTML = "total images: <strong>"+(yuri.length+unsorted.length)+"</strong><br>total images in database: <strong>"+yuri.length+"</strong><br> currently loaded: <strong>"+(curLoadedFromGallery+curLoadedFromUnsorted)+"</strong>"
     addUnsortedImgs()
 }
 

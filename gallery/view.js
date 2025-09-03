@@ -1,4 +1,5 @@
 import yuri from "/yuri.json" with { type: "json" }
+import tagsJSON from "/tags.json" with { type: "json" }
 
 let info = document.getElementById("info")
 let USP = new URLSearchParams(document.location.search);
@@ -17,9 +18,7 @@ function validURL() {
         
         let n = yuri.length;
         for (let i = 0; i < n; i++) {
-            var str = yuri[i].name;
-            str = str.replace(/\s+/g, '-').toLowerCase();
-            if (str == USP.get("img")) {
+            if (yuri[i].id.toString() == USP.get("img")) {
                 valid = true
                 img = yuri[i]
                 break;
@@ -36,7 +35,8 @@ function generateTags() {
         let l = document.createElement("li")
         let obj = document.createElement("a")
         obj.href = ".?t="+tag
-        obj.textContent = tag
+        let type = tagsJSON[tag]
+        obj.innerHTML = type.type+": <strong>"+type.long+"</strong>"
         tags.append(l)
         l.append(obj)
     }
@@ -54,6 +54,10 @@ function createEmbed() {
     m.setAttribute('property', 'og:image')
     m.content = img.src  
     document.getElementsByTagName('head')[0].appendChild(m);
+}
+
+link.onclick = function() {
+    window.open(link.href)
 }
 
 validURL()
