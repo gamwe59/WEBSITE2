@@ -1,4 +1,10 @@
 {
+
+	"explicit": {
+		"long": "explicit",
+		"type": "rating"
+	},
+
 	"digital": {
 		"long": "digital art",
 		"type": "medium"
@@ -183,6 +189,14 @@
 		"long": "muscles",
 		"type": "content"
 	},
+	"genderswap": {
+		"long": "genderswap",
+		"type": "content"
+	},
+	"sex": {
+		"long": "sex",
+		"type": "content"
+	},
 	
 	
 	
@@ -244,6 +258,14 @@
 	},
 	"lol": {
 		"long": "league of legends",
+		"type": "origin"
+	},
+	"deathnote": {
+		"long": "death note",
+		"type": "origin"
+	},
+	"nanaseries": {
+		"long": "nana (series)",
 		"type": "origin"
 	},
 
@@ -325,6 +347,18 @@
 	},
 	"hg6": {
 		"long": "___hg6",
+		"type": "artist"
+	},
+	"bunimoon": {
+		"long": "bunimo0n",
+		"type": "artist"
+	},
+	"natsupochipon": {
+		"long": "natsupochipon",
+		"type": "artist"
+	},
+	"y4ntaoist": {
+		"long": "y4ntaoist",
 		"type": "artist"
 	},
 	
@@ -458,6 +492,22 @@
 	},
 	"katarina": {
 		"long": "katarina",
+		"type":"character"
+	},
+	"light": {
+		"long": "light yagami",
+		"type":"character"
+	},
+	"L": {
+		"long": "L (death note)",
+		"type":"character"
+	},
+	"knana": {
+		"long": "nana komatsu",
+		"type":"character"
+	},
+	"onana": {
+		"long": "nana osaki",
 		"type":"character"
 	}
 }

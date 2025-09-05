@@ -131,6 +131,9 @@ function clearUnrelated(arr) {
                 valid++
             }
         }
+        if (arr[i].tags.includes("explicit") && !params.tags.includes("explicit")) {
+            valid = -100;
+        }
         if (valid < params.tags.length) {
             arr.splice(i,1)
             n--;
