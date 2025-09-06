@@ -3,6 +3,7 @@ body {
     background: #87968a;
     background: linear-gradient(180deg, rgba(135, 150, 138, 1) 0%, rgba(103, 119, 107, 1) 12%, rgba(78, 96, 83, 1) 29%, rgba(43, 63, 49, 1) 59%, rgba(1, 15, 7, 1) 100%);
     width: 100%;
+    margin:auto;
 }
 
 div {
