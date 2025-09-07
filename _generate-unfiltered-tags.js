@@ -14,7 +14,11 @@ for (const [key, inst] of Object.entries(yuri)) {
             }
         }
         if (!valid) {
-            unsortedTags.push(tag)
+            if (unsortedTags.includes(tag)) {
+
+            } else {
+                unsortedTags.push(tag)
+            }
         }
     }
 }

@@ -268,6 +268,10 @@
 		"long": "nana (series)",
 		"type": "origin"
 	},
+	"narutom": {
+		"long": "naruto",
+		"type": "origin"
+	},
 
 	"imaishikis": {
 		"long": "imaishikis (my favorite)",
@@ -359,6 +363,10 @@
 	},
 	"y4ntaoist": {
 		"long": "y4ntaoist",
+		"type": "artist"
+	},
+	"loet2zz": {
+		"long": "rutiile",
 		"type": "artist"
 	},
 	
@@ -508,6 +516,14 @@
 	},
 	"onana": {
 		"long": "nana osaki",
+		"type":"character"
+	},
+	"naruto": {
+		"long": "naruto uzumaki",
+		"type":"character"
+	},
+	"sasuke": {
+		"long": "sasuke uchiha",
 		"type":"character"
 	}
 }
