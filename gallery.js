@@ -15,8 +15,12 @@ const buttons = document.querySelectorAll("[id='tagbutton']")
 const select = document.getElementById("sort")
 const sortSett = document.getElementById("descending")
 const curLoadedText = document.getElementById("curloaded")
+const notes = document.getElementById("notes")
+const notesDiv = document.getElementById("notesDiv")
 let USP = new URLSearchParams(document.location.search);
 let url = new URL(window.location.href)
+
+let notesOpen = false
 
 let params = {sort: "added", tags: []}
 let sortBy = true //true = descending, false = ascending
@@ -250,6 +254,12 @@ sortSett.onclick = function() {
 select.selectedIndex = 0;
 sortBy = true
 sortSett.textContent = "(DESCENDING)"
+
+notes.onclick = function() {
+    notes.classList.toggle("arrow-down")
+    notesDiv.classList.toggle("notes-open")
+    notesOpen = !notesOpen
+}
 
 
 siteLoaded()

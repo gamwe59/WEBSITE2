@@ -14,14 +14,54 @@ body {
     height: fit-content;
     align-items: center;
     justify-content:center;
+    line-height: 0px;
 }
 .arrow {
     border: none;
-    height:15px;
-    width:15px;
-    background: none;
+    background:none;
+    cursor:pointer;
     color:white;
-
+    align-content: center;
+    line-height: 0px;
+    aspect-ratio: 1;
+    height:20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.3s;
+}
+.notes {
+    max-height:0px;
+    overflow: hidden;
+    transition-duration: 0.5s;
+    position:absolute;
+    left:50%;
+    transform: translate(-50%, 10px);
+    background-color: rgb(85, 47, 68);
+    box-shadow: 0px 0px 10px black;
+    z-index: 5;
+    width:40%;
+}
+.notes.notes-open {
+    max-height:300px;
+    overflow: hidden;
+}
+.notes a {
+    color:rgb(241, 189, 224);
+}
+.notes div {
+    padding:15px;
+}
+.arrow.arrow-down {
+    transform: rotate(90deg) translate(3px);
+}
+.arrow .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 20
 }
 
 .wrapper {
