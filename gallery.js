@@ -121,6 +121,21 @@ function insertionSort(arr) {
     }
     return arr;
 }
+function shuffle(array) {
+  let currentIndex = array.length;
+
+  // While there remain elements to shuffle...
+  while (currentIndex != 0) {
+
+    // Pick a remaining element...
+    let randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
+}
 
 function clearUnrelated(arr) {
     let n = arr.length;
@@ -146,7 +161,11 @@ function clearUnrelated(arr) {
 
 function sort() {
     clearUnrelated(gallery)
-    insertionSort(gallery)
+    if (params.sort != "random") {
+        insertionSort(gallery)
+    } else {
+        shuffle(gallery)
+    }
 }
 
 function resetFilters() {
@@ -209,8 +228,10 @@ document.addEventListener('input', function (event) {
     console.log(event.target.value)
     if (event.target.value == "name") {
         params.sort = "name"
-    } else {
+    } else if (event.target.value == "added") {
         params.sort = "added"
+    } else if (event.target.value == "random") {
+        params.sort = "random"
     }
     setParams()
 
