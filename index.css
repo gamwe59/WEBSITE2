@@ -65,7 +65,7 @@ main img{
     margin-top: 15px;
 }
 .wife img {
-    height:40px;
+    height:50px;
     box-shadow: 0px 0px 20px black;
 }
 
@@ -105,8 +105,12 @@ nav {
 }
 
 nav img {
-    height: 30px;
+    height: 40px;
     box-shadow: 0px 0px 20px black;
+}
+
+.myNav {
+    padding:25px;
 }
 
 .myNav a {
