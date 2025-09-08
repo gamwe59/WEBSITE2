@@ -514,5 +514,9 @@
     "fucked": {
         "long": "fucked up",
         "type": "rating"
+    },
+    "magstaar": {
+        "long": "_magstaar_",
+        "type": "artist"
     }
 }

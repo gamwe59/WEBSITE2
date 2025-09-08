@@ -49,6 +49,7 @@ function addImgs() {
             img = document.createElement("video")
             img.src = data.src
             img.setAttribute("controls", "controls")
+            img.setAttribute("poster", data.thumbnail)
             img.type = "video/mp4"
         }
         img.alt = data.name

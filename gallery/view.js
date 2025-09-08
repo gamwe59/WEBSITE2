@@ -5,6 +5,8 @@ let info = document.getElementById("info")
 let USP = new URLSearchParams(document.location.search);
 
 let img
+let display
+let isVideo = false
 
 const name = document.getElementById("name")
 const link = document.getElementById("link")
@@ -45,7 +47,19 @@ function generateTags() {
 function loadDetails() {
     name.textContent = img.name
     link.href = img.link
-    src.src = img.src
+    if (img.tags.includes("here") || img.tags.includes("image")) {
+        display = document.createElement("img")
+        display.src = img.src
+    } else if (img.tags.includes("video")) {
+        display = document.createElement("video")
+        display.src = img.src
+        display.setAttribute("controls", "controls")
+        display.type = "video/mp4"
+        link.innerHTML = "<p><strong>VIDEO SOURCE</strong></p>"
+        isVideo = true
+    }
+    display.id = "display"
+    src.appendChild(display)
     added.textContent = "Time added: "+img.added
 }
 
@@ -62,17 +76,15 @@ link.onclick = function() {
 
 function checkIfReady(resolve){
     const interval = setInterval(() => {
-        console.log("checking if ready...");
-        if(src.width != 0) resolve(interval);
+        if(isVideo) resolve(interval);
+        if(display.width != 0) resolve(interval);
     }, 10);
 }
 
 function ready(interval){ 
     clearInterval(interval) 
-    console.log("ready.") 
-    let obj = document.getElementById("src")
+    let obj = document.getElementById("display")
     let width = obj.width
-    console.log(width)
     if (width != 0) {
         tags.setAttribute("style", "width:"+width+"px;")
         link.setAttribute("style", "width:"+width+"px;")

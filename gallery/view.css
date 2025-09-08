@@ -24,7 +24,7 @@ body {
     /* vertical-align: middle; */
 }
 
-img {
+#display {
     display: block;
     /* padding:0px; */
     margin:auto;
