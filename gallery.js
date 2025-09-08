@@ -204,7 +204,7 @@ function clickTagButton(button, tag, val) {
             button.classList.add("tag-"+val)
         }
     }
-    history.pushState({}, '', url.href)
+    history.replaceState({}, '', url.href)
     setParams()
 }
 
@@ -215,7 +215,7 @@ function siteLoaded() {
     if (!exclude.includes("explicit")) {
         USP.append("e", "explicit")
         url.searchParams.append("e", "explicit")
-        history.pushState({}, '', url.href)
+        history.replaceState({}, '', url.href)
     }
     
     for (const [key, button] of Object.entries(buttons)) {
