@@ -518,5 +518,41 @@
     "magstaar": {
         "long": "_magstaar_",
         "type": "artist"
+    },
+    "viaegarden": {
+        "long": "viaegarden",
+        "type": "artist"
+    },
+    "persona": {
+        "long": "persona series",
+        "type": "origin"
+    },
+    "sumire": {
+        "long": "sumire yoshizawa",
+        "type": "character"
+    },
+    "futaba": {
+        "long": "futaba sakura",
+        "type": "character"
+    },
+    "glasses": {
+        "long": "glasses",
+        "type": "content"
+    },
+    "robots": {
+        "long": "ROBOTS",
+        "type": "content"
+    },
+    "aigis": {
+        "long": "aigis",
+        "type": "character"
+    },
+    "shiomi": {
+        "long": "kotone shiomi",
+        "type": "character"
+    },
+    "lesbonightcrwlr": {
+        "long": "lebonightcrwlr",
+        "type": "artist"
     }
 }

@@ -13,6 +13,7 @@ const link = document.getElementById("link")
 const src = document.getElementById("src")
 const tags = document.getElementById("tags")
 const added = document.getElementById("added")
+const back = document.getElementById("back")
 
 function validURL() {
     let valid = false
@@ -88,6 +89,15 @@ function ready(interval){
     if (width != 0) {
         tags.setAttribute("style", "width:"+width+"px;")
         link.setAttribute("style", "width:"+width+"px;")
+    }
+}
+
+back.onclick = function() {
+    console.log(document.referrer)
+    if (history.length <= 1 || !document.referrer.includes("/gallery")) {
+        location.replace("./")
+    } else {
+        history.back()
     }
 }
 

@@ -76,3 +76,26 @@ li a {
     color:rgb(241, 189, 224);
     font-family: "Inter", sans-serif;
 }
+.back {
+    background: none;
+    border:solid;
+    color:rgb(129, 91, 111);
+    border-color: rgb(129, 91, 111, 0);
+    font-family: "Inter", sans-serif;
+    text-decoration: underline;
+    font-size: 20px;
+    position:absolute;
+    width:100px;
+    height:50px;
+    line-height: 0px;
+    text-align: center;
+    top: 10px;
+    left: 10px;
+    transform: translate(0px, 0px);
+    cursor:pointer;
+    transition-duration: 0.1s;
+}
+.back:hover {
+    border-color:rgb(129, 91, 111, 1);
+    color: rgb(206, 151, 180);
+}
