@@ -162,9 +162,13 @@ select {
     color:rgb(189, 112, 163);
     text-decoration: none;
 }
-.tag-selected {
+.tag-t {
     color:rgb(241, 189, 224) !important;
     text-decoration: underline !important;
+}
+.tag-e {
+    color:rgb(223, 40, 70) !important;
+    text-decoration:line-through !important;
 }
 
 .side-panel-content li {

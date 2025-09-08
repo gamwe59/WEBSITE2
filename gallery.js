@@ -22,7 +22,7 @@ let url = new URL(window.location.href)
 
 let notesOpen = false
 
-let params = {sort: "added", tags: []}
+let params = {sort: "added", tags: [], exclude: []}
 let sortBy = true //true = descending, false = ascending
 
 function removeImgs() {
@@ -127,15 +127,9 @@ function insertionSort(arr) {
 }
 function shuffle(array) {
   let currentIndex = array.length;
-
-  // While there remain elements to shuffle...
   while (currentIndex != 0) {
-
-    // Pick a remaining element...
     let randomIndex = Math.floor(Math.random() * currentIndex);
     currentIndex--;
-
-    // And swap it with the current element.
     [array[currentIndex], array[randomIndex]] = [
       array[randomIndex], array[currentIndex]];
   }
@@ -151,8 +145,11 @@ function clearUnrelated(arr) {
                 valid++
             }
         }
-        if (arr[i].tags.includes("explicit") && !params.tags.includes("explicit")) {
-            valid = -100;
+        for (const [key, exclude] of Object.entries(params.exclude)) {
+            let ind = arr[i].tags.includes(exclude)
+            if (ind) {
+                valid = -1000
+            }
         }
         if (valid < params.tags.length) {
             arr.splice(i,1)
@@ -181,22 +178,31 @@ function resetFilters() {
 function setParams() {
     let tags = USP.getAll("t")
     params.tags = tags.slice()
+    let exclude = USP.getAll("e")
+    params.exclude = exclude.slice()
     removeImgs()
     gallery = yuri.slice()
     sort(gallery)
     addImgs()
 }
 
-function clickTagButton(button, tag) {
-    let found = USP.has("t", tag)
+function clickTagButton(button, tag, val) {
+    let found = USP.has(val, tag)
     if (found) {
-        USP.delete("t", tag)
-        url.searchParams.delete("t", tag)
-        button.classList.remove("tag-selected")
+        USP.delete(val, tag)
+        url.searchParams.delete(val, tag)
+        button.setAttribute("class", "tag")
+        button.classList.remove("tag-"+val)
     } else {
-        USP.append("t", tag)
-        url.searchParams.append("t", tag)
-        button.classList.add("tag-selected")
+        if (val == "e" && button.classList.contains("tag-t")) {
+            clickTagButton(button, tag, "t")
+        } else if (val == "t" && button.classList.contains("tag-e")) {
+            clickTagButton(button, tag, "e")
+        } else {
+            USP.append(val, tag)
+            url.searchParams.append(val, tag)
+            button.classList.add("tag-"+val)
+        }
     }
     history.pushState({}, '', url.href)
     setParams()
@@ -204,10 +210,19 @@ function clickTagButton(button, tag) {
 
 function siteLoaded() {
     let tags = USP.getAll("t")
+    let exclude = USP.getAll("e")
+
+    if (!exclude.includes("explicit")) {
+        USP.append("e", "explicit")
+        url.searchParams.append("e", "explicit")
+        history.pushState({}, '', url.href)
+    }
     
     for (const [key, button] of Object.entries(buttons)) {
         if (tags.includes(button.class)) {
-            button.classList.add("tag-selected")
+            button.classList.add("tag-t")
+        } else if (exclude.includes(button.class)) {
+            button.classList.add("tag-e")
         }
     }
     setParams()
@@ -215,8 +230,12 @@ function siteLoaded() {
 
 for (const [key, button] of Object.entries(buttons)) {
     button.onclick = function() {
-        clickTagButton(button, button.class)
+        clickTagButton(button, button.class, "t")
     }
+    button.addEventListener("contextmenu", (event) => {
+        event.preventDefault();
+        clickTagButton(button, button.class, "e");
+    });
 }
 
 panelButton.onclick = function() {
