@@ -280,5 +280,6 @@ notes.onclick = function() {
     notesOpen = !notesOpen
 }
 
-
-siteLoaded()
+document.addEventListener("DOMContentLoaded", (event) => {
+  siteLoaded();
+});
