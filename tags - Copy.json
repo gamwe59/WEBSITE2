@@ -570,57 +570,5 @@
     "oc": {
         "long": "original character",
         "type": "origin"
-    },
-    "shadowdiahrea": {
-        "long": "romayoyo",
-        "type": "artist"
-    },
-    "otaeria": {
-        "long": "otaeria",
-        "type": "artist"
-    },
-    "hrt": {
-        "long": "horse race tests",
-        "type": "origin"
-    },
-    "ohrt": {
-        "long": "jovial merriment",
-        "type": "character"
-    },
-    "yhrt": {
-        "long": "lightning strikes thrice",
-        "type": "character"
-    },
-    "rhrt": {
-        "long": "resolute mind afternoon",
-        "type": "character"
-    },
-    "gryhrt": {
-        "long": "downtown skybox",
-        "type": "character"
-    },
-    "buckto": {
-        "long": "buckto_",
-        "type": "artist"
-    },
-    "luka": {
-        "long": "megurine luka",
-        "type": "character"
-    },
-    "xf233": {
-        "long": "seraph xf-233",
-        "type": "character"
-    },
-    "briara": {
-        "long": "dr briar armstrong",
-        "type": "character"
-    },
-    "rattlegeist": {
-        "long": "rattlegeist",
-        "type": "artist"
-    },
-    "systemsant": {
-        "long": "fishman sant",
-        "type": "artist"
     }
 }
