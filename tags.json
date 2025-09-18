@@ -622,5 +622,81 @@
     "systemsant": {
         "long": "fishman sant",
         "type": "artist"
+    },
+    "sensonene": {
+        "long": "SENSOnene",
+        "type": "artist"
+    },
+    "soapyak": {
+        "long": "soapyak",
+        "type": "artist"
+    },
+    "akisan": {
+        "long": "akisan",
+        "type": "artist"
+    },
+    "bath": {
+        "long": "bath",
+        "type": "content"
+    },
+    "moyo": {
+        "long": "moyo__4",
+        "type": "artist"
+    },
+    "sorimachi": {
+        "long": "sorimachi-doufu",
+        "type": "artist"
+    },
+    "catgirls": {
+        "long": "catgirls",
+        "type": "content"
+    },
+    "ritzchrono": {
+        "long": "ritzchrono",
+        "type": "artist"
+    },
+    "ota07874943": {
+        "long": "ota07874943",
+        "type": "artist"
+    },
+    "rain": {
+        "long": "rain",
+        "type": "content"
+    },
+    "kraw3887": {
+        "long": "kamo",
+        "type": "artist"
+    },
+    "zeoksang": {
+        "long": "zeoksang",
+        "type": "artist"
+    },
+    "adorbsyai": {
+        "long": "adorbsy_ai",
+        "type": "artist"
+    },
+    "iahturong": {
+        "long": "iahtruong",
+        "type": "artist"
+    },
+    "idkc": {
+        "long": "ugm.. im not sure..",
+        "type": "character"
+    },
+    "domestic": {
+        "long": "domestic",
+        "type": "content"
+    },
+    "leash": {
+        "long": "leash",
+        "type": "content"
+    },
+    "tingasdf": {
+        "long": "ting_asdf",
+        "type": "artist"
+    },
+    "hasukeii": {
+        "long": "hasukeii",
+        "type": "artist"
     }
 }
