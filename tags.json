@@ -698,5 +698,77 @@
     "hasukeii": {
         "long": "hasukeii",
         "type": "artist"
+    },
+    "minakakaa": {
+        "long": "minakaka.a",
+        "type": "artist"
+    },
+    "bnw": {
+        "long": "black and white",
+        "type": "style"
+    },
+    "alnst": {
+        "long": "alien stage",
+        "type": "origin"
+    },
+    "mizi": {
+        "long": "mizi",
+        "type": "character"
+    },
+    "sua": {
+        "long": "sua",
+        "type": "character"
+    },
+    "szmhattori01": {
+        "long": "szm_hattori01",
+        "type": "artist"
+    },
+    "pandesaii": {
+        "long": "pandesaii",
+        "type": "artist"
+    },
+    "sumikoarai": {
+        "long": "sumikoarai",
+        "type": "artist"
+    },
+    "silverartshq": {
+        "long": "silverartshq",
+        "type": "artist"
+    },
+    "jim151678": {
+        "long": "jim151678",
+        "type": "artist"
+    },
+    "touka127430": {
+        "long": "touka127430",
+        "type": "artist"
+    },
+    "qijiaai": {
+        "long": "qijiaai",
+        "type": "artist"
+    },
+    "hobak25": {
+        "long": "hobak_25",
+        "type": "artist"
+    },
+    "tealhuez": {
+        "long": "tealhuez",
+        "type": "artist"
+    },
+    "sappysprout": {
+        "long": "sappy_sprout",
+        "type": "artist"
+    },
+    "daiwa": {
+        "long": "daiwa scarlet",
+        "type": "character"
+    },
+    "vodka": {
+        "long": "vodka",
+        "type": "character"
+    },
+    "umamusume": {
+        "long": "umamusume",
+        "type": "origin"
     }
 }
