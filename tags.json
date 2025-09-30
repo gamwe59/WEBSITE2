@@ -770,5 +770,89 @@
     "umamusume": {
         "long": "umamusume",
         "type": "origin"
+    },
+    "aidenr0": {
+        "long": "spindle",
+        "type": "artist"
+    },
+    "fenwiqk": {
+        "long": "fenwiqk",
+        "type": "artist"
+    },
+    "thelemondrink": {
+        "long": "thelemondrink",
+        "type": "artist"
+    },
+    "nointimacy": {
+        "long": "none",
+        "type": "intimacy"
+    },
+    "hiimross": {
+        "long": "hiimross_",
+        "type": "artist"
+    },
+    "whywrawng": {
+        "long": "whywrawng",
+        "type": "artist"
+    },
+    "bangdream": {
+        "long": "banG dream",
+        "type": "origin"
+    },
+    "umiri": {
+        "long": "umiri yahata",
+        "type": "character"
+    },
+    "shiho": {
+        "long": "himomori shiho",
+        "type": "character"
+    },
+    "shihotistic": {
+        "long": "shihotistic",
+        "type": "artist"
+    },
+    "kimsei": {
+        "long": "kimsei",
+        "type": "artist"
+    },
+    "mikanuji": {
+        "long": "mikanuji",
+        "type": "artist"
+    },
+    "peteyakuneba": {
+        "long": "pete_yakuneba",
+        "type": "artist"
+    },
+    "pockiseisont": {
+        "long": "pockiseiont",
+        "type": "artist"
+    },
+    "natsuki": {
+        "long": "natsuki",
+        "type": "character"
+    },
+    "yuri": {
+        "long": "yuri",
+        "type": "character"
+    },
+    "blood": {
+        "long": "blood",
+        "type": "content"
+    },
+    "ddlc": {
+        "long": "doki doki literature club",
+        "type": "origin"
+    },
+    "kimocean7": {
+        "long": "kimocean7",
+        "type": "artist"
+    },
+    "sakiko": {
+        "long": "togawa sakiko",
+        "type": "character"
+    },
+    "mutsumi": {
+        "long": "wakaba mutsumi",
+        "type": "character"
     }
 }
