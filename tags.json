@@ -870,5 +870,69 @@
     "nattydodo002": {
         "long": "nattydodo_002",
         "type": "artist"
+    },
+    "nohartandsoles": {
+        "long": "teefums",
+        "type": "artist"
+    },
+    "zikiki1092": {
+        "long": "zikiki",
+        "type": "artist"
+    },
+    "madokamagica": {
+        "long": "madoka magica",
+        "type": "origin"
+    },
+    "madoka": {
+        "long": "madoka",
+        "type": "character"
+    },
+    "homura": {
+        "long": "hamura",
+        "type": "character"
+    },
+    "cultofyuri": {
+        "long": "avanes_d",
+        "type": "artist"
+    },
+    "ph401": {
+        "long": "ph401",
+        "type": "artist"
+    },
+    "watanare": {
+        "long": "watanare",
+        "type": "origin"
+    },
+    "renako": {
+        "long": "renako amaori",
+        "type": "character"
+    },
+    "maioduka": {
+        "long": "mai oduka",
+        "type": "character"
+    },
+    "overcount1999": {
+        "long": "0VERcount1999",
+        "type": "artist"
+    },
+    "garasuno1182": {
+        "long": "garasuno_1182",
+        "type": "artist"
+    },
+    "renko": {
+        "long": "renko",
+        "type": "character"
+    },
+    "maribel": {
+        "long": "maribel",
+        "type": "character"
+    },
+    "touhou": {
+        "long": "touhou project",
+        "type": "origin"
+    },
+    "jsnttzzj": {
+        "long": "jsnttzzj",
+        "type": "artist"
     }
 }

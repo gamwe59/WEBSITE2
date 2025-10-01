@@ -88,7 +88,7 @@ li a {
     height:50px;
     line-height: 0px;
     text-align: center;
-    top: 10px;
+    bottom: 10px;
     left: 10px;
     transform: translate(0px, 0px);
     cursor:pointer;
@@ -111,4 +111,17 @@ li a {
   'wght' 500,
   'GRAD' 0,
   'opsz' 15;
+}
+
+.options {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }

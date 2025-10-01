@@ -61,11 +61,16 @@ function addContent() {
             let count = tagCount[tag.id]
             if (count) {
                 b.textContent = tag.long+" ["+count+"]"
+                if (count == 1) {
+                    b.classList.add("one")
+                }
             } else {
                 b.textContent = tag.long+" [0]"
+                b.classList.add("zero")
             }
             b.id = "tagbutton"
-            b.class=tag.id
+            b.tagid = tag.id
+            b.classList.add("tagbutton")
             li.appendChild(b)
             folder.appendChild(li)
         }

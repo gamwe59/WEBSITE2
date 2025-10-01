@@ -8,7 +8,6 @@ let loopLoaded = 0
 const maxLoaded = 20;
 let div = document.getElementById("gallery")
 const unsortedDiv = document.getElementById("unsorted")
-const loadButton = document.getElementById("load")
 const panelButton = document.getElementById("paneltoggle")
 const unsortedInfo = document.getElementById("unsortedInfo")
 const buttons = document.querySelectorAll("[id='tagbutton']")
@@ -17,8 +16,13 @@ const sortSett = document.getElementById("descending")
 const curLoadedText = document.getElementById("curloaded")
 const notes = document.getElementById("notes")
 const notesDiv = document.getElementById("notesDiv")
+const loader = document.getElementById("loader")
+const goback = document.getElementById("goback")
 let USP = new URLSearchParams(document.location.search);
 let url = new URL(window.location.href)
+let loading = false
+
+let newImgObjs = []
 
 let notesOpen = false
 
@@ -31,52 +35,74 @@ function removeImgs() {
     curLoadedFromGallery = 0;
 }
 
-function addImgs() {
-    loopLoaded = 0;
-    let n = gallery.length;
-    for (let i = curLoadedFromGallery; i < n; i++) {
-        let data = gallery[i]
-        let obj = document.createElement("a")
+function waitForLoad() {
+    const images = [...document.querySelectorAll("div img")];
 
-        obj.href = "./gallery/view?img="+data.id
-        let img
-        if (data.tags.includes("here")) {
-            img = document.createElement("img")
-            img.src = data.src
-        } else if (data.tags.includes("image")) {
-            img = document.createElement("img")
-            let src = data.src
-            src = src.replace("?","%3F")
-            src = src.replace("&","%26")
-            img.src = "//img.femboy.skin/?url="+src+"&output=webp&default=1" //if gif add &n=-1
-        } else if (data.tags.includes("video")) {
-            img = document.createElement("video")
-            img.src = data.src
-            img.setAttribute("controls", "controls")
-            img.setAttribute("poster", data.thumbnail)
-            img.type = "video/mp4"
-        }
-        img.alt = data.name
-        div.append(obj)
-        obj.appendChild(img)
-        curLoadedFromGallery++;
-        loopLoaded++;
-        if (loopLoaded>=maxLoaded) {
-            break;
-        }
-    }
-    if (n == 0) {
-        console.log("theres nothing.")
-        let video = document.createElement("video")
-        video.src = "./images/theresnothing.mp4"
-        video.type = "video/mp4"
-        video.setAttribute("class", "theresnothing")
-        video.setAttribute("controls", "controls")
-        div.appendChild(video)
-    }
-    curLoadedText.innerHTML = "total images: <strong>"+(yuri.length+unsorted.length)+"</strong><br>total images in database: <strong>"+yuri.length+"</strong><br> currently loaded: <strong>"+(curLoadedFromGallery+curLoadedFromUnsorted)+"</strong>"
-    addUnsortedImgs()
+    const proms=newImgObjs.map(im=>new Promise(res=>
+    im.onload=()=>res([im.width,im.height])
+    ))
+
+    console.log(images)
+    Promise.all(proms).then(data=>{
+    loader.classList.remove("loadvisible")
+    loading = false
+    })
 }
+
+function addImgs() {
+    if (loading == false) {
+        loading = true
+        newImgObjs = []
+        loader.classList.add("loadvisible")
+        loopLoaded = 0;
+        let n = gallery.length;
+        for (let i = curLoadedFromGallery; i < n; i++) {
+            let data = gallery[i]
+            let obj = document.createElement("a")
+
+            obj.href = "./gallery/view?img="+data.id
+            let img
+            if (data.tags.includes("here")) {
+                img = document.createElement("img")
+                img.src = data.src
+                newImgObjs.push(img)
+            } else if (data.tags.includes("image")) {
+                img = document.createElement("img")
+                let src = data.src
+                src = src.replace("?","%3F")
+                src = src.replace("&","%26")
+                img.src = "//img.femboy.skin/?url="+src+"&output=webp&default=1" //if gif add &n=-1
+                newImgObjs.push(img)
+            } else if (data.tags.includes("video")) {
+                img = document.createElement("video")
+                img.src = data.src
+                img.setAttribute("controls", "controls")
+                img.setAttribute("poster", data.thumbnail)
+                img.type = "video/mp4"
+            }
+            img.alt = data.name
+            div.append(obj)
+            obj.appendChild(img)
+            curLoadedFromGallery++;
+            loopLoaded++;
+            if (loopLoaded>=maxLoaded) {
+                break;
+            }
+        }
+        if (n == 0) {
+            console.log("theres nothing.")
+            let video = document.createElement("video")
+            video.src = "./images/theresnothing.mp4"
+            video.type = "video/mp4"
+            video.setAttribute("class", "theresnothing")
+            video.setAttribute("controls", "controls")
+            div.appendChild(video)
+        }
+        curLoadedText.innerHTML = "total images: <strong>"+(yuri.length+unsorted.length)+"</strong><br>total images in database: <strong>"+yuri.length+"</strong><br> currently loaded: <strong>"+(curLoadedFromGallery+curLoadedFromUnsorted)+"</strong>"
+        addUnsortedImgs()
+    }
+}
+
 
 function addUnsortedImgs() {
     let n = unsorted.length;
@@ -94,6 +120,7 @@ function addUnsortedImgs() {
         img.src = unsorted[i]
         unsortedDiv.append(obj)
         obj.appendChild(img)
+        newImgObjs.push(img)
         curLoadedFromUnsorted++;
         loopLoaded++;
         unsortedInfo.removeAttribute("class")
@@ -102,10 +129,7 @@ function addUnsortedImgs() {
             break;
         }
     }
-}
-
-loadButton.onclick = function() {
-    addImgs()
+    waitForLoad()
 }
 
 function insertionSort(arr) {
@@ -191,13 +215,14 @@ function clickTagButton(button, tag, val) {
     if (found) {
         USP.delete(val, tag)
         url.searchParams.delete(val, tag)
-        button.setAttribute("class", "tag")
         button.classList.remove("tag-"+val)
     } else {
         if (val == "e" && button.classList.contains("tag-t")) {
             clickTagButton(button, tag, "t")
+            return
         } else if (val == "t" && button.classList.contains("tag-e")) {
             clickTagButton(button, tag, "e")
+            return
         } else {
             USP.append(val, tag)
             url.searchParams.append(val, tag)
@@ -217,11 +242,13 @@ function siteLoaded() {
         url.searchParams.append("e", "explicit")
         history.replaceState({}, '', url.href)
     }
+
+    exclude = USP.getAll("e")
     
     for (const [key, button] of Object.entries(buttons)) {
-        if (tags.includes(button.class)) {
+        if (tags.includes(button.tagid)) {
             button.classList.add("tag-t")
-        } else if (exclude.includes(button.class)) {
+        } else if (exclude.includes(button.tagid)) {
             button.classList.add("tag-e")
         }
     }
@@ -230,16 +257,21 @@ function siteLoaded() {
 
 for (const [key, button] of Object.entries(buttons)) {
     button.onclick = function() {
-        clickTagButton(button, button.class, "t")
+        clickTagButton(button, button.tagid, "t")
     }
     button.addEventListener("contextmenu", (event) => {
         event.preventDefault();
-        clickTagButton(button, button.class, "e");
+        clickTagButton(button, button.tagid, "e");
     });
 }
 
 panelButton.onclick = function() {
     document.querySelector(".wrapper").classList.toggle("side-panel-open")
+    goback.disabled = !goback.disabled
+}
+goback.onclick = function() {
+    document.querySelector(".wrapper").classList.toggle("side-panel-open")
+    goback.disabled = !goback.disabled
 }
 
 document.addEventListener('input', function (event) {
@@ -282,4 +314,13 @@ notes.onclick = function() {
 
 document.addEventListener("DOMContentLoaded", (event) => {
   siteLoaded();
+});
+
+window.addEventListener('scroll', function() {
+  // Check if the user has scrolled to the bottom of the page
+  if (window.innerHeight + window.scrollY >= document.body.scrollHeight) {
+    // Perform the desired action, e.g., showing a popup
+    console.log("faggot")
+    addImgs()
+  }
 });

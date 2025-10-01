@@ -61,7 +61,7 @@ function loadDetails() {
     }
     display.id = "display"
     src.appendChild(display)
-    added.textContent = "Time added: "+img.added
+    added.textContent = ""+img.added
 }
 
 function createEmbed() {
