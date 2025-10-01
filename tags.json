@@ -854,5 +854,21 @@
     "mutsumi": {
         "long": "wakaba mutsumi",
         "type": "character"
+    },
+    "favorite": {
+        "long": "my favorite",
+        "type": "rating"
+    },
+    "realpeople": {
+        "long": "real people",
+        "type": "origin"
+    },
+    "contentaddedlater": {
+        "long": "havent decided",
+        "type": "content"
+    },
+    "nattydodo002": {
+        "long": "nattydodo_002",
+        "type": "artist"
     }
 }
