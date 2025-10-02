@@ -934,5 +934,17 @@
     "jsnttzzj": {
         "long": "jsnttzzj",
         "type": "artist"
+    },
+    "buriki": {
+        "long": "buriki",
+        "type": "artist"
+    },
+    "reimu": {
+        "long": "reimu",
+        "type": "character"
+    },
+    "marisa": {
+        "long": "marisa",
+        "type": "character"
     }
 }
