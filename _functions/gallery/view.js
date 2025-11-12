@@ -2,14 +2,7 @@ import yuri from "/yuri.json" with { type: "json" }
 
 export async function onRequestGet(ctx) {
 	const response = await env.ASSETS.fetch(ctx.url)
-    let img
-    for (let i = 0; i < n; i++) {
-        if (yuri[i].id.toString() == USP.get("img")) {
-            valid = true
-            img = yuri[i]
-            break;
-        }
-    }
+    let img = yuri.find(i => i.id.toString() === ctx.url.searchparams.get("img"))
     if (img) {
         const page = 
             await response.text()
