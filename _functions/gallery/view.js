@@ -5,9 +5,7 @@ export async function onRequestGet(ctx) {
     let img = yuri.find(i => i.id.toString() === ctx.url.searchParams.get("img"))
     if (img) {
         const page = 
-            await response.text()
-                .replaceAll("EMBED ERROR", img.name)
-                .replaceAll("/images/embederror.png", img.src)
+            await response.text().replaceAll("EMBED ERROR", img.name).replaceAll("/images/embederror.png", img.src)
         return new Response(page, response)
     }
 }
