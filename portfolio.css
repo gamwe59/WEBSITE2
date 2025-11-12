@@ -27,6 +27,16 @@ body {
     margin-bottom:50px;
 }
 
+.entry {
+    width: auto;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-size: 100% 100%;
+    background-color: rgb(85, 47, 68);
+    margin-bottom: 45px;
+}
+
 .title {
     display:flex;
     column-gap: 10px;
@@ -37,12 +47,9 @@ body {
 main {
     width: auto;
     padding: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
     background-size: 100% 100%;
     text-align: center;
     margin: auto;
-    background-color: rgb(85, 47, 68);
     color: white;
 }
 

@@ -946,5 +946,237 @@
     "marisa": {
         "long": "marisa",
         "type": "character"
+    },
+    "samipekoe": {
+        "long": "samipekoe",
+        "type": "artist"
+    },
+    "doto": {
+        "long": "meisho doto",
+        "type": "character"
+    },
+    "selfinsert": {
+        "long": "self-insert/ambiguous",
+        "type": "character"
+    },
+    "gaz7v7": {
+        "long": "gaz7v7",
+        "type": "artist"
+    },
+    "qiukuiqk": {
+        "long": "qiukuiqk",
+        "type": "artist"
+    },
+    "illuminecanvas": {
+        "long": "illuminecanvas",
+        "type": "artist"
+    },
+    "magqotq": {
+        "long": "magqotq",
+        "type": "artist"
+    },
+    "raccooblues": {
+        "long": "raccooblues",
+        "type": "artist"
+    },
+    "fawnnguts": {
+        "long": "fawnnguts",
+        "type": "artist"
+    },
+    "doggirls": {
+        "long": "doggirls",
+        "type": "content"
+    },
+    "furries": {
+        "long": "furries",
+        "type": "content"
+    },
+    "idunnowhereitsfrom": {
+        "long": "i dunno",
+        "type": "origin"
+    },
+    "dollswillrot": {
+        "long": "dollswillrot",
+        "type": "artist"
+    },
+    "raccoattack": {
+        "long": "raccoattack",
+        "type": "artist"
+    },
+    "nononss5": {
+        "long": "nononss5",
+        "type": "artist"
+    },
+    "machuuu68": {
+        "long": "machuuu68",
+        "type": "artist"
+    },
+    "lesbianeo": {
+        "long": "lesbianeo",
+        "type": "artist"
+    },
+    "kazikou2": {
+        "long": "kazikou2",
+        "type": "artist"
+    },
+    "pfgwpmpw": {
+        "long": "pfgwpmpw",
+        "type": "artist"
+    },
+    "married": {
+        "long": "wedding",
+        "type": "content"
+    },
+    "seijousai": {
+        "long": "seijousai",
+        "type": "artist"
+    },
+    "yzmutan": {
+        "long": "yzmutan",
+        "type": "artist"
+    },
+    "imomimomahha": {
+        "long": "imomimomahha",
+        "type": "artist"
+    },
+    "kojiro337": {
+        "long": "kojiro337",
+        "type": "artist"
+    },
+    "gumi": {
+        "long": "gumi",
+        "type": "character"
+    },
+    "rin": {
+        "long": "kagamine rin",
+        "type": "character"
+    },
+    "critinikaqwq": {
+        "long": "critinika",
+        "type": "artist"
+    },
+    "ihasa39": {
+        "long": "ihasa39",
+        "type": "artist"
+    },
+    "chiori000": {
+        "long": "chiori000",
+        "type": "artist"
+    },
+    "qinling452842": {
+        "long": "qinling452842",
+        "type": "artist"
+    },
+    "zzz": {
+        "long": "zenless zone zero",
+        "type": "origin"
+    },
+    "szeeyla": {
+        "long": "szeeyla",
+        "type": "artist"
+    },
+    "groping": {
+        "long": "groping",
+        "type": "content"
+    },
+    "paranoid_ghosts": {
+        "long": "paranoid_ghosts",
+        "type": "artist"
+    },
+    "ky00nnie": {
+        "long": "ky00nnie",
+        "type": "artist"
+    },
+    "yukari": {
+        "long": "yukari tanizaki",
+        "type": "character"
+    },
+    "nyamo": {
+        "long": "minamo kurosawa",
+        "type": "character"
+    },
+    "azumanga": {
+        "long": "azumanga daioh",
+        "type": "origin"
+    },
+    "kokosaraas": {
+        "long": "kokosaraas",
+        "type": "artist"
+    },
+    "stardewvalley": {
+        "long": "stardew valley",
+        "type": "origin"
+    },
+    "haleysdv": {
+        "long": "haley",
+        "type": "character"
+    },
+    "farmer": {
+        "long": "female farmer",
+        "type": "character"
+    },
+    "dashdoodles": {
+        "long": "dashdoodles",
+        "type": "artist"
+    },
+    "bloomfesruii": {
+        "long": "bloomfesruii",
+        "type": "artist"
+    },
+    "airi": {
+        "long": "airi",
+        "type": "character"
+    },
+    "goldship": {
+        "long": "gold ship",
+        "type": "character"
+    },
+    "mcqueen": {
+        "long": "mejiro mcqueen",
+        "type": "character"
+    },
+    "joecanvas": {
+        "long": "joecanvas",
+        "type": "artist"
+    },
+    "qliu1808": {
+        "long": "qliu1808",
+        "type": "artist"
+    },
+    "skdlzz": {
+        "long": "skdlzz",
+        "type": "artist"
+    },
+    "so4lariette": {
+        "long": "lariette",
+        "type": "artist"
+    },
+    "tlastmeaning": {
+        "long": "calamity_brezze",
+        "type": "artist"
+    },
+    "2uaiueo": {
+        "long": "2uaiueo",
+        "type": "artist"
+    },
+    "javinaida17000": {
+        "long": "javinadia17000",
+        "type": "artist"
+    },
+    "uman": {
+        "long": "umbrella man",
+        "type": "character"
+    },
+    "skyghost": {
+        "long": "skyghost",
+        "type": "character"
+    },
+    "interloper": {
+        "long": "interloper",
+        "type": "origin"
+    },
+    "kadedotwebp": {
+        "long": "kade.webp",
+        "type": "artist"
     }
 }
