@@ -10,11 +10,24 @@ body {
 }
 
 .nextTo {
+    width:40%;
+    background-color: rgb(85, 47, 68);
+    position:absolute;
+    left:50%;
+    top:180px;
+    transform: translate(-50%, 10px);
     display:flex;
-    height: fit-content;
+    height: 60px;
     align-items: center;
     justify-content:center;
     line-height: 0px;
+    z-index:6;
+}
+.padding {
+    height:90px;
+}
+.nextTo p {
+    font-size: 25px;
 }
 .arrow {
     border: none;
@@ -37,7 +50,7 @@ body {
     transition-duration: 0.5s;
     position:absolute;
     left:50%;
-    transform: translate(-50%, 10px);
+    transform: translate(-50%, -25px);
     background-color: rgb(85, 47, 68);
     box-shadow: 0px 0px 10px black;
     z-index: 5;
