@@ -1178,5 +1178,65 @@
     "kadedotwebp": {
         "long": "kade.webp",
         "type": "artist"
+    },
+    "chunli": {
+        "long": "chun-li",
+        "type": "character"
+    },
+    "celebelian": {
+        "long": "celebelian",
+        "type": "artist"
+    },
+    "streetfighter": {
+        "long": "street fighter",
+        "type": "origin"
+    },
+    "cannibalism": {
+        "long": "cannibalism",
+        "type": "content"
+    },
+    "yixi": {
+        "long": "yi xi",
+        "type": "character"
+    },
+    "nezumiv": {
+        "long": "nezu_mi_v",
+        "type": "artist"
+    },
+    "tifa": {
+        "long": "tifa",
+        "type": "character"
+    },
+    "cloud": {
+        "long": "cloud",
+        "type": "character"
+    },
+    "ff": {
+        "long": "final fantasy series",
+        "type": "origin"
+    },
+    "strawderryst": {
+        "long": "strawderryst",
+        "type": "artist"
+    },
+    "kaiyamon": {
+        "long": "kaiyamon",
+        "type": "artist"
+    },
+    "LEnaaaaa_114514": {
+        "long": "LEnaaaaa_114514",
+        "type": "artist"
+    },
+    "fuuka": {
+        "long": "fuuka yamagishi",
+        "type": "character"
+    },
+    "absomaddo": {
+        "long": "absomaddo",
+        "type": "artist"
+    },
+    "kzscpilled": {
+        "long": "kzscpilled",
+        "type": "artist"
     }
 }
