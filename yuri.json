@@ -20,7 +20,11 @@
             "image"
         ],
         "added": "2025-08-27T18:07:10+00:00",
-        "textcontent": "my god your voice is so attractive;can you tell me to kms"
+        "textcontent": "my god your voice is so attractive;can you tell me to kms",
+        "size": {
+            "x": 680,
+            "y": 672
+        }
     },
     {
         "id": 2,
@@ -44,7 +48,11 @@
             "image"
         ],
         "added": "2025-08-27T22:55:29+00:00",
-        "textcontent": "long bacon"
+        "textcontent": "long bacon",
+        "size": {
+            "x": 814,
+            "y": 710
+        }
     },
     {
         "id": 3,
@@ -65,7 +73,11 @@
             "image"
         ],
         "added": "2025-08-27T23:14:55+00:00",
-        "textcontent": "oh;shes staring at me so intently;i wonder what shes going to do next;what the fuck do i do next"
+        "textcontent": "oh;shes staring at me so intently;i wonder what shes going to do next;what the fuck do i do next",
+        "size": {
+            "x": 850,
+            "y": 1279
+        }
     },
     {
         "id": 4,
@@ -93,7 +105,11 @@
             "image"
         ],
         "added": "2025-08-27T23:20:07+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 628,
+            "y": 900
+        }
     },
     {
         "id": 5,
@@ -116,7 +132,11 @@
             "image"
         ],
         "added": "2025-08-27T23:23:07+00:00",
-        "textcontent": "its pride month ari;you know what that means;yay we can make out right;huh what no;wait why not;were dating nicole;what do you want me to do;be gay alone;nicole"
+        "textcontent": "its pride month ari;you know what that means;yay we can make out right;huh what no;wait why not;were dating nicole;what do you want me to do;be gay alone;nicole",
+        "size": {
+            "x": 850,
+            "y": 1035
+        }
     },
     {
         "id": 6,
@@ -141,12 +161,16 @@
             "image"
         ],
         "added": "2025-08-27T23:26:07+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 754,
+            "y": 637
+        }
     },
     {
         "id": 7,
         "name": "athena and levi at the beach",
-        "src": "https://pbs.twimg.com/media/Gzm8_IlagAAPV8f?format=jpg&name=360x360",
+        "src": "https://pbs.twimg.com/media/Gzm8_IlagAAPV8f?format=jpg&name=large",
         "link": "https://x.com/saefira__/status/1961806913974509626",
         "tags": [
             "athena",
@@ -165,7 +189,11 @@
             "image"
         ],
         "added": "2025-08-31T19:49:23+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1638,
+            "y": 2048
+        }
     },
     {
         "id": 8,
@@ -187,7 +215,11 @@
             "image"
         ],
         "added": "2025-08-31T20:15:02+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 710,
+            "y": 900
+        }
     },
     {
         "id": 9,
@@ -211,7 +243,11 @@
             "image"
         ],
         "added": "2025-08-31T20:32:02+00:00",
-        "textcontent": "are you my girlfriend right;of course"
+        "textcontent": "are you my girlfriend right;of course",
+        "size": {
+            "x": 2039,
+            "y": 2048
+        }
     },
     {
         "id": 10,
@@ -235,7 +271,11 @@
             "image"
         ],
         "added": "2025-08-31T20:37:02+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 800,
+            "y": 800
+        }
     },
     {
         "id": 11,
@@ -260,7 +300,11 @@
             "image"
         ],
         "added": "2025-08-31T20:49:02+00:00",
-        "textcontent": "my arm started tingling;my girls using my arm as her pillow;gosh okay im sorry;"
+        "textcontent": "my arm started tingling;my girls using my arm as her pillow;gosh okay im sorry;",
+        "size": {
+            "x": 2894,
+            "y": 4093
+        }
     },
     {
         "id": 12,
@@ -283,7 +327,11 @@
             "image"
         ],
         "added": "2025-08-31T20:51:02+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1450,
+            "y": 2048
+        }
     },
     {
         "id": 13,
@@ -305,7 +353,11 @@
             "image"
         ],
         "added": "2025-08-31T20:55:02+00:00",
-        "textcontent": "crazy posture"
+        "textcontent": "crazy posture",
+        "size": {
+            "x": 682,
+            "y": 900
+        }
     },
     {
         "id": 14,
@@ -327,7 +379,11 @@
             "image"
         ],
         "added": "2025-09-01T06:42:21+00:00",
-        "textcontent": "summer of 09;beach babe;cool down;sunburned;tanned;next time pay for your own shit;fucking free loaders"
+        "textcontent": "summer of 09;beach babe;cool down;sunburned;tanned;next time pay for your own shit;fucking free loaders",
+        "size": {
+            "x": 2000,
+            "y": 1483
+        }
     },
     {
         "id": 15,
@@ -349,7 +405,11 @@
             "image"
         ],
         "added": "2025-09-01T06:46:21+00:00",
-        "textcontent": "fuck it;heres a $15 chipotle gift card;happy anniversary babe;broke asf;this fucking early"
+        "textcontent": "fuck it;heres a $15 chipotle gift card;happy anniversary babe;broke asf;this fucking early",
+        "size": {
+            "x": 1638,
+            "y": 2048
+        }
     },
     {
         "id": 16,
@@ -371,7 +431,11 @@
             "image"
         ],
         "added": "2025-09-01T06:48:21+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 2048,
+            "y": 1707
+        }
     },
     {
         "id": 17,
@@ -393,7 +457,11 @@
             "image"
         ],
         "added": "2025-09-01T06:51:21+00:00",
-        "textcontent": "wanna make out"
+        "textcontent": "wanna make out",
+        "size": {
+            "x": 2048,
+            "y": 1637
+        }
     },
     {
         "id": 18,
@@ -415,7 +483,11 @@
             "image"
         ],
         "added": "2025-09-01T06:53:21+00:00",
-        "textcontent": "do you like girls too"
+        "textcontent": "do you like girls too",
+        "size": {
+            "x": 2048,
+            "y": 1792
+        }
     },
     {
         "id": 19,
@@ -437,7 +509,11 @@
             "image"
         ],
         "added": "2025-09-01T06:56:21+00:00",
-        "textcontent": "substance;substance abuser"
+        "textcontent": "substance;substance abuser",
+        "size": {
+            "x": 736,
+            "y": 744
+        }
     },
     {
         "id": 20,
@@ -456,7 +532,11 @@
             "image"
         ],
         "added": "2025-09-01T06:59:21+00:00",
-        "textcontent": "dont care didnt ask my boobs bounce when i walk"
+        "textcontent": "dont care didnt ask my boobs bounce when i walk",
+        "size": {
+            "x": 680,
+            "y": 678
+        }
     },
     {
         "id": 21,
@@ -478,7 +558,11 @@
             "video"
         ],
         "added": "2025-09-01T07:10:21+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 720,
+            "y": 1088
+        }
     },
     {
         "id": 22,
@@ -500,7 +584,11 @@
             "image"
         ],
         "added": "2025-09-01T07:11:21+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 508
+        }
     },
     {
         "id": 23,
@@ -522,13 +610,17 @@
             "image"
         ],
         "added": "2025-09-01T07:12:21+00:00",
-        "textcontent": "ugh i hate you;ah i love you too;hug me tighter"
+        "textcontent": "ugh i hate you;ah i love you too;hug me tighter",
+        "size": {
+            "x": 680,
+            "y": 680
+        }
     },
     {
         "id": 24,
         "name": "comm by vixen",
         "src": "/myYuri/vixen2.png",
-        "link": "/myYuri/sabrina.png",
+        "link": "/myYuri/vixen2.png",
         "tags": [
             "emilosophy",
             "losingmymaybles",
@@ -543,7 +635,11 @@
             "image"
         ],
         "added": "2025-09-01T07:13:21+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1280,
+            "y": 1280
+        }
     },
     {
         "id": 25,
@@ -564,7 +660,11 @@
             "image"
         ],
         "added": "2025-09-01T07:14:21+00:00",
-        "textcontent": "substance;substance abuser"
+        "textcontent": "substance;substance abuser",
+        "size": {
+            "x": 2000,
+            "y": 2500
+        }
     },
     {
         "id": 26,
@@ -585,7 +685,11 @@
             "image"
         ],
         "added": "2025-09-01T08:37:21+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 981,
+            "y": 591
+        }
     },
     {
         "id": 27,
@@ -606,7 +710,11 @@
             "image"
         ],
         "added": "2025-09-01T08:42:21+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1660,
+            "y": 2048
+        }
     },
     {
         "id": 28,
@@ -627,7 +735,11 @@
             "image"
         ],
         "added": "2025-09-01T08:42:21+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 959,
+            "y": 1080
+        }
     },
     {
         "id": 29,
@@ -648,7 +760,11 @@
             "image"
         ],
         "added": "2025-09-01T08:49:21+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 447
+        }
     },
     {
         "id": 30,
@@ -669,7 +785,11 @@
             "image"
         ],
         "added": "2025-09-01T08:49:21+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 672
+        }
     },
     {
         "id": 31,
@@ -692,7 +812,11 @@
             "image"
         ],
         "added": "2025-09-03T23:21:15+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 596,
+            "y": 900
+        }
     },
     {
         "id": 32,
@@ -713,7 +837,11 @@
             "image"
         ],
         "added": "2025-09-03T23:28:15+00:00",
-        "textcontent": "thump;fuck"
+        "textcontent": "thump;fuck",
+        "size": {
+            "x": 1108,
+            "y": 1200
+        }
     },
     {
         "id": 33,
@@ -736,7 +864,11 @@
             "image"
         ],
         "added": "2025-09-03T23:32:15+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1988,
+            "y": 2048
+        }
     },
     {
         "id": 34,
@@ -758,7 +890,11 @@
             "image"
         ],
         "added": "2025-09-03T23:38:15+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 2507,
+            "y": 1466
+        }
     },
     {
         "id": 35,
@@ -781,7 +917,11 @@
             "image"
         ],
         "added": "2025-09-03T23:42:15+00:00",
-        "textcontent": "do you know prescription by msi;im not playing msi jecka;boo you whore"
+        "textcontent": "do you know prescription by msi;im not playing msi jecka;boo you whore",
+        "size": {
+            "x": 2601,
+            "y": 2305
+        }
     },
     {
         "id": 36,
@@ -802,7 +942,11 @@
             "image"
         ],
         "added": "2025-09-03T23:42:15+00:00",
-        "textcontent": "she forgot her jacket;hmm its pretty comfy;and it smells like her;ill give it back tomorrow;this shit isnt nearly as fun anymore without her here;why does she even like this brand so much"
+        "textcontent": "she forgot her jacket;hmm its pretty comfy;and it smells like her;ill give it back tomorrow;this shit isnt nearly as fun anymore without her here;why does she even like this brand so much",
+        "size": {
+            "x": 1200,
+            "y": 1077
+        }
     },
     {
         "id": 37,
@@ -824,7 +968,11 @@
             "video"
         ],
         "added": "2025-09-03T23:47:15+00:00",
-        "textcontent": "god imagine being those girls;for a week itd be kind of fun;you wanna be sexed up abusive lesbians;fuck no;why not;cause youd be doing all the abusing;oh like what;just weird shit;youd like;put a cigarette out on my neck and lick the burn mark;so you wanna try it;no"
+        "textcontent": "god imagine being those girls;for a week itd be kind of fun;you wanna be sexed up abusive lesbians;fuck no;why not;cause youd be doing all the abusing;oh like what;just weird shit;youd like;put a cigarette out on my neck and lick the burn mark;so you wanna try it;no",
+        "size": {
+            "x": 720,
+            "y": 788
+        }
     },
     {
         "id": 38,
@@ -845,7 +993,11 @@
             "image"
         ],
         "added": "2025-09-03T23:50:15+00:00",
-        "textcontent": "are you okay back there;you look like youre about to pass out;im fine just still tired;well wake the fuck up we have to leave in like 30 minutes;fuck"
+        "textcontent": "are you okay back there;you look like youre about to pass out;im fine just still tired;well wake the fuck up we have to leave in like 30 minutes;fuck",
+        "size": {
+            "x": 2357,
+            "y": 2317
+        }
     },
     {
         "id": 39,
@@ -866,7 +1018,11 @@
             "image"
         ],
         "added": "2025-09-05T06:09:17+00:00",
-        "textcontent": "im into fat bitches"
+        "textcontent": "im into fat bitches",
+        "size": {
+            "x": 733,
+            "y": 900
+        }
     },
     {
         "id": 40,
@@ -888,7 +1044,11 @@
             "image"
         ],
         "added": "2025-09-05T06:09:17+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 671
+        }
     },
     {
         "id": 41,
@@ -911,7 +1071,11 @@
             "image"
         ],
         "added": "2025-09-05T06:21:17+00:00",
-        "textcontent": "can i suck your right tit and jiggle the left one;the questions are not anonymous"
+        "textcontent": "can i suck your right tit and jiggle the left one;the questions are not anonymous",
+        "size": {
+            "x": 1645,
+            "y": 2048
+        }
     },
     {
         "id": 42,
@@ -934,7 +1098,11 @@
             "image"
         ],
         "added": "2025-09-05T06:21:17+00:00",
-        "textcontent": "can i suck your right tit and jiggle the left one;the questions are not anonymous"
+        "textcontent": "can i suck your right tit and jiggle the left one;the questions are not anonymous",
+        "size": {
+            "x": 2048,
+            "y": 1958
+        }
     },
     {
         "id": 43,
@@ -956,7 +1124,11 @@
             "image"
         ],
         "added": "2025-09-05T06:21:17+00:00",
-        "textcontent": "can i suck your right tit and jiggle the left one;the questions are not anonymous"
+        "textcontent": "can i suck your right tit and jiggle the left one;the questions are not anonymous",
+        "size": {
+            "x": 2048,
+            "y": 2048
+        }
     },
     {
         "id": 44,
@@ -979,7 +1151,11 @@
             "image"
         ],
         "added": "2025-09-07T00:00:58+00:00",
-        "textcontent": "i think im gonna go in the water for a while"
+        "textcontent": "i think im gonna go in the water for a while",
+        "size": {
+            "x": 739,
+            "y": 900
+        }
     },
     {
         "id": 45,
@@ -1001,7 +1177,11 @@
             "image"
         ],
         "added": "2025-09-07T00:03:06+00:00",
-        "textcontent": "fuck i gotta kill this bitch asap"
+        "textcontent": "fuck i gotta kill this bitch asap",
+        "size": {
+            "x": 1954,
+            "y": 1746
+        }
     },
     {
         "id": 46,
@@ -1023,7 +1203,11 @@
             "image"
         ],
         "added": "2025-09-07T00:05:58+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1028,
+            "y": 1406
+        }
     },
     {
         "id": 47,
@@ -1045,7 +1229,11 @@
             "image"
         ],
         "added": "2025-09-07T00:05:58+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1539,
+            "y": 1759
+        }
     },
     {
         "id": 48,
@@ -1067,7 +1255,11 @@
             "image"
         ],
         "added": "2025-09-07T00:05:58+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1459,
+            "y": 1369
+        }
     },
     {
         "id": 49,
@@ -1089,7 +1281,11 @@
             "image"
         ],
         "added": "2025-09-07T00:05:58+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 775,
+            "y": 1091
+        }
     },
     {
         "id": 50,
@@ -1113,7 +1309,11 @@
             "image"
         ],
         "added": "2025-09-07T00:05:58+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1555,
+            "y": 1741
+        }
     },
     {
         "id": 51,
@@ -1138,7 +1338,11 @@
             "wholesome"
         ],
         "added": "2025-09-08T00:41:50+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 473
+        }
     },
     {
         "id": 52,
@@ -1160,7 +1364,11 @@
             "walkingdownthestairs"
         ],
         "added": "2025-09-08T01:18:26+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 707,
+            "y": 825
+        }
     },
     {
         "id": 53,
@@ -1183,7 +1391,11 @@
             "walkingdownthestairs"
         ],
         "added": "2025-09-08T01:21:05+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1023,
+            "y": 646
+        }
     },
     {
         "id": 54,
@@ -1204,7 +1416,11 @@
             "walkingdownthestairs"
         ],
         "added": "2025-09-08T01:21:50+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 619,
+            "y": 766
+        }
     },
     {
         "id": 55,
@@ -1227,7 +1443,11 @@
             "walkingdownthestairs"
         ],
         "added": "2025-09-08T01:25:29+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1280,
+            "y": 720
+        }
     },
     {
         "id": 56,
@@ -1250,7 +1470,11 @@
             "walkingdownthestairs"
         ],
         "added": "2025-09-08T01:27:31+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 3522,
+            "y": 2961
+        }
     },
     {
         "id": 57,
@@ -1276,7 +1500,11 @@
             "walkingdownthestairs"
         ],
         "added": "2025-09-08T01:32:00+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 960,
+            "y": 720
+        }
     },
     {
         "id": 58,
@@ -1295,7 +1523,11 @@
             "walkingdownthestairs"
         ],
         "added": "2025-09-08T01:32:54+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 917,
+            "y": 1073
+        }
     },
     {
         "id": 59,
@@ -1322,7 +1554,11 @@
             "walkingdownthestairs"
         ],
         "added": "2025-09-08T01:37:55+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 960,
+            "y": 720
+        }
     },
     {
         "id": 60,
@@ -1345,7 +1581,11 @@
             "walkingdownthestairs"
         ],
         "added": "2025-09-08T01:40:58+00:00",
-        "textcontent": "im just a girl"
+        "textcontent": "im just a girl",
+        "size": {
+            "x": 1200,
+            "y": 900
+        }
     },
     {
         "id": 61,
@@ -1368,7 +1608,11 @@
             "walkingdownthestairs"
         ],
         "added": "2025-09-08T01:42:14+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 2080,
+            "y": 2951
+        }
     },
     {
         "id": 62,
@@ -1395,7 +1639,11 @@
             "walkingdownthestairs"
         ],
         "added": "2025-09-08T01:44:55+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 960,
+            "y": 720
+        }
     },
     {
         "id": 63,
@@ -1417,7 +1665,11 @@
             "walkingdownthestairs"
         ],
         "added": "2025-09-08T01:48:24+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 960,
+            "y": 720
+        }
     },
     {
         "id": 64,
@@ -1441,7 +1693,11 @@
             "walkingdownthestairs"
         ],
         "added": "2025-09-08T01:50:16+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 960,
+            "y": 720
+        }
     },
     {
         "id": 65,
@@ -1469,7 +1725,11 @@
             "walkingdownthestairs"
         ],
         "added": "2025-09-08T02:32:39+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 960,
+            "y": 720
+        }
     },
     {
         "id": 66,
@@ -1492,7 +1752,11 @@
             "viaegarden"
         ],
         "added": "2025-09-08T04:00:04+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 709,
+            "y": 900
+        }
     },
     {
         "id": 67,
@@ -1515,7 +1779,11 @@
             "wholesome"
         ],
         "added": "2025-09-08T04:04:00+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 634
+        }
     },
     {
         "id": 68,
@@ -1528,7 +1796,11 @@
             "image"
         ],
         "added": "2025-09-08T04:06:48+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 586,
+            "y": 625
+        }
     },
     {
         "id": 69,
@@ -1552,7 +1824,11 @@
             "twitter"
         ],
         "added": "2025-09-10T01:50:20+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 550
+        }
     },
     {
         "id": 70,
@@ -1575,7 +1851,11 @@
             "wholesome"
         ],
         "added": "2025-09-11T05:28:37+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 617,
+            "y": 680
+        }
     },
     {
         "id": 71,
@@ -1599,7 +1879,11 @@
             "yhrt"
         ],
         "added": "2025-09-11T05:33:08+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 611
+        }
     },
     {
         "id": 72,
@@ -1622,7 +1906,11 @@
             "wholesome"
         ],
         "added": "2025-09-11T05:35:30+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 571
+        }
     },
     {
         "id": 73,
@@ -1645,7 +1933,11 @@
             "xf233"
         ],
         "added": "2025-09-11T05:38:04+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 526
+        }
     },
     {
         "id": 74,
@@ -1668,7 +1960,11 @@
             "twitter"
         ],
         "added": "2025-09-11T05:39:42+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 422
+        }
     },
     {
         "id": 75,
@@ -1689,7 +1985,11 @@
             "walkingdownthestairs"
         ],
         "added": "2025-09-15T06:21:59+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 460
+        }
     },
     {
         "id": 76,
@@ -1713,7 +2013,11 @@
             "wholesome"
         ],
         "added": "2025-09-18T01:27:38+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 680
+        }
     },
     {
         "id": 77,
@@ -1736,7 +2040,11 @@
             "twitter"
         ],
         "added": "2025-09-18T01:29:54+00:00",
-        "textcontent": "jecka;im home"
+        "textcontent": "jecka;im home",
+        "size": {
+            "x": 643,
+            "y": 680
+        }
     },
     {
         "id": 78,
@@ -1758,7 +2066,11 @@
             "wholesome"
         ],
         "added": "2025-09-18T01:32:23+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 376,
+            "y": 680
+        }
     },
     {
         "id": 79,
@@ -1780,7 +2092,11 @@
             "wholesome"
         ],
         "added": "2025-09-18T01:34:41+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1032,
+            "y": 1457
+        }
     },
     {
         "id": 80,
@@ -1802,7 +2118,11 @@
             "wholesome"
         ],
         "added": "2025-09-18T01:38:16+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 887,
+            "y": 803
+        }
     },
     {
         "id": 81,
@@ -1826,7 +2146,11 @@
             "toxic"
         ],
         "added": "2025-09-18T01:41:24+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1405,
+            "y": 1132
+        }
     },
     {
         "id": 82,
@@ -1849,7 +2173,11 @@
             "wholesome"
         ],
         "added": "2025-09-18T01:43:06+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 898,
+            "y": 1105
+        }
     },
     {
         "id": 83,
@@ -1872,7 +2200,11 @@
             "wholesome"
         ],
         "added": "2025-09-18T01:47:58+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 850,
+            "y": 850
+        }
     },
     {
         "id": 84,
@@ -1894,7 +2226,11 @@
             "moyo"
         ],
         "added": "2025-09-18T02:44:42+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 2048,
+            "y": 1348
+        }
     },
     {
         "id": 85,
@@ -1916,7 +2252,11 @@
             "wholesome"
         ],
         "added": "2025-09-18T05:39:44+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 2025,
+            "y": 2621
+        }
     },
     {
         "id": 86,
@@ -1938,7 +2278,11 @@
             "wholesome"
         ],
         "added": "2025-09-18T05:40:42+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1351,
+            "y": 1058
+        }
     },
     {
         "id": 87,
@@ -1961,7 +2305,11 @@
             "wholesome"
         ],
         "added": "2025-09-18T05:41:45+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 2035,
+            "y": 2255
+        }
     },
     {
         "id": 88,
@@ -1984,7 +2332,11 @@
             "wholesome"
         ],
         "added": "2025-09-18T05:43:10+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1638,
+            "y": 1395
+        }
     },
     {
         "id": 89,
@@ -2007,7 +2359,11 @@
             "wholesome"
         ],
         "added": "2025-09-18T05:45:59+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 2234,
+            "y": 1447
+        }
     },
     {
         "id": 90,
@@ -2029,7 +2385,11 @@
             "wholesome"
         ],
         "added": "2025-09-18T05:47:48+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1342,
+            "y": 1170
+        }
     },
     {
         "id": 91,
@@ -2055,7 +2415,11 @@
             "wholesome"
         ],
         "added": "2025-09-18T05:49:01+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1520,
+            "y": 1481
+        }
     },
     {
         "id": 92,
@@ -2077,7 +2441,11 @@
             "wholesome"
         ],
         "added": "2025-09-18T05:50:00+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 2638,
+            "y": 2749
+        }
     },
     {
         "id": 93,
@@ -2100,7 +2468,11 @@
             "rain"
         ],
         "added": "2025-09-18T05:51:55+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1460,
+            "y": 1348
+        }
     },
     {
         "id": 94,
@@ -2123,7 +2495,11 @@
             "toxic"
         ],
         "added": "2025-09-18T05:53:41+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1647,
+            "y": 2048
+        }
     },
     {
         "id": 95,
@@ -2144,7 +2520,11 @@
             "zeoksang"
         ],
         "added": "2025-09-18T05:55:15+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 529
+        }
     },
     {
         "id": 96,
@@ -2168,7 +2548,11 @@
             "wholesome"
         ],
         "added": "2025-09-18T05:57:07+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 610,
+            "y": 900
+        }
     },
     {
         "id": 97,
@@ -2196,7 +2580,11 @@
             "wholesome"
         ],
         "added": "2025-09-18T06:11:17+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 544,
+            "y": 952
+        }
     },
     {
         "id": 98,
@@ -2219,7 +2607,11 @@
             "twitter"
         ],
         "added": "2025-09-18T06:13:00+00:00",
-        "textcontent": "omg nicole i love you;fuck you;bitch"
+        "textcontent": "omg nicole i love you;fuck you;bitch",
+        "size": {
+            "x": 1141,
+            "y": 812
+        }
     },
     {
         "id": 99,
@@ -2243,7 +2635,11 @@
             "wholesome"
         ],
         "added": "2025-09-18T06:15:30+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 612,
+            "y": 900
+        }
     },
     {
         "id": 100,
@@ -2266,7 +2662,11 @@
             "yuriontop"
         ],
         "added": "2025-09-20T06:08:31+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 2000,
+            "y": 1700
+        }
     },
     {
         "id": 101,
@@ -2290,7 +2690,11 @@
             "wholesome"
         ],
         "added": "2025-09-20T06:13:01+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 637,
+            "y": 900
+        }
     },
     {
         "id": 102,
@@ -2314,7 +2718,11 @@
             "wholesome"
         ],
         "added": "2025-09-20T06:15:05+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 675,
+            "y": 900
+        }
     },
     {
         "id": 103,
@@ -2338,7 +2746,11 @@
             "wholesome"
         ],
         "added": "2025-09-20T06:20:46+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1080,
+            "y": 1350
+        }
     },
     {
         "id": 104,
@@ -2361,7 +2773,11 @@
             "twitter"
         ],
         "added": "2025-09-20T06:26:06+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1554,
+            "y": 2047
+        }
     },
     {
         "id": 105,
@@ -2384,7 +2800,11 @@
             "wholesome"
         ],
         "added": "2025-09-20T06:28:53+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1036,
+            "y": 1474
+        }
     },
     {
         "id": 106,
@@ -2408,7 +2828,11 @@
             "wholesome"
         ],
         "added": "2025-09-20T06:31:06+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1254,
+            "y": 2048
+        }
     },
     {
         "id": 107,
@@ -2433,7 +2857,11 @@
             "wholesome"
         ],
         "added": "2025-09-20T06:32:40+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1444,
+            "y": 2048
+        }
     },
     {
         "id": 108,
@@ -2457,7 +2885,11 @@
             "wholesome"
         ],
         "added": "2025-09-20T06:34:28+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1203,
+            "y": 1847
+        }
     },
     {
         "id": 109,
@@ -2480,7 +2912,11 @@
             "twitter"
         ],
         "added": "2025-09-20T06:37:34+00:00",
-        "textcontent": "and thats why doing drugs doesnt make us bad people;i thought i was hitler;both on drugs"
+        "textcontent": "and thats why doing drugs doesnt make us bad people;i thought i was hitler;both on drugs",
+        "size": {
+            "x": 2048,
+            "y": 1536
+        }
     },
     {
         "id": 110,
@@ -2504,7 +2940,11 @@
             "twitter"
         ],
         "added": "2025-09-20T06:39:07+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 637,
+            "y": 900
+        }
     },
     {
         "id": 111,
@@ -2526,7 +2966,11 @@
             "wholesome"
         ],
         "added": "2025-09-20T06:41:29+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 728,
+            "y": 900
+        }
     },
     {
         "id": 112,
@@ -2549,7 +2993,11 @@
             "wholesome"
         ],
         "added": "2025-09-20T06:44:33+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 491
+        }
     },
     {
         "id": 113,
@@ -2573,7 +3021,11 @@
             "wholesome"
         ],
         "added": "2025-09-20T06:46:48+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 737,
+            "y": 900
+        }
     },
     {
         "id": 114,
@@ -2596,7 +3048,11 @@
             "wholesome"
         ],
         "added": "2025-09-20T06:48:09+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 544
+        }
     },
     {
         "id": 115,
@@ -2618,7 +3074,11 @@
             "twitter"
         ],
         "added": "2025-09-20T06:49:32+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 571,
+            "y": 680
+        }
     },
     {
         "id": 116,
@@ -2644,7 +3104,11 @@
             "vsynth"
         ],
         "added": "2025-09-20T06:50:46+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 736,
+            "y": 900
+        }
     },
     {
         "id": 117,
@@ -2666,7 +3130,11 @@
             "twitter"
         ],
         "added": "2025-09-20T06:52:25+00:00",
-        "textcontent": "just good;no im fucking gorgeous;if i killed someone id be a sex symbol overnight;actually true"
+        "textcontent": "just good;no im fucking gorgeous;if i killed someone id be a sex symbol overnight;actually true",
+        "size": {
+            "x": 572,
+            "y": 680
+        }
     },
     {
         "id": 118,
@@ -2689,7 +3157,11 @@
             "vodka"
         ],
         "added": "2025-09-20T06:55:24+00:00",
-        "textcontent": "im the biggest lesbian in tracen academy;i dont know what a lesbian is but ive got to be better at it than than stupid horse"
+        "textcontent": "im the biggest lesbian in tracen academy;i dont know what a lesbian is but ive got to be better at it than than stupid horse",
+        "size": {
+            "x": 680,
+            "y": 610
+        }
     },
     {
         "id": 119,
@@ -2713,7 +3185,11 @@
             "wholesome"
         ],
         "added": "2025-09-30T01:39:52+00:00",
-        "textcontent": "hi;hi;wanna leave;i wanna listen to music;i dont like the stuff playing here;was thinking the same thing;i knew youd say that"
+        "textcontent": "hi;hi;wanna leave;i wanna listen to music;i dont like the stuff playing here;was thinking the same thing;i knew youd say that",
+        "size": {
+            "x": 2048,
+            "y": 1270
+        }
     },
     {
         "id": 120,
@@ -2737,7 +3213,11 @@
             "wholesome"
         ],
         "added": "2025-09-30T01:45:21+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 343
+        }
     },
     {
         "id": 121,
@@ -2759,7 +3239,11 @@
             "wholesome"
         ],
         "added": "2025-09-30T01:46:01+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 680
+        }
     },
     {
         "id": 122,
@@ -2785,7 +3269,11 @@
             "wholesome"
         ],
         "added": "2025-09-30T01:49:28+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 468
+        }
     },
     {
         "id": 123,
@@ -2809,7 +3297,11 @@
             "twitter"
         ],
         "added": "2025-09-30T01:58:38+00:00",
-        "textcontent": "bing;come over"
+        "textcontent": "bing;come over",
+        "size": {
+            "x": 680,
+            "y": 481
+        }
     },
     {
         "id": 124,
@@ -2832,7 +3324,11 @@
             "wholesome"
         ],
         "added": "2025-09-30T02:03:02+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 503
+        }
     },
     {
         "id": 125,
@@ -2854,7 +3350,11 @@
             "twitter"
         ],
         "added": "2025-09-30T02:05:58+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 577
+        }
     },
     {
         "id": 126,
@@ -2876,7 +3376,11 @@
             "wholesome"
         ],
         "added": "2025-09-30T02:07:57+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 689,
+            "y": 900
+        }
     },
     {
         "id": 127,
@@ -2900,7 +3404,11 @@
             "wholesome"
         ],
         "added": "2025-09-30T02:12:16+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 586,
+            "y": 680
+        }
     },
     {
         "id": 128,
@@ -2923,7 +3431,11 @@
             "wholesome"
         ],
         "added": "2025-09-30T02:16:25+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 569,
+            "y": 680
+        }
     },
     {
         "id": 129,
@@ -2947,7 +3459,11 @@
             "whywrawng"
         ],
         "added": "2025-09-30T02:20:04+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 680
+        }
     },
     {
         "id": 130,
@@ -2972,7 +3488,11 @@
             "wholesome"
         ],
         "added": "2025-09-30T03:02:55+00:00",
-        "textcontent": "important marks of a bassists life;getting 3 girlfriends;injecting testosterone;autism diagnosis;based"
+        "textcontent": "important marks of a bassists life;getting 3 girlfriends;injecting testosterone;autism diagnosis;based",
+        "size": {
+            "x": 605,
+            "y": 680
+        }
     },
     {
         "id": 131,
@@ -2995,7 +3515,11 @@
             "wholesome"
         ],
         "added": "2025-09-30T03:05:07+00:00",
-        "textcontent": "the power of hypnosis"
+        "textcontent": "the power of hypnosis",
+        "size": {
+            "x": 619,
+            "y": 680
+        }
     },
     {
         "id": 132,
@@ -3018,7 +3542,11 @@
             "wholesome"
         ],
         "added": "2025-09-30T04:09:49+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 663
+        }
     },
     {
         "id": 133,
@@ -3042,7 +3570,11 @@
             "wholesome"
         ],
         "added": "2025-09-30T04:17:18+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 695,
+            "y": 900
+        }
     },
     {
         "id": 134,
@@ -3065,7 +3597,11 @@
             "wholesome"
         ],
         "added": "2025-09-30T04:20:09+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 712,
+            "y": 900
+        }
     },
     {
         "id": 135,
@@ -3090,7 +3626,11 @@
             "wholesome"
         ],
         "added": "2025-09-30T04:22:26+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 510
+        }
     },
     {
         "id": 136,
@@ -3113,7 +3653,11 @@
             "twitter"
         ],
         "added": "2025-09-30T04:34:13+00:00",
-        "textcontent": "you wanna ditch and get lesbian;i thought you were fake gay"
+        "textcontent": "you wanna ditch and get lesbian;i thought you were fake gay",
+        "size": {
+            "x": 721,
+            "y": 900
+        }
     },
     {
         "id": 137,
@@ -3138,7 +3682,11 @@
             "wholesome"
         ],
         "added": "2025-09-30T04:36:26+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 553
+        }
     },
     {
         "id": 138,
@@ -3162,7 +3710,11 @@
             "yuri"
         ],
         "added": "2025-09-30T04:48:48+00:00",
-        "textcontent": "whats up with you;she cut her finger on purpose"
+        "textcontent": "whats up with you;she cut her finger on purpose",
+        "size": {
+            "x": 680,
+            "y": 523
+        }
     },
     {
         "id": 139,
@@ -3186,7 +3738,11 @@
             "wholesome"
         ],
         "added": "2025-09-30T04:50:31+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 536
+        }
     },
     {
         "id": 140,
@@ -3212,7 +3768,11 @@
             "wholesome"
         ],
         "added": "2025-09-30T04:53:48+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 629,
+            "y": 1200
+        }
     },
     {
         "id": 141,
@@ -3236,7 +3796,11 @@
             "twitter"
         ],
         "added": "2025-09-30T07:10:31+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1527,
+            "y": 1327
+        }
     },
     {
         "id": 142,
@@ -3259,7 +3823,11 @@
             "wholesome"
         ],
         "added": "2025-10-01T16:34:38+00:00",
-        "textcontent": "sometimes she spaces out and just drums to the katseye gap ad on my butt for like 10 minutes"
+        "textcontent": "sometimes she spaces out and just drums to the katseye gap ad on my butt for like 10 minutes",
+        "size": {
+            "x": 360,
+            "y": 324
+        }
     },
     {
         "id": 143,
@@ -3283,7 +3851,11 @@
             "wholesome"
         ],
         "added": "2025-10-01T16:37:51+00:00",
-        "textcontent": "its cold take my hoodie;it smells really good;my girlfriends hoodie;it has her scent"
+        "textcontent": "its cold take my hoodie;it smells really good;my girlfriends hoodie;it has her scent",
+        "size": {
+            "x": 1798,
+            "y": 2048
+        }
     },
     {
         "id": 144,
@@ -3309,7 +3881,11 @@
             "wholesome"
         ],
         "added": "2025-10-01T16:39:37+00:00",
-        "textcontent": "i think i like you;huh;thought theyve been dating for the past 3 years"
+        "textcontent": "i think i like you;huh;thought theyve been dating for the past 3 years",
+        "size": {
+            "x": 1508,
+            "y": 2048
+        }
     },
     {
         "id": 145,
@@ -3332,7 +3908,11 @@
             "video"
         ],
         "added": "2025-10-01T16:50:37+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 1080,
+            "y": 720
+        }
     },
     {
         "id": 146,
@@ -3354,7 +3934,11 @@
             "video"
         ],
         "added": "2025-10-01T17:39:37+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 904,
+            "y": 720
+        }
     },
     {
         "id": 147,
@@ -3377,7 +3961,11 @@
             "whywrawng"
         ],
         "added": "2025-10-01T19:11:15+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 680
+        }
     },
     {
         "id": 148,
@@ -3401,7 +3989,11 @@
             "twitter"
         ],
         "added": "2025-10-01T19:19:31+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 589
+        }
     },
     {
         "id": 149,
@@ -3425,7 +4017,11 @@
             "zikiki1092"
         ],
         "added": "2025-10-01T19:22:01+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 573,
+            "y": 680
+        }
     },
     {
         "id": 150,
@@ -3449,7 +4045,11 @@
             "twitter"
         ],
         "added": "2025-10-01T19:25:54+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 575,
+            "y": 680
+        }
     },
     {
         "id": 151,
@@ -3473,7 +4073,11 @@
             "wholesome"
         ],
         "added": "2025-10-01T19:28:00+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 625
+        }
     },
     {
         "id": 152,
@@ -3496,7 +4100,11 @@
             "wholesome"
         ],
         "added": "2025-10-01T19:31:20+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 675,
+            "y": 900
+        }
     },
     {
         "id": 153,
@@ -3519,7 +4127,11 @@
             "wholesome"
         ],
         "added": "2025-10-01T20:17:39+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 383
+        }
     },
     {
         "id": 154,
@@ -3543,7 +4155,11 @@
             "wholesome"
         ],
         "added": "2025-10-01T20:18:59+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 383
+        }
     },
     {
         "id": 155,
@@ -3566,7 +4182,11 @@
             "wholesome"
         ],
         "added": "2025-10-02T00:09:22+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 725,
+            "y": 513
+        }
     },
     {
         "id": 156,
@@ -3590,7 +4210,11 @@
             "wholesome"
         ],
         "added": "2025-10-28T00:27:46+00:00",
-        "textcontent": "doto;trainer;nice to meet you"
+        "textcontent": "doto;trainer;nice to meet you",
+        "size": {
+            "x": 644,
+            "y": 900
+        }
     },
     {
         "id": 157,
@@ -3615,7 +4239,11 @@
             "wholesome"
         ],
         "added": "2025-10-28T00:29:51+00:00",
-        "textcontent": "shes this clingy"
+        "textcontent": "shes this clingy",
+        "size": {
+            "x": 572,
+            "y": 680
+        }
     },
     {
         "id": 158,
@@ -3639,7 +4267,11 @@
             "vsynth"
         ],
         "added": "2025-10-28T00:36:16+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 733,
+            "y": 900
+        }
     },
     {
         "id": 159,
@@ -3662,7 +4294,11 @@
             "twitter"
         ],
         "added": "2025-10-28T00:39:27+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 322
+        }
     },
     {
         "id": 160,
@@ -3686,7 +4322,11 @@
             "twitter"
         ],
         "added": "2025-10-28T00:42:57+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 495
+        }
     },
     {
         "id": 161,
@@ -3710,7 +4350,11 @@
             "wholesome"
         ],
         "added": "2025-10-28T00:43:54+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 669,
+            "y": 680
+        }
     },
     {
         "id": 162,
@@ -3734,7 +4378,11 @@
             "wholesome"
         ],
         "added": "2025-10-28T00:45:37+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 680
+        }
     },
     {
         "id": 163,
@@ -3761,7 +4409,11 @@
             "twitter"
         ],
         "added": "2025-10-28T00:49:19+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 445
+        }
     },
     {
         "id": 164,
@@ -3784,7 +4436,11 @@
             "wholesome"
         ],
         "added": "2025-10-28T00:50:53+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 576,
+            "y": 680
+        }
     },
     {
         "id": 165,
@@ -3809,7 +4465,11 @@
             "twitter"
         ],
         "added": "2025-10-28T00:52:06+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 372
+        }
     },
     {
         "id": 166,
@@ -3833,7 +4493,11 @@
             "twitter"
         ],
         "added": "2025-10-28T00:53:35+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 595,
+            "y": 680
+        }
     },
     {
         "id": 167,
@@ -3859,7 +4523,11 @@
             "twitter"
         ],
         "added": "2025-10-28T00:56:13+00:00",
-        "textcontent": "fuck nicole im covered in fur;honestly thats kinda cool lol"
+        "textcontent": "fuck nicole im covered in fur;honestly thats kinda cool lol",
+        "size": {
+            "x": 1554,
+            "y": 1390
+        }
     },
     {
         "id": 168,
@@ -3883,7 +4551,11 @@
             "wholesome"
         ],
         "added": "2025-10-28T00:57:53+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 444
+        }
     },
     {
         "id": 169,
@@ -3907,7 +4579,11 @@
             "wholesome"
         ],
         "added": "2025-10-28T00:59:45+00:00",
-        "textcontent": "wah so pretty;youre right red does suit you"
+        "textcontent": "wah so pretty;youre right red does suit you",
+        "size": {
+            "x": 585,
+            "y": 680
+        }
     },
     {
         "id": 170,
@@ -3931,7 +4607,11 @@
             "wholesome"
         ],
         "added": "2025-11-11T21:49:38+00:00",
-        "textcontent": "friends"
+        "textcontent": "friends",
+        "size": {
+            "x": 680,
+            "y": 501
+        }
     },
     {
         "id": 171,
@@ -3954,7 +4634,11 @@
             "wholesome"
         ],
         "added": "2025-11-11T21:52:02+00:00",
-        "textcontent": "luka"
+        "textcontent": "luka",
+        "size": {
+            "x": 565,
+            "y": 900
+        }
     },
     {
         "id": 172,
@@ -3978,7 +4662,11 @@
             "wholesome"
         ],
         "added": "2025-11-11T22:01:01+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 672
+        }
     },
     {
         "id": 173,
@@ -4003,7 +4691,11 @@
             "wholesome"
         ],
         "added": "2025-11-11T22:06:05+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 593,
+            "y": 680
+        }
     },
     {
         "id": 174,
@@ -4027,7 +4719,11 @@
             "yzmutan"
         ],
         "added": "2025-11-11T22:07:38+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 889,
+            "y": 1121
+        }
     },
     {
         "id": 175,
@@ -4051,7 +4747,11 @@
             "yzmutan"
         ],
         "added": "2025-11-11T22:09:12+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 842,
+            "y": 954
+        }
     },
     {
         "id": 176,
@@ -4074,7 +4774,11 @@
             "vsynth"
         ],
         "added": "2025-11-11T22:11:29+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 485
+        }
     },
     {
         "id": 177,
@@ -4100,7 +4804,11 @@
             "wholesome"
         ],
         "added": "2025-11-11T22:13:12+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 607
+        }
     },
     {
         "id": 178,
@@ -4122,7 +4830,11 @@
             "twitter"
         ],
         "added": "2025-11-11T22:16:36+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 637,
+            "y": 900
+        }
     },
     {
         "id": 179,
@@ -4146,7 +4858,11 @@
             "wholesome"
         ],
         "added": "2025-11-11T22:20:39+00:00",
-        "textcontent": "ayeyuwuaauuu;awe;yuyiyuuya;wuaahhyuii;wa;wuaa;wuii;yui;yayuiiiiiiiiiiiiiii-"
+        "textcontent": "ayeyuwuaauuu;awe;yuyiyuuya;wuaahhyuii;wa;wuaa;wuii;yui;yayuiiiiiiiiiiiiiii-",
+        "size": {
+            "x": 680,
+            "y": 469
+        }
     },
     {
         "id": 180,
@@ -4171,7 +4887,11 @@
             "wholesome"
         ],
         "added": "2025-11-11T22:21:41+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 742,
+            "y": 900
+        }
     },
     {
         "id": 181,
@@ -4196,7 +4916,11 @@
             "wholesome"
         ],
         "added": "2025-11-11T22:24:29+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 712,
+            "y": 900
+        }
     },
     {
         "id": 182,
@@ -4219,7 +4943,11 @@
             "twitter"
         ],
         "added": "2025-11-11T22:26:20+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 668
+        }
     },
     {
         "id": 183,
@@ -4244,7 +4972,11 @@
             "wholesome"
         ],
         "added": "2025-11-11T22:29:28+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 453
+        }
     },
     {
         "id": 184,
@@ -4270,7 +5002,11 @@
             "wholesome"
         ],
         "added": "2025-11-11T22:33:27+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 669
+        }
     },
     {
         "id": 185,
@@ -4293,7 +5029,11 @@
             "zzz"
         ],
         "added": "2025-11-11T22:35:42+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 590,
+            "y": 680
+        }
     },
     {
         "id": 186,
@@ -4321,7 +5061,11 @@
             "wholesome"
         ],
         "added": "2025-11-11T22:37:55+00:00",
-        "textcontent": "kasane teto;adachi rei;gala synth 2025"
+        "textcontent": "kasane teto;adachi rei;gala synth 2025",
+        "size": {
+            "x": 636,
+            "y": 900
+        }
     },
     {
         "id": 187,
@@ -4346,7 +5090,11 @@
             "yukari"
         ],
         "added": "2025-11-11T22:48:31+00:00",
-        "textcontent": "i fucking hate you bitch im gonna kill your stupidass youre worthless im gonna smash ur head on a brick wall fucking loser"
+        "textcontent": "i fucking hate you bitch im gonna kill your stupidass youre worthless im gonna smash ur head on a brick wall fucking loser",
+        "size": {
+            "x": 619,
+            "y": 680
+        }
     },
     {
         "id": 188,
@@ -4368,7 +5116,11 @@
             "yukari"
         ],
         "added": "2025-11-11T22:51:41+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 619,
+            "y": 680
+        }
     },
     {
         "id": 189,
@@ -4391,7 +5143,11 @@
             "wholesome"
         ],
         "added": "2025-11-11T22:55:02+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 599,
+            "y": 680
+        }
     },
     {
         "id": 190,
@@ -4415,7 +5171,11 @@
             "wholesome"
         ],
         "added": "2025-11-11T22:57:52+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 587,
+            "y": 680
+        }
     },
     {
         "id": 191,
@@ -4438,7 +5198,11 @@
             "wholesome"
         ],
         "added": "2025-11-11T23:07:13+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 550
+        }
     },
     {
         "id": 192,
@@ -4461,7 +5225,11 @@
             "wholesome"
         ],
         "added": "2025-11-11T23:13:03+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 383
+        }
     },
     {
         "id": 193,
@@ -4485,7 +5253,11 @@
             "wholesome"
         ],
         "added": "2025-11-11T23:17:45+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 473
+        }
     },
     {
         "id": 194,
@@ -4509,7 +5281,11 @@
             "wholesome"
         ],
         "added": "2025-11-11T23:25:55+00:00",
-        "textcontent": "you know;the beath used to be my favorite thing about this town"
+        "textcontent": "you know;the beath used to be my favorite thing about this town",
+        "size": {
+            "x": 332,
+            "y": 360
+        }
     },
     {
         "id": 195,
@@ -4534,7 +5310,11 @@
             "wholesome"
         ],
         "added": "2025-11-11T23:29:12+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 577
+        }
     },
     {
         "id": 196,
@@ -4557,7 +5337,11 @@
             "umamusume"
         ],
         "added": "2025-11-11T23:44:52+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 582,
+            "y": 900
+        }
     },
     {
         "id": 197,
@@ -4580,7 +5364,11 @@
             "wholesome"
         ],
         "added": "2025-11-11T23:48:58+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 631,
+            "y": 680
+        }
     },
     {
         "id": 198,
@@ -4603,7 +5391,11 @@
             "wholesome"
         ],
         "added": "2025-11-11T23:52:13+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 510,
+            "y": 680
+        }
     },
     {
         "id": 199,
@@ -4626,7 +5418,11 @@
             "wholesome"
         ],
         "added": "2025-11-11T23:55:23+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 680
+        }
     },
     {
         "id": 200,
@@ -4651,7 +5447,11 @@
             "wholesome"
         ],
         "added": "2025-11-12T00:01:08+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 678,
+            "y": 680
+        }
     },
     {
         "id": 201,
@@ -4675,7 +5475,11 @@
             "wholesome"
         ],
         "added": "2025-11-12T00:08:29+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 604,
+            "y": 680
+        }
     },
     {
         "id": 202,
@@ -4698,7 +5502,11 @@
             "wholesome"
         ],
         "added": "2025-11-12T00:12:01+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 595
+        }
     },
     {
         "id": 203,
@@ -4721,7 +5529,11 @@
             "wholesome"
         ],
         "added": "2025-11-12T00:15:09+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 546
+        }
     },
     {
         "id": 204,
@@ -4745,7 +5557,11 @@
             "wholesome"
         ],
         "added": "2025-11-12T00:18:35+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 477
+        }
     },
     {
         "id": 205,
@@ -4767,7 +5583,11 @@
             "umamusume"
         ],
         "added": "2025-11-12T00:20:45+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 624,
+            "y": 680
+        }
     },
     {
         "id": 206,
@@ -4792,7 +5612,11 @@
             "uman"
         ],
         "added": "2025-11-12T00:27:04+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 646,
+            "y": 680
+        }
     },
     {
         "id": 207,
@@ -4816,7 +5640,11 @@
             "y4ntaoist"
         ],
         "added": "2025-11-12T00:31:04+00:00",
-        "textcontent": "she wants to fuck me"
+        "textcontent": "she wants to fuck me",
+        "size": {
+            "x": 510,
+            "y": 680
+        }
     },
     {
         "id": 208,
@@ -4840,7 +5668,11 @@
             "y4ntaoist"
         ],
         "added": "2025-11-12T00:33:42+00:00",
-        "textcontent": "she probably thinks im kira;but her expression gives too much away;shes trying to indtimidate me into slipping up and admitting it;but thats not happening;nice try l hahaha;i wanna suck her fat titties"
+        "textcontent": "she probably thinks im kira;but her expression gives too much away;shes trying to indtimidate me into slipping up and admitting it;but thats not happening;nice try l hahaha;i wanna suck her fat titties",
+        "size": {
+            "x": 680,
+            "y": 580
+        }
     },
     {
         "id": 209,
@@ -4867,7 +5699,11 @@
             "wholesome"
         ],
         "added": "2025-11-12T00:38:33+00:00",
-        "textcontent": "WTF DO I DO;maybe shes better than len"
+        "textcontent": "WTF DO I DO;maybe shes better than len",
+        "size": {
+            "x": 360,
+            "y": 303
+        }
     },
     {
         "id": 210,
@@ -4892,7 +5728,11 @@
             "wholesome"
         ],
         "added": "2025-11-12T00:41:39+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 527,
+            "y": 680
+        }
     },
     {
         "id": 211,
@@ -4915,7 +5755,11 @@
             "wholesome"
         ],
         "added": "2025-11-12T01:08:14+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 663
+        }
     },
     {
         "id": 212,
@@ -4938,7 +5782,11 @@
             "yixi"
         ],
         "added": "2025-11-12T01:10:29+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 561,
+            "y": 680
+        }
     },
     {
         "id": 213,
@@ -4965,7 +5813,11 @@
             "wholesome"
         ],
         "added": "2025-11-12T01:12:15+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 542
+        }
     },
     {
         "id": 214,
@@ -4992,7 +5844,11 @@
             "wholesome"
         ],
         "added": "2025-11-12T01:14:07+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 680
+        }
     },
     {
         "id": 215,
@@ -5015,7 +5871,11 @@
             "wholesome"
         ],
         "added": "2025-11-12T01:16:23+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 572,
+            "y": 680
+        }
     },
     {
         "id": 216,
@@ -5040,7 +5900,11 @@
             "y4ntaoist"
         ],
         "added": "2025-11-12T01:18:34+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 2048,
+            "y": 2048
+        }
     },
     {
         "id": 217,
@@ -5063,7 +5927,11 @@
             "wholesome"
         ],
         "added": "2025-11-12T01:20:42+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 636,
+            "y": 680
+        }
     },
     {
         "id": 218,
@@ -5086,7 +5954,11 @@
             "wholesome"
         ],
         "added": "2025-11-12T01:27:34+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 584
+        }
     },
     {
         "id": 219,
@@ -5109,6 +5981,10 @@
             "wholesome"
         ],
         "added": "2025-11-12T01:30:45+00:00",
-        "textcontent": ""
+        "textcontent": "",
+        "size": {
+            "x": 680,
+            "y": 456
+        }
     }
 ]

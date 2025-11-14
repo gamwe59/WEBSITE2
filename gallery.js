@@ -29,6 +29,8 @@ let notesOpen = false
 let params = {sort: "added", tags: [], exclude: []}
 let sortBy = true //true = descending, false = ascending
 
+console.log("faggot")
+
 function removeImgs() {
     div.innerHTML = '';
     unsortedDiv.innerHTML = '';
@@ -41,8 +43,6 @@ function waitForLoad() {
     const proms=newImgObjs.map(im=>new Promise(res=>
     im.onload=()=>res([im.width,im.height])
     ))
-
-    console.log(images)
     Promise.all(proms).then(data=>{
     loader.classList.remove("loadvisible")
     loading = false
@@ -90,13 +90,14 @@ function addImgs() {
             }
         }
         if (n == 0) {
-            console.log("theres nothing.")
             let video = document.createElement("video")
             video.src = "./images/theresnothing.mp4"
             video.type = "video/mp4"
             video.setAttribute("class", "theresnothing")
             video.setAttribute("controls", "controls")
             div.appendChild(video)
+        } else {
+            setSize()
         }
         curLoadedText.innerHTML = "total images: <strong>"+(yuri.length+unsorted.length)+"</strong><br>total images in database: <strong>"+yuri.length+"</strong><br> currently loaded: <strong>"+(curLoadedFromGallery+curLoadedFromUnsorted)+"</strong>"
         addUnsortedImgs()
@@ -265,6 +266,85 @@ for (const [key, button] of Object.entries(buttons)) {
     });
 }
 
+//uhmmm um ummm im doing the uhmmm gallery grid thing here tee hee
+
+function setSize() {
+    let gap = 5
+
+    let divWidth = div.clientWidth
+    let padding =  div.style.padding.match(/\d+/g)
+    divWidth -= padding[0]*2
+
+    let fx = Math.floor(divWidth/400)+1
+    fx = Math.min(fx, 8)
+    fx = Math.max(fx,2)
+    divWidth -= gap*(fx-1)
+
+    let imgWidth = (divWidth/fx)
+
+    let galleryLocations = []
+
+    let index = 0
+    let colHeights = []
+
+    for (let i = 0; i < fx; i++) {
+        colHeights[i] = 0
+    }
+
+    for (const [key, child] of Object.entries(div.childNodes)) {
+        const params = new URL(child.href).searchParams
+        let img = yuri.find(i => i.id.toString() === params.get("img"))
+
+        let aspectRatio = img.size.x/img.size.y
+        let imgHeight = imgWidth/aspectRatio
+
+        child.style.width = (imgWidth)+"px"
+        child.style.height = (imgHeight)+"px"
+
+        if (index > 0) {
+            if (colHeights[index-1] < colHeights[index]) {
+                index--
+            }
+        } else {
+            if (colHeights[fx-1] < colHeights[index]) {
+                index = fx-1
+            }
+        }
+        
+        let pos = colHeights[index]
+
+        child.style.transform = "translate("+( index*(imgWidth+gap) )+"px,"+( pos )+"px)"
+
+        colHeights[index]+=imgHeight+gap
+
+        index++
+        if (index >= fx) {
+            index = 0
+        }
+    }
+
+    let furthestDown = 0
+    for (let i = 1; i < colHeights.length; i++) {
+        if (colHeights[i] > furthestDown) {
+            furthestDown = colHeights[i];
+        }
+    }
+    div.style.height = furthestDown+"px"
+}
+
+//detect when resize
+
+let countDown = 0
+window.onresize = function() {
+    countDown++
+    setTimeout(() => {
+        countDown--
+        if (countDown == 0) {
+            setSize()
+        }
+    }, 300);
+};
+
 panelButton.onclick = function() {
     document.querySelector(".wrapper").classList.toggle("side-panel-open")
     goback.disabled = !goback.disabled
@@ -280,7 +360,6 @@ document.addEventListener('input', function (event) {
 	if (event.target.id !== 'sort') return;
 
 	// Do stuff...
-    console.log(event.target.value)
     if (event.target.value == "name") {
         params.sort = "name"
     } else if (event.target.value == "added") {
@@ -320,7 +399,6 @@ window.addEventListener('scroll', function() {
   // Check if the user has scrolled to the bottom of the page
   if (window.innerHeight + window.scrollY >= document.body.scrollHeight) {
     // Perform the desired action, e.g., showing a popup
-    console.log("faggot")
     addImgs()
   }
 });

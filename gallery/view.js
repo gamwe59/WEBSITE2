@@ -93,7 +93,6 @@ function ready(interval){
 }
 
 back.onclick = function() {
-    console.log(document.referrer)
     if (history.length <= 1 || !document.referrer.includes("/gallery")) {
         location.replace("./")
     } else {
