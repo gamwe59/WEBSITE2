@@ -59,6 +59,7 @@ function addImgs() {
         for (let i = curLoadedFromGallery; i < n; i++) {
             let data = gallery[i]
             let obj = document.createElement("a")
+            obj.classList.add("notransition")
 
             obj.href = "./gallery/view?img="+data.id
             let img
@@ -314,6 +315,10 @@ function setSize() {
         let pos = colHeights[index]
 
         child.style.transform = "translate("+( index*(imgWidth+gap) )+"px,"+( pos )+"px)"
+    
+        setTimeout(() => {
+            child.classList.remove("notransition")
+        }, 5);
 
         colHeights[index]+=imgHeight+gap
 
