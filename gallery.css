@@ -243,6 +243,7 @@ main {
 
 .newgallery {
     width:85%;
+    position: relative;
     margin:auto;
     transition-duration: 0.2s;
     background-color: rgb(85, 47, 68);
@@ -251,6 +252,8 @@ main {
 
 .newgallery a {
     position:absolute;
+    left:30px;
+    top: 30px;
     display:block;
     align-self: center;
     justify-self: center;
