@@ -1,4 +1,5 @@
 import yuri from "/yuri.json" with { type: "json" }
+import tagsJSON from "/tags.json" with { type: "json" }
 import unsorted from "/yuriunsorted.json" with { type: "json" }
 
 let gallery = {}
@@ -59,6 +60,21 @@ function addImgs() {
         for (let i = curLoadedFromGallery; i < n; i++) {
             let data = gallery[i]
             let obj = document.createElement("a")
+            let nameP = document.createElement("p")
+            nameP.textContent = data.name
+            let artistP = document.createElement("p")
+            let artist
+            for (const [key, tag] of Object.entries(data.tags)) {
+                let type = tagsJSON[tag]
+                if (type.type == "artist") {
+                    artist = type.long
+                }
+            }
+            artistP.textContent = artist
+            nameP.textContent = data.name
+            nameP.classList.add("nameTop")
+            artistP.classList.add("artistBottom")
+            let shadowDiv = document.createElement("div")
             obj.classList.add("notransition")
 
             obj.href = "./gallery/view?img="+data.id
@@ -84,6 +100,9 @@ function addImgs() {
             img.alt = data.name
             div.append(obj)
             obj.appendChild(img)
+            obj.appendChild(nameP)
+            obj.appendChild(artistP)
+            obj.appendChild(shadowDiv)
             curLoadedFromGallery++;
             loopLoaded++;
             if (loopLoaded>=maxLoaded) {

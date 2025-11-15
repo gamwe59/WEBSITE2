@@ -21,7 +21,7 @@ body {
     align-items: center;
     justify-content:center;
     line-height: 0px;
-    z-index:6;
+    z-index:1;
 }
 .padding {
     height:90px;
@@ -52,8 +52,8 @@ body {
     left:50%;
     transform: translate(-50%, -25px);
     background-color: rgb(85, 47, 68);
-    box-shadow: 0px 0px 10px black;
-    z-index: 5;
+    box-shadow: 0px 10px 10px black;
+    z-index: 6;
     width:40%;
 }
 .notes.notes-open {
@@ -268,13 +268,90 @@ main {
   transition: none !important;
 }
 
-.newgallery a * {
+.newgallery a img {
     width:100%;
     height:100%;
     position:relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition-duration: 0.2s;
+    z-index: 2;
+}
+
+.newgallery a video {
+    width:100%;
+    height:100%;
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition-duration: 0.2s;
+    z-index: 2;
+}
+
+.newgallery a .nameTop {
+    pointer-events: none;
+    position:absolute;
+    top:-10px;
+    left:50%;
+    transform: translate(-50%, 0%);
+    width:auto;
+    min-width: 70%;
+    text-align: center;
+    height:auto;
+    padding:5px;
+    z-index: 1;
+    transition-duration: 0.2s;
+    color:rgb(241, 189, 224) !important;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(49, 15, 32, 0.7);
+    border-width: 5px;
+    border-color: rgb(241, 189, 224, 0.7);
+    border-style: double;
+    opacity: 1;
+}
+.newgallery a:hover .nameTop {
+    top:-35px;
+    opacity: 1;
+    transform: translate(-50%, -100%);
+}
+
+.newgallery a .artistBottom {
+    pointer-events: none;
+    position:absolute;
+    bottom:-10px;
+    left:50%;
+    transform: translate(-50%, 0%);
+    width:auto;
+    min-width: 70%;
+    text-align: center;
+    height:auto;
+    padding:5px;
+    z-index: 1;
+    transition-duration: 0.2s;
+    color:rgb(241, 189, 224) !important;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(49, 15, 32, 0.7);
+    border-width: 5px;
+    border-color: rgb(241, 189, 224, 0.7);
+    border-style: double;
+    opacity: 1;
+}
+.newgallery a:hover .artistBottom {
+    bottom:-35px;
+    opacity: 1;
+    transform: translate(-50%, 100%);
+}
+.newgallery a div {
+    pointer-events: none;
+    z-index: 0;
+    position: absolute;
+    height:100%;
+    width: 100%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
     transition-duration: 0.2s;
 }
 
@@ -283,10 +360,17 @@ main {
     transition: width 0.2s, height 0.2s, transform 0.2s, z-index 0.2s step-start;
 }
 
-.newgallery a:hover *{
+.newgallery a:hover img{
     display:block;
     transform:translate(-50%, -50%) scale(105%);
+}
+.newgallery a:hover video{
+    display:block;
+    transform:translate(-50%, -50%) scale(105%);
+}
+.newgallery a:hover div {
     box-shadow: 0px 0px 25px black, 0px 0px 10px black;
+    transform:translate(-50%, -50%) scale(105%);
 }
 
 .gallery {
