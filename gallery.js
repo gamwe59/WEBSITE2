@@ -348,7 +348,7 @@ function setSize() {
     }
 
     let furthestDown = 0
-    for (let i = 1; i < colHeights.length; i++) {
+    for (let i = 0; i < colHeights.length; i++) {
         if (colHeights[i] > furthestDown) {
             furthestDown = colHeights[i];
         }
