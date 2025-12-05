@@ -1238,5 +1238,89 @@
     "kzscpilled": {
         "long": "kzscpilled",
         "type": "artist"
+    },
+    "yunayuispink": {
+        "long": "yunayu",
+        "type": "artist"
+    },
+    "musicrelated": {
+        "long": "music related",
+        "type": "content"
+    },
+    "unknownartist": {
+        "long": "unknown",
+        "type": "artist"
+    },
+    "pauling": {
+        "long": "ms pauling",
+        "type": "character"
+    },
+    "administrator": {
+        "long": "administrator tf2",
+        "type": "character"
+    },
+    "tf2": {
+        "long": "team fortress 2",
+        "type": "origin"
+    },
+    "tumblr": {
+        "long": "tumblr",
+        "type": "site"
+    },
+    "coralglasses": {
+        "long": "coral glasses",
+        "type": "character"
+    },
+    "enacharacter": {
+        "long": "ENA",
+        "type": "character"
+    },
+    "enaseries": {
+        "long": "ENA",
+        "type": "origin"
+    },
+    "chubaka": {
+        "long": "chubaka",
+        "type": "artist"
+    },
+    "najsigt": {
+        "long": "najsigt",
+        "type": "artist"
+    },
+    "portal": {
+        "long": "portal",
+        "type": "origin"
+    },
+    "chell": {
+        "long": "chell",
+        "type": "character"
+    },
+    "caweddd": {
+        "long": "caweddd",
+        "type": "artist"
+    },
+    "pyonfye": {
+        "long": "pyonfye",
+        "type": "artist"
+    },
+    "emuotori": {
+        "long": "emu otori",
+        "type": "character"
+    },
+    "nenekusanagi": {
+        "long": "nene kusanagi",
+        "type": "character"
+    },
+    "stcherrr": {
+        "long": "satcher",
+        "type": "artist"
+    },
+    "nudity": {
+        "long": "nudity",
+        "type": "content"
+    },
+    "alnokai": {
+        "long": "kaiaiai",
+        "type": "artist"
     }
 }
