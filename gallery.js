@@ -258,9 +258,9 @@ function siteLoaded() {
     let tags = USP.getAll("t")
     let exclude = USP.getAll("e")
 
-    if (!exclude.includes("explicit")) {
-        USP.append("e", "explicit")
-        url.searchParams.append("e", "explicit")
+    if (!exclude.includes("suggestive")) {
+        USP.append("e", "suggestive")
+        url.searchParams.append("e", "suggestive")
         history.replaceState({}, '', url.href)
     }
 
