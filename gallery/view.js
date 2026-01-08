@@ -10,8 +10,10 @@ let isVideo = false
 
 const name = document.getElementById("name")
 const link = document.getElementById("link")
+const id = document.getElementById("id")
 const src = document.getElementById("src")
 const tags = document.getElementById("tags")
+const tagsdiv = document.getElementById("tagsDiv")
 const added = document.getElementById("added")
 const back = document.getElementById("back")
 
@@ -29,7 +31,13 @@ function validURL() {
         }
     }
     if (valid == false) {
-        location.replace("./")
+        if (USP.get("img") == "random") {
+            let n = yuri.length;
+            let x = Math.floor(n * Math.random())
+            img = yuri[x]
+        } else {
+            location.replace("./")
+        }
     }
 }
 
@@ -48,6 +56,7 @@ function generateTags() {
 function loadDetails() {
     name.textContent = img.name
     link.href = img.link
+    id.textContent = "ID: "+img.id
     if (img.tags.includes("here") || img.tags.includes("image")) {
         display = document.createElement("img")
         display.src = img.src
@@ -64,31 +73,21 @@ function loadDetails() {
     added.textContent = ""+img.added
 }
 
-function createEmbed() {
-    var m = document.createElement("meta")
-    m.setAttribute('property', 'og:image')
-    m.content = img.src  
-    document.getElementsByTagName('head')[0].appendChild(m);
-}
-
 link.onclick = function() {
     window.open(link.href)
 }
 
-function checkIfReady(resolve){
-    const interval = setInterval(() => {
-        if(isVideo) resolve(interval);
-        if(display.width != 0) resolve(interval);
-    }, 10);
-}
-
-function ready(interval){ 
+function setSize(interval){ 
     clearInterval(interval) 
-    let obj = document.getElementById("display")
-    let width = obj.width
+    let width = img.size.x
+    let height = img.size.y
+    let imgWidth = (window.innerHeight/((height/width)*(window.innerHeight)))*50
+
+    console.log(imgWidth)
     if (width != 0) {
-        tags.setAttribute("style", "width:"+width+"px;")
-        link.setAttribute("style", "width:"+width+"px;")
+        tagsDiv.setAttribute("style", "width:"+imgWidth+"vh;")
+        link.setAttribute("style", "width:"+imgWidth+"vh;")
+        name.setAttribute("style", "width:"+imgWidth+"vh;")
     }
 }
 
@@ -104,5 +103,14 @@ validURL()
 loadDetails()
 generateTags()
 
-const waitUntilReady = new Promise(checkIfReady); 
-waitUntilReady.then(ready);
+let countDown = 0
+window.onresize = function() {
+    countDown++
+    setTimeout(() => {
+        countDown--
+        if (countDown == 0) {
+            setSize()
+        }
+    }, 300);
+};
+setSize()
