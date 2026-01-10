@@ -1,0 +1,68 @@
+body {
+    font-family: "Inter", sans-serif;
+    background: #87968a;
+    background: linear-gradient(180deg, rgba(135, 150, 138, 1) 0%, rgba(103, 119, 107, 1) 12%, rgba(78, 96, 83, 1) 29%, rgba(43, 63, 49, 1) 59%, rgba(1, 15, 7, 1) 100%);
+    width: 100%;
+    margin:auto;
+}
+
+div {
+    width: 65%;
+    box-shadow: 0px 0px 25px black;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    background-color: rgb(30, 54, 46);
+    border-radius: 20px;
+    padding: 25px;
+    background-size: 100% 100%;
+    text-align: center;
+    color: rgb(245, 245, 245);
+    position: relative;
+}
+
+img {
+    height:350px;
+    width:auto;
+    object-fit:cover;
+    display: block;
+    margin:auto;
+    border-radius: 25px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 25px black;
+}
+
+.div1 {
+    text-align: left;
+}
+
+.div2 {
+    margin-left: auto;
+    text-align: left;
+}
+
+h {
+    font-size:x-large;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav {
+    width: 50%;
+    height: 30%;
+    align-self: center;
+    justify-self: center;
+    background-image: url("/images/main.jpg");
+    border-radius: 20px;
+    padding: 15px;
+    background-size: 100% 100%;
+    text-align: center;
+    color: rgb(245, 245, 245);
+    position: relative;
+    top: 60px;
+    box-shadow: 0px 0px 15px black;
+}
