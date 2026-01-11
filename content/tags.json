@@ -1322,5 +1322,29 @@
     "alnokai": {
         "long": "kaiaiai",
         "type": "artist"
+    },
+    "animals": {
+        "long": "pet animals",
+        "type": "content"
+    },
+    "audreyhp": {
+        "long": "audrey belrose",
+        "type": "character"
+    },
+    "tiffanyhp": {
+        "long": "tiffany maye",
+        "type": "character"
+    },
+    "huniepop": {
+        "long": "huniepop",
+        "type": "origin"
+    },
+    "touyaluvrr": {
+        "long": "touyaluvrr",
+        "type": "artist"
+    },
+    "ichika": {
+        "long": "ichika hoshino",
+        "type": "character"
     }
 }
