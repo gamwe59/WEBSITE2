@@ -1,6 +1,6 @@
-import yuri from "/yuri.json" with { type: "json" }
-import tagsJSON from "/tags.json" with { type: "json" }
-import unsorted from "/yuriunsorted.json" with { type: "json" }
+import yuri from "./yuri.json" with { type: "json" }
+import tagsJSON from "./tags.json" with { type: "json" }
+import unsorted from "./yuriunsorted.json" with { type: "json" }
 
 let gallery = {}
 let curLoadedFromGallery = 0
