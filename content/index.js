@@ -1,4 +1,4 @@
-import yuri from "/yuri.json" with { type: "json" }
+import yuri from "./yurigen/yuri.json" with { type: "json" }
 
 let obj = document.getElementById('yurisrc')
 let size = yuri.length

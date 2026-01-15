@@ -9,6 +9,19 @@ body {
     background-color: rgb(59, 37, 49);
 }
 
+.mediacontainer {
+    margin:20px;
+}
+
+.lostmedia {
+    background-color: rgba(59, 37, 49);
+    padding:10px;
+    font-family: Inter, sans-serif;
+    color: rgb(236, 171, 217);
+    border-color: rgb(236, 171, 217);
+    border-style:solid;
+}
+
 .nextTo {
     width:40%;
     background-color: rgb(85, 47, 68);
@@ -51,6 +64,7 @@ body {
     position:absolute;
     left:50%;
     transform: translate(-50%, -25px);
+    top:270px;
     background-color: rgb(85, 47, 68);
     box-shadow: 0px 10px 10px black;
     z-index: 6;
@@ -248,6 +262,7 @@ main {
     transition-duration: 0.2s;
     background-color: rgb(85, 47, 68);
     box-shadow: 0px 0px 15px black;
+    margin-bottom: 50px;
 }
 
 .newgallery a {

@@ -1,16 +1,12 @@
-import yuri from "./yuri.json" with { type: "json" }
-import tagsJSON from "./tags.json" with { type: "json" }
-import unsorted from "./yuriunsorted.json" with { type: "json" }
+import yuri from "./yurigen/yuri.json" with { type: "json" }
+import tagsJSON from "./yurigen/tags.json" with { type: "json" }
 
 let gallery = {}
 let curLoadedFromGallery = 0
-let curLoadedFromUnsorted = 0
 let loopLoaded = 0
 const maxLoaded = 20;
 let div = document.getElementById("gallery")
-const unsortedDiv = document.getElementById("unsorted")
 const panelButton = document.getElementById("paneltoggle")
-const unsortedInfo = document.getElementById("unsortedInfo")
 const buttons = document.querySelectorAll("[id='tagbutton']")
 const select = document.getElementById("sort")
 const sortSett = document.getElementById("descending")
@@ -34,7 +30,6 @@ console.log("faggot")
 
 function removeImgs() {
     div.innerHTML = '';
-    unsortedDiv.innerHTML = '';
     curLoadedFromGallery = 0;
 }
 
@@ -119,38 +114,10 @@ function addImgs() {
         } else {
             setSize()
         }
-        curLoadedText.innerHTML = "total images: <strong>"+(yuri.length+unsorted.length)+"</strong><br>total images in database: <strong>"+yuri.length+"</strong><br> currently loaded: <strong>"+(curLoadedFromGallery+curLoadedFromUnsorted)+"</strong>"
-        addUnsortedImgs()
+        curLoadedText.innerHTML = "total images: <strong>"+(yuri.length)+"</strong><br>total images in database: <strong>"+yuri.length+"</strong><br> currently loaded: <strong>"+(curLoadedFromGallery)+"</strong>"
+            
+        waitForLoad()
     }
-}
-
-
-function addUnsortedImgs() {
-    let n = unsorted.length;
-    if (loopLoaded>=maxLoaded) {
-        unsortedInfo.setAttribute("class", "hidden")
-        unsortedDiv.setAttribute("class", "hidden")
-    }
-    for (let i = curLoadedFromUnsorted; i < n; i++) {
-        if (loopLoaded>=maxLoaded) {
-            break;
-        }
-        let obj = document.createElement("a")
-        obj.href = unsorted[i]
-        let img = document.createElement("img")
-        img.src = unsorted[i]
-        unsortedDiv.append(obj)
-        obj.appendChild(img)
-        newImgObjs.push(img)
-        curLoadedFromUnsorted++;
-        loopLoaded++;
-        unsortedInfo.removeAttribute("class")
-        unsortedDiv.setAttribute("class", "gallery")
-        if (loopLoaded>=maxLoaded) {
-            break;
-        }
-    }
-    waitForLoad()
 }
 
 function insertionSort(arr) {
