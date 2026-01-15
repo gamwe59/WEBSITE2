@@ -1,5 +1,5 @@
-import tags from "/tags.json" with { type: "json" }
-import yuri from "/yuri.json" with { type: "json" }
+import tags from "./yurigen/tags.json" with { type: "json" }
+import yuri from "./yurigen/yuri.json" with { type: "json" }
 
 const sidebar = document.getElementById("sidepanel")
 
