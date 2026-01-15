@@ -5,7 +5,7 @@ const path = require("path");
 const dir = path.join(__dirname, "content/lazymedia");
 const files = fs.readdirSync(dir)
 
-const output = JSON.stringify(files.map(f => "/content/lazymedia/" + f))
+const output = JSON.stringify(files.map(f => "/lazymedia/" + f))
 
 
 fs.writeFileSync("lazymedia.json", output);
