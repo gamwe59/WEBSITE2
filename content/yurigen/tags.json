@@ -51,6 +51,10 @@
         "long": "activity",
         "type": "intimacy"
     },
+    "adevil": {
+        "long": "angel devil",
+        "type": "character"
+    },
     "administrator": {
         "long": "administrator tf2",
         "type": "character"
@@ -75,12 +79,20 @@
         "long": "airi",
         "type": "character"
     },
+    "aki": {
+        "long": "aki",
+        "type": "character"
+    },
     "akiaraoc": {
         "long": "akiara (oc)",
         "type": "character"
     },
     "akisan": {
         "long": "akisan",
+        "type": "artist"
+    },
+    "akng1110": {
+        "long": "akng",
         "type": "artist"
     },
     "alfaidopasta": {
@@ -98,6 +110,10 @@
     "animals": {
         "long": "pet animals",
         "type": "content"
+    },
+    "ans": {
+        "long": "adachi and shimamura",
+        "type": "origin"
     },
     "ari": {
         "long": "ari",
@@ -195,6 +211,10 @@
         "long": "celebelian",
         "type": "artist"
     },
+    "ceruleanblood": {
+        "long": "cerueleanblood",
+        "type": "artist"
+    },
     "chell": {
         "long": "chell",
         "type": "character"
@@ -238,6 +258,10 @@
     "critinikaqwq": {
         "long": "critinika",
         "type": "artist"
+    },
+    "csm": {
+        "long": "chainsawman",
+        "type": "origin"
     },
     "cuddling": {
         "long": "cuddling",
@@ -451,6 +475,10 @@
         "long": "horse race tests",
         "type": "origin"
     },
+    "hshimamura": {
+        "long": "hougetsu shimamura",
+        "type": "character"
+    },
     "hugging": {
         "long": "hugging",
         "type": "content"
@@ -497,6 +525,14 @@
     },
     "imomimomahha": {
         "long": "imomimomahha",
+        "type": "artist"
+    },
+    "imthatrusty": {
+        "long": "rusty",
+        "type": "artist"
+    },
+    "insomiacat": {
+        "long": "insomniacat__",
         "type": "artist"
     },
     "interloper": {
@@ -742,6 +778,10 @@
     "minato": {
         "long": "minato",
         "type": "character"
+    },
+    "minecraftyuri": {
+        "long": "minecraft",
+        "type": "content"
     },
     "mitsuki": {
         "long": "mitsuki koga",
@@ -1007,6 +1047,10 @@
         "long": "sabrina",
         "type": "artist"
     },
+    "sadachi": {
+        "long": "sakura adachi",
+        "type": "character"
+    },
     "saefira": {
         "long": "saefira",
         "type": "artist"
@@ -1082,6 +1126,10 @@
     "smoking": {
         "long": "smoking",
         "type": "content"
+    },
+    "snekeroo": {
+        "long": "snekeroo",
+        "type": "artist"
     },
     "snowiicat": {
         "long": "snowii_cat",
@@ -1300,7 +1348,7 @@
         "type": "character"
     },
     "y4ntaoist": {
-        "long": "y4ntaoist",
+        "long": "b4ekhap",
         "type": "artist"
     },
     "yhrt": {
