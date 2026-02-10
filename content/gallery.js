@@ -84,7 +84,7 @@ function addImgs() {
                 src = src.replace("?","%3F")
                 src = src.replace("&","%26")
                 if (img.mini == null) {
-                    display.src = img.src
+                    img.src = img.src
                 }
                 img.src = "./webp/"+data.mini
                 console.log(img.src)
