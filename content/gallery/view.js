@@ -1,5 +1,5 @@
-import yuri from "./yurigen/yuri.json" with { type: "json" }
-import tagsJSON from "./yurigen/tags.json" with { type: "json" }
+import yuri from "/yurigen/yuri.json" with { type: "json" }
+import tagsJSON from "/yurigen/tags.json" with { type: "json" }
 
 let info = document.getElementById("info")
 let USP = new URLSearchParams(document.location.search);
