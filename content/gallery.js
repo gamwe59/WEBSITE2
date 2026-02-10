@@ -83,7 +83,11 @@ function addImgs() {
                 let src = data.src
                 src = src.replace("?","%3F")
                 src = src.replace("&","%26")
-                img.src = "//img.femboy.skin/?url="+src+"&output=webp&default=1" //if gif add &n=-1
+                if (img.mini == null) {
+                    display.src = img.src
+                }
+                img.src = "./webp/"+data.mini
+                console.log(img.src)
                 newImgObjs.push(img)
             } else if (data.tags.includes("video")) {
                 img = document.createElement("video")

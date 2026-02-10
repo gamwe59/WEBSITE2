@@ -59,7 +59,10 @@ function loadDetails() {
     id.textContent = "ID: "+img.id
     if (img.tags.includes("here") || img.tags.includes("image")) {
         display = document.createElement("img")
-        display.src = img.src
+        if (img.full == null) {
+            display.src = img.src
+        }
+        display.src = "/webp/"+img.full
     } else if (img.tags.includes("video")) {
         display = document.createElement("video")
         display.src = img.src

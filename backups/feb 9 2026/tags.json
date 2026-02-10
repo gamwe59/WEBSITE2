@@ -1,0 +1,1350 @@
+{
+    "1girl": {
+        "long": "1 girl",
+        "type": "girls"
+    },
+    "2girls": {
+        "long": "2 girls",
+        "type": "girls"
+    },
+    "2uaiueo": {
+        "long": "2uaiueo",
+        "type": "artist"
+    },
+    "3girls": {
+        "long": "3 girls",
+        "type": "girls"
+    },
+    "4girls": {
+        "long": "4 girls",
+        "type": "girls"
+    },
+    "5girls": {
+        "long": "5 girls",
+        "type": "girls"
+    },
+    "6girls": {
+        "long": "6 girls",
+        "type": "girls"
+    },
+    "7girls": {
+        "long": "7 girls",
+        "type": "girls"
+    },
+    "8girls": {
+        "long": "8 girls",
+        "type": "girls"
+    },
+    "L": {
+        "long": "L (death note)",
+        "type": "character"
+    },
+    "LEnaaaaa_114514": {
+        "long": "LEnaaaaa_114514",
+        "type": "artist"
+    },
+    "absomaddo": {
+        "long": "absomaddo",
+        "type": "artist"
+    },
+    "activity": {
+        "long": "activity",
+        "type": "intimacy"
+    },
+    "administrator": {
+        "long": "administrator tf2",
+        "type": "character"
+    },
+    "adorbsyai": {
+        "long": "adorbsy_ai",
+        "type": "artist"
+    },
+    "adricheri": {
+        "long": "adricheri_art",
+        "type": "artist"
+    },
+    "aidenr0": {
+        "long": "spindle",
+        "type": "artist"
+    },
+    "aigis": {
+        "long": "aigis",
+        "type": "character"
+    },
+    "airi": {
+        "long": "airi",
+        "type": "character"
+    },
+    "akiaraoc": {
+        "long": "akiara (oc)",
+        "type": "character"
+    },
+    "akisan": {
+        "long": "akisan",
+        "type": "artist"
+    },
+    "alfaidopasta": {
+        "long": "alfaidopasta",
+        "type": "artist"
+    },
+    "alnokai": {
+        "long": "kaiaiai",
+        "type": "artist"
+    },
+    "alnst": {
+        "long": "alien stage",
+        "type": "origin"
+    },
+    "animals": {
+        "long": "pet animals",
+        "type": "content"
+    },
+    "ari": {
+        "long": "ari",
+        "type": "character"
+    },
+    "athena": {
+        "long": "athena",
+        "type": "character"
+    },
+    "audreyhp": {
+        "long": "audrey belrose",
+        "type": "character"
+    },
+    "aurawra21": {
+        "long": "aurawra21",
+        "type": "artist"
+    },
+    "aya": {
+        "long": "aya oosawa",
+        "type": "character"
+    },
+    "azumanga": {
+        "long": "azumanga daioh",
+        "type": "origin"
+    },
+    "bangdream": {
+        "long": "banG dream",
+        "type": "origin"
+    },
+    "bath": {
+        "long": "bath",
+        "type": "content"
+    },
+    "beach": {
+        "long": "beach",
+        "type": "content"
+    },
+    "blair": {
+        "long": "blair",
+        "type": "character"
+    },
+    "blood": {
+        "long": "blood",
+        "type": "content"
+    },
+    "bloomfesruii": {
+        "long": "bloomfesruii",
+        "type": "artist"
+    },
+    "bnw": {
+        "long": "black and white",
+        "type": "style"
+    },
+    "bocchi": {
+        "long": "hitori bocchi gotoh",
+        "type": "character"
+    },
+    "briara": {
+        "long": "dr briar armstrong",
+        "type": "character"
+    },
+    "btr": {
+        "long": "bocchi the rock!",
+        "type": "origin"
+    },
+    "buckto": {
+        "long": "buckto_",
+        "type": "artist"
+    },
+    "bunimoon": {
+        "long": "bunimo0n",
+        "type": "artist"
+    },
+    "buriki": {
+        "long": "buriki",
+        "type": "artist"
+    },
+    "butch": {
+        "long": "butch",
+        "type": "expression"
+    },
+    "cannibalism": {
+        "long": "cannibalism",
+        "type": "content"
+    },
+    "catgirls": {
+        "long": "catgirls",
+        "type": "content"
+    },
+    "caweddd": {
+        "long": "caweddd",
+        "type": "artist"
+    },
+    "celebelian": {
+        "long": "celebelian",
+        "type": "artist"
+    },
+    "chell": {
+        "long": "chell",
+        "type": "character"
+    },
+    "chiori000": {
+        "long": "chiori000",
+        "type": "artist"
+    },
+    "chubaka": {
+        "long": "chubaka",
+        "type": "artist"
+    },
+    "chunli": {
+        "long": "chun-li",
+        "type": "character"
+    },
+    "cloud": {
+        "long": "cloud",
+        "type": "character"
+    },
+    "co09": {
+        "long": "class of '09",
+        "type": "origin"
+    },
+    "color": {
+        "long": "color",
+        "type": "style"
+    },
+    "comic": {
+        "long": "comic",
+        "type": "style"
+    },
+    "contentaddedlater": {
+        "long": "havent decided",
+        "type": "content"
+    },
+    "coralglasses": {
+        "long": "coral glasses",
+        "type": "character"
+    },
+    "critinikaqwq": {
+        "long": "critinika",
+        "type": "artist"
+    },
+    "cuddling": {
+        "long": "cuddling",
+        "type": "content"
+    },
+    "cultofyuri": {
+        "long": "avanes_d",
+        "type": "artist"
+    },
+    "daiwa": {
+        "long": "daiwa scarlet",
+        "type": "character"
+    },
+    "danbooru": {
+        "long": "danbooru",
+        "type": "site"
+    },
+    "dashdoodles": {
+        "long": "dashdoodles",
+        "type": "artist"
+    },
+    "date": {
+        "long": "date",
+        "type": "content"
+    },
+    "ddlc": {
+        "long": "doki doki literature club",
+        "type": "origin"
+    },
+    "deathnote": {
+        "long": "death note",
+        "type": "origin"
+    },
+    "digital": {
+        "long": "digital art",
+        "type": "medium"
+    },
+    "doggirls": {
+        "long": "doggirls",
+        "type": "content"
+    },
+    "dollswillrot": {
+        "long": "dollswillrot",
+        "type": "artist"
+    },
+    "domestic": {
+        "long": "domestic",
+        "type": "content"
+    },
+    "doomed": {
+        "long": "doomed",
+        "type": "genre"
+    },
+    "doto": {
+        "long": "meisho doto",
+        "type": "character"
+    },
+    "emilosophy": {
+        "long": "emily emilosophy",
+        "type": "character"
+    },
+    "emilu-enjuangas": {
+        "long": "emilu-enjuangas",
+        "type": "artist"
+    },
+    "emily": {
+        "long": "emily",
+        "type": "character"
+    },
+    "emuotori": {
+        "long": "emu otori",
+        "type": "character"
+    },
+    "ena": {
+        "long": "ena",
+        "type": "character"
+    },
+    "enacharacter": {
+        "long": "ENA",
+        "type": "character"
+    },
+    "enaseries": {
+        "long": "ENA",
+        "type": "origin"
+    },
+    "farmer": {
+        "long": "female farmer",
+        "type": "character"
+    },
+    "favorite": {
+        "long": "my favorite",
+        "type": "rating"
+    },
+    "fawnnguts": {
+        "long": "fawnnguts",
+        "type": "artist"
+    },
+    "femme": {
+        "long": "femme",
+        "type": "expression"
+    },
+    "fenwiqk": {
+        "long": "fenwiqk",
+        "type": "artist"
+    },
+    "ff": {
+        "long": "final fantasy series",
+        "type": "origin"
+    },
+    "fucked": {
+        "long": "fucked up",
+        "type": "rating"
+    },
+    "furries": {
+        "long": "furries",
+        "type": "content"
+    },
+    "futaba": {
+        "long": "futaba sakura",
+        "type": "character"
+    },
+    "futch": {
+        "long": "futch",
+        "type": "expression"
+    },
+    "fuuka": {
+        "long": "fuuka yamagishi",
+        "type": "character"
+    },
+    "garasuno1182": {
+        "long": "garasuno_1182",
+        "type": "artist"
+    },
+    "gaz7v7": {
+        "long": "gaz7v7",
+        "type": "artist"
+    },
+    "genderswap": {
+        "long": "genderswap",
+        "type": "content"
+    },
+    "gfmanual": {
+        "long": "girlfriend manual",
+        "type": "origin"
+    },
+    "glasses": {
+        "long": "glasses",
+        "type": "content"
+    },
+    "goldship": {
+        "long": "gold ship",
+        "type": "character"
+    },
+    "groping": {
+        "long": "groping",
+        "type": "content"
+    },
+    "gryhrt": {
+        "long": "downtown skybox",
+        "type": "character"
+    },
+    "guitar": {
+        "long": "guitar",
+        "type": "content"
+    },
+    "gumi": {
+        "long": "gumi",
+        "type": "character"
+    },
+    "haleysdv": {
+        "long": "haley",
+        "type": "character"
+    },
+    "hasukeii": {
+        "long": "hasukeii",
+        "type": "artist"
+    },
+    "hegaiii": {
+        "long": "hegaiii",
+        "type": "artist"
+    },
+    "here": {
+        "long": "local file",
+        "type": "site"
+    },
+    "hg6": {
+        "long": "___hg6",
+        "type": "artist"
+    },
+    "hiimross": {
+        "long": "hiimross_",
+        "type": "artist"
+    },
+    "hinaten": {
+        "long": "hinaten",
+        "type": "artist"
+    },
+    "hobak25": {
+        "long": "hobak_25",
+        "type": "artist"
+    },
+    "homura": {
+        "long": "hamura",
+        "type": "character"
+    },
+    "hphysical": {
+        "long": "heavy physical",
+        "type": "intimacy"
+    },
+    "hrt": {
+        "long": "horse race tests",
+        "type": "origin"
+    },
+    "hugging": {
+        "long": "hugging",
+        "type": "content"
+    },
+    "huniepop": {
+        "long": "huniepop",
+        "type": "origin"
+    },
+    "hyaluronaruma": {
+        "long": "hyaluronaruma",
+        "type": "artist"
+    },
+    "iahturong": {
+        "long": "iahtruong",
+        "type": "artist"
+    },
+    "ichika": {
+        "long": "ichika hoshino",
+        "type": "character"
+    },
+    "idkc": {
+        "long": "ugm.. im not sure..",
+        "type": "character"
+    },
+    "idunnowhereitsfrom": {
+        "long": "i dunno",
+        "type": "origin"
+    },
+    "ihasa39": {
+        "long": "ihasa39",
+        "type": "artist"
+    },
+    "illuminecanvas": {
+        "long": "illuminecanvas",
+        "type": "artist"
+    },
+    "image": {
+        "long": "image",
+        "type": "format"
+    },
+    "imaishikis": {
+        "long": "imaishikis (my favorite)",
+        "type": "artist"
+    },
+    "imomimomahha": {
+        "long": "imomimomahha",
+        "type": "artist"
+    },
+    "interloper": {
+        "long": "interloper",
+        "type": "origin"
+    },
+    "javinaida17000": {
+        "long": "javinadia17000",
+        "type": "artist"
+    },
+    "jecka": {
+        "long": "jecka",
+        "type": "character"
+    },
+    "jie": {
+        "long": "jie",
+        "type": "character"
+    },
+    "jim151678": {
+        "long": "jim151678",
+        "type": "artist"
+    },
+    "joecanvas": {
+        "long": "joecanvas",
+        "type": "artist"
+    },
+    "jsnttzzj": {
+        "long": "jsnttzzj",
+        "type": "artist"
+    },
+    "kadedotwebp": {
+        "long": "kade.webp",
+        "type": "artist"
+    },
+    "kaiyamon": {
+        "long": "kaiyamon",
+        "type": "artist"
+    },
+    "kanade": {
+        "long": "kanade",
+        "type": "character"
+    },
+    "karen": {
+        "long": "karen",
+        "type": "character"
+    },
+    "katarina": {
+        "long": "katarina",
+        "type": "character"
+    },
+    "kazikou2": {
+        "long": "kazikou2",
+        "type": "artist"
+    },
+    "kelly": {
+        "long": "kelly",
+        "type": "character"
+    },
+    "kiminkiis": {
+        "long": "kiminkiis",
+        "type": "artist"
+    },
+    "kimocean7": {
+        "long": "kimocean7",
+        "type": "artist"
+    },
+    "kimsei": {
+        "long": "kimsei",
+        "type": "artist"
+    },
+    "kiskutnya": {
+        "long": "kiskutnya",
+        "type": "artist"
+    },
+    "kissing": {
+        "long": "kissing",
+        "type": "content"
+    },
+    "kita": {
+        "long": "kita ikuyo",
+        "type": "character"
+    },
+    "knana": {
+        "long": "nana komatsu",
+        "type": "character"
+    },
+    "koandmi": {
+        "long": "koharu and minato",
+        "type": "origin"
+    },
+    "koharu": {
+        "long": "koharu",
+        "type": "character"
+    },
+    "kojiro337": {
+        "long": "kojiro337",
+        "type": "artist"
+    },
+    "kokosaraas": {
+        "long": "kokosaraas",
+        "type": "artist"
+    },
+    "kraw3887": {
+        "long": "kamo",
+        "type": "artist"
+    },
+    "kuva5z": {
+        "long": "rev (kuva5z)",
+        "type": "artist"
+    },
+    "ky00nnie": {
+        "long": "ky00nnie",
+        "type": "artist"
+    },
+    "kzscpilled": {
+        "long": "kzscpilled",
+        "type": "artist"
+    },
+    "leash": {
+        "long": "leash",
+        "type": "content"
+    },
+    "lesbianeo": {
+        "long": "lesbianeo",
+        "type": "artist"
+    },
+    "lesbonightcrwlr": {
+        "long": "lebonightcrwlr",
+        "type": "artist"
+    },
+    "levi": {
+        "long": "levi",
+        "type": "character"
+    },
+    "liamickpie": {
+        "long": "liamickpie",
+        "type": "artist"
+    },
+    "light": {
+        "long": "light yagami",
+        "type": "character"
+    },
+    "loet2zz": {
+        "long": "rutiile",
+        "type": "artist"
+    },
+    "lol": {
+        "long": "league of legends",
+        "type": "origin"
+    },
+    "losingmymaybles": {
+        "long": "may losingmymaybles",
+        "type": "character"
+    },
+    "lovedeficit": {
+        "long": "love deficit",
+        "type": "origin"
+    },
+    "lphysical": {
+        "long": "light physical",
+        "type": "intimacy"
+    },
+    "luka": {
+        "long": "megurine luka",
+        "type": "character"
+    },
+    "machuuu68": {
+        "long": "machuuu68",
+        "type": "artist"
+    },
+    "madoka": {
+        "long": "madoka",
+        "type": "character"
+    },
+    "madokamagica": {
+        "long": "madoka magica",
+        "type": "origin"
+    },
+    "mafuenareal": {
+        "long": "mafuenareal",
+        "type": "artist"
+    },
+    "mafuyuu": {
+        "long": "mafuyuu",
+        "type": "character"
+    },
+    "magqotq": {
+        "long": "magqotq",
+        "type": "artist"
+    },
+    "magstaar": {
+        "long": "_magstaar_",
+        "type": "artist"
+    },
+    "maioduka": {
+        "long": "mai oduka",
+        "type": "character"
+    },
+    "mall": {
+        "long": "mall",
+        "type": "content"
+    },
+    "maribel": {
+        "long": "maribel",
+        "type": "character"
+    },
+    "marisa": {
+        "long": "marisa",
+        "type": "character"
+    },
+    "married": {
+        "long": "wedding",
+        "type": "content"
+    },
+    "mayumioc": {
+        "long": "mayumi (oc)",
+        "type": "character"
+    },
+    "mcqueen": {
+        "long": "mejiro mcqueen",
+        "type": "character"
+    },
+    "megan": {
+        "long": "megan",
+        "type": "character"
+    },
+    "mfortune": {
+        "long": "miss fortune",
+        "type": "character"
+    },
+    "mikanuji": {
+        "long": "mikanuji",
+        "type": "artist"
+    },
+    "miku": {
+        "long": "hatsune miku",
+        "type": "character"
+    },
+    "minakakaa": {
+        "long": "minakaka.a",
+        "type": "artist"
+    },
+    "minato": {
+        "long": "minato",
+        "type": "character"
+    },
+    "mitsuki": {
+        "long": "mitsuki koga",
+        "type": "character"
+    },
+    "mizi": {
+        "long": "mizi",
+        "type": "character"
+    },
+    "mizuki": {
+        "long": "mizuki",
+        "type": "character"
+    },
+    "moriinakasa": {
+        "long": "moriinakasa",
+        "type": "artist"
+    },
+    "moyo": {
+        "long": "moyo__4",
+        "type": "artist"
+    },
+    "muscles": {
+        "long": "muscles",
+        "type": "content"
+    },
+    "musicrelated": {
+        "long": "music related",
+        "type": "content"
+    },
+    "mutsumi": {
+        "long": "wakaba mutsumi",
+        "type": "character"
+    },
+    "najsigt": {
+        "long": "najsigt",
+        "type": "artist"
+    },
+    "nanaseries": {
+        "long": "nana (series)",
+        "type": "origin"
+    },
+    "naruto": {
+        "long": "naruto uzumaki",
+        "type": "character"
+    },
+    "narutom": {
+        "long": "naruto",
+        "type": "origin"
+    },
+    "natsuki": {
+        "long": "natsuki",
+        "type": "character"
+    },
+    "natsupochipon": {
+        "long": "natsupochipon",
+        "type": "artist"
+    },
+    "nattydodo002": {
+        "long": "nattydodo_002",
+        "type": "artist"
+    },
+    "nenekusanagi": {
+        "long": "nene kusanagi",
+        "type": "character"
+    },
+    "nezumiv": {
+        "long": "nezu_mi_v",
+        "type": "artist"
+    },
+    "nichijou": {
+        "long": "nichijou",
+        "type": "origin"
+    },
+    "nicole": {
+        "long": "nicole",
+        "type": "character"
+    },
+    "nijika": {
+        "long": "nijika ijichi",
+        "type": "character"
+    },
+    "nohartandsoles": {
+        "long": "teefums",
+        "type": "artist"
+    },
+    "nointimacy": {
+        "long": "none",
+        "type": "intimacy"
+    },
+    "nononss5": {
+        "long": "nononss5",
+        "type": "artist"
+    },
+    "nudity": {
+        "long": "nudity",
+        "type": "content"
+    },
+    "nyamo": {
+        "long": "minamo kurosawa",
+        "type": "character"
+    },
+    "oc": {
+        "long": "original character",
+        "type": "origin"
+    },
+    "ohrt": {
+        "long": "jovial merriment",
+        "type": "character"
+    },
+    "onana": {
+        "long": "nana osaki",
+        "type": "character"
+    },
+    "ota07874943": {
+        "long": "ota07874943",
+        "type": "artist"
+    },
+    "otaeria": {
+        "long": "otaeria",
+        "type": "artist"
+    },
+    "overcount1999": {
+        "long": "0VERcount1999",
+        "type": "artist"
+    },
+    "pandesaii": {
+        "long": "pandesaii",
+        "type": "artist"
+    },
+    "paranoid_ghosts": {
+        "long": "paranoid_ghosts",
+        "type": "artist"
+    },
+    "party": {
+        "long": "party/gathering",
+        "type": "content"
+    },
+    "pauling": {
+        "long": "ms pauling",
+        "type": "character"
+    },
+    "persona": {
+        "long": "persona series",
+        "type": "origin"
+    },
+    "peteyakuneba": {
+        "long": "pete_yakuneba",
+        "type": "artist"
+    },
+    "pfgwpmpw": {
+        "long": "pfgwpmpw",
+        "type": "artist"
+    },
+    "ph401": {
+        "long": "ph401",
+        "type": "artist"
+    },
+    "physical": {
+        "long": "physical",
+        "type": "intimacy"
+    },
+    "pinterest": {
+        "long": "pinterest",
+        "type": "site"
+    },
+    "pjsk": {
+        "long": "project sekai",
+        "type": "origin"
+    },
+    "pockiseisont": {
+        "long": "pockiseiont",
+        "type": "artist"
+    },
+    "portal": {
+        "long": "portal",
+        "type": "origin"
+    },
+    "pyonfye": {
+        "long": "pyonfye",
+        "type": "artist"
+    },
+    "qijiaai": {
+        "long": "qijiaai",
+        "type": "artist"
+    },
+    "qinling452842": {
+        "long": "qinling452842",
+        "type": "artist"
+    },
+    "qiukuiqk": {
+        "long": "qiukuiqk",
+        "type": "artist"
+    },
+    "qliu1808": {
+        "long": "qliu1808",
+        "type": "artist"
+    },
+    "raccoattack": {
+        "long": "raccoattack",
+        "type": "artist"
+    },
+    "raccooblues": {
+        "long": "raccooblues",
+        "type": "artist"
+    },
+    "rain": {
+        "long": "rain",
+        "type": "content"
+    },
+    "rattlegeist": {
+        "long": "rattlegeist",
+        "type": "artist"
+    },
+    "realpeople": {
+        "long": "real people",
+        "type": "origin"
+    },
+    "reddit": {
+        "long": "reddit",
+        "type": "site"
+    },
+    "rei": {
+        "long": "adachi rei",
+        "type": "character"
+    },
+    "reil3t": {
+        "long": "reil3t",
+        "type": "artist"
+    },
+    "reimu": {
+        "long": "reimu",
+        "type": "character"
+    },
+    "renako": {
+        "long": "renako amaori",
+        "type": "character"
+    },
+    "renko": {
+        "long": "renko",
+        "type": "character"
+    },
+    "rhrt": {
+        "long": "resolute mind afternoon",
+        "type": "character"
+    },
+    "rin": {
+        "long": "kagamine rin",
+        "type": "character"
+    },
+    "ritzchrono": {
+        "long": "ritzchrono",
+        "type": "artist"
+    },
+    "robots": {
+        "long": "ROBOTS",
+        "type": "content"
+    },
+    "ryo": {
+        "long": "ryo yamada",
+        "type": "character"
+    },
+    "sabrina": {
+        "long": "sabrina",
+        "type": "artist"
+    },
+    "saefira": {
+        "long": "saefira",
+        "type": "artist"
+    },
+    "sakiko": {
+        "long": "togawa sakiko",
+        "type": "character"
+    },
+    "samipekoe": {
+        "long": "samipekoe",
+        "type": "artist"
+    },
+    "sappysprout": {
+        "long": "sappy_sprout",
+        "type": "artist"
+    },
+    "sasuke": {
+        "long": "sasuke uchiha",
+        "type": "character"
+    },
+    "seijousai": {
+        "long": "seijousai",
+        "type": "artist"
+    },
+    "selfinsert": {
+        "long": "self-insert/ambiguous",
+        "type": "character"
+    },
+    "sensonene": {
+        "long": "SENSOnene",
+        "type": "artist"
+    },
+    "sex": {
+        "long": "sex",
+        "type": "content"
+    },
+    "shadowdiahrea": {
+        "long": "romayoyo",
+        "type": "artist"
+    },
+    "shiho": {
+        "long": "himomori shiho",
+        "type": "character"
+    },
+    "shihotistic": {
+        "long": "shihotistic",
+        "type": "artist"
+    },
+    "shiomi": {
+        "long": "kotone shiomi",
+        "type": "character"
+    },
+    "silverartshq": {
+        "long": "silverartshq",
+        "type": "artist"
+    },
+    "skdlzz": {
+        "long": "skdlzz",
+        "type": "artist"
+    },
+    "sketch": {
+        "long": "sketch",
+        "type": "style"
+    },
+    "skyghost": {
+        "long": "skyghost",
+        "type": "character"
+    },
+    "sleeping": {
+        "long": "sleeping",
+        "type": "content"
+    },
+    "smoking": {
+        "long": "smoking",
+        "type": "content"
+    },
+    "snowiicat": {
+        "long": "snowii_cat",
+        "type": "artist"
+    },
+    "so4lariette": {
+        "long": "lariette",
+        "type": "artist"
+    },
+    "soapyak": {
+        "long": "soapyak",
+        "type": "artist"
+    },
+    "sorimachi": {
+        "long": "sorimachi-doufu",
+        "type": "artist"
+    },
+    "speech": {
+        "long": "communication",
+        "type": "intimacy"
+    },
+    "stardewvalley": {
+        "long": "stardew valley",
+        "type": "origin"
+    },
+    "stcherrr": {
+        "long": "satcher",
+        "type": "artist"
+    },
+    "strawderryst": {
+        "long": "strawderryst",
+        "type": "artist"
+    },
+    "streetfighter": {
+        "long": "street fighter",
+        "type": "origin"
+    },
+    "stud": {
+        "long": "stud",
+        "type": "expression"
+    },
+    "sua": {
+        "long": "sua",
+        "type": "character"
+    },
+    "suggestive": {
+        "long": "suggestive",
+        "type": "rating"
+    },
+    "sumikoarai": {
+        "long": "sumikoarai",
+        "type": "artist"
+    },
+    "sumire": {
+        "long": "sumire yoshizawa",
+        "type": "character"
+    },
+    "synthvloid": {
+        "long": "synthvloid",
+        "type": "origin"
+    },
+    "systemsant": {
+        "long": "fishman sant",
+        "type": "artist"
+    },
+    "szeeyla": {
+        "long": "szeeyla",
+        "type": "artist"
+    },
+    "szmhattori01": {
+        "long": "szm_hattori01",
+        "type": "artist"
+    },
+    "tamamura": {
+        "long": "tamamura",
+        "type": "character"
+    },
+    "tealhuez": {
+        "long": "tealhuez",
+        "type": "artist"
+    },
+    "teto": {
+        "long": "kasane teto",
+        "type": "character"
+    },
+    "texting": {
+        "long": "messaging",
+        "type": "content"
+    },
+    "tf2": {
+        "long": "team fortress 2",
+        "type": "origin"
+    },
+    "tgswiiwagaa": {
+        "long": "tgswiiwagaa (green yuri)",
+        "type": "origin"
+    },
+    "thelemondrink": {
+        "long": "thelemondrink",
+        "type": "artist"
+    },
+    "tifa": {
+        "long": "tifa",
+        "type": "character"
+    },
+    "tiffanyhp": {
+        "long": "tiffany maye",
+        "type": "character"
+    },
+    "tingasdf": {
+        "long": "ting_asdf",
+        "type": "artist"
+    },
+    "tlastmeaning": {
+        "long": "calamity_brezze",
+        "type": "artist"
+    },
+    "touhou": {
+        "long": "touhou project",
+        "type": "origin"
+    },
+    "touka127430": {
+        "long": "touka127430",
+        "type": "artist"
+    },
+    "touyaluvrr": {
+        "long": "touyaluvrr",
+        "type": "artist"
+    },
+    "toxic": {
+        "long": "toxic",
+        "type": "genre"
+    },
+    "traditional": {
+        "long": "traditional art",
+        "type": "medium"
+    },
+    "tumblr": {
+        "long": "tumblr",
+        "type": "site"
+    },
+    "twitter": {
+        "long": "twitter",
+        "type": "site"
+    },
+    "umamusume": {
+        "long": "umamusume",
+        "type": "origin"
+    },
+    "uman": {
+        "long": "umbrella man",
+        "type": "character"
+    },
+    "umiri": {
+        "long": "umiri yahata",
+        "type": "character"
+    },
+    "unknownartist": {
+        "long": "unknown",
+        "type": "artist"
+    },
+    "uta": {
+        "long": "uta utane",
+        "type": "character"
+    },
+    "utauloid": {
+        "long": "utauloid",
+        "type": "origin"
+    },
+    "viaegarden": {
+        "long": "viaegarden",
+        "type": "artist"
+    },
+    "video": {
+        "long": "video",
+        "type": "format"
+    },
+    "vixen": {
+        "long": "_vixen_",
+        "type": "artist"
+    },
+    "vocaloid": {
+        "long": "vocaloid",
+        "type": "origin"
+    },
+    "vodka": {
+        "long": "vodka",
+        "type": "character"
+    },
+    "vsynth": {
+        "long": "vocal synth",
+        "type": "origin"
+    },
+    "vylxr": {
+        "long": "v_ylxr",
+        "type": "artist"
+    },
+    "walkingdownthestairs": {
+        "long": "walkingdownthestairs",
+        "type": "artist"
+    },
+    "watanare": {
+        "long": "watanare",
+        "type": "origin"
+    },
+    "wholesome": {
+        "long": "wholesome",
+        "type": "genre"
+    },
+    "whywrawng": {
+        "long": "whywrawng",
+        "type": "artist"
+    },
+    "xf233": {
+        "long": "seraph xf-233",
+        "type": "character"
+    },
+    "y4ntaoist": {
+        "long": "y4ntaoist",
+        "type": "artist"
+    },
+    "yhrt": {
+        "long": "lightning strikes thrice",
+        "type": "character"
+    },
+    "yixi": {
+        "long": "yi xi",
+        "type": "character"
+    },
+    "yoshino": {
+        "long": "yoshino naganohara",
+        "type": "character"
+    },
+    "yukari": {
+        "long": "yukari tanizaki",
+        "type": "character"
+    },
+    "yunayuispink": {
+        "long": "yunayu",
+        "type": "artist"
+    },
+    "yuri": {
+        "long": "yuri",
+        "type": "character"
+    },
+    "yuriontop": {
+        "long": "yurion.top",
+        "type": "origin"
+    },
+    "yzmutan": {
+        "long": "yzmutan",
+        "type": "artist"
+    },
+    "zeoksang": {
+        "long": "zeoksang",
+        "type": "artist"
+    },
+    "zikiki1092": {
+        "long": "zikiki",
+        "type": "artist"
+    },
+    "zzz": {
+        "long": "zenless zone zero",
+        "type": "origin"
+    }
+}
