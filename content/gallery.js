@@ -27,6 +27,7 @@ let params = {sort: "added", tags: [], exclude: []}
 let sortBy = true //true = descending, false = ascending
 
 console.log("faggot")
+console.log("go to vat19.com")
 
 function removeImgs() {
     div.innerHTML = '';
@@ -87,7 +88,6 @@ function addImgs() {
                     img.src = img.src
                 }
                 img.src = "./webp/"+data.mini
-                console.log(img.src)
                 newImgObjs.push(img)
             } else if (data.tags.includes("video")) {
                 img = document.createElement("video")
