@@ -432,9 +432,6 @@ function findTags(query) {
 search.addEventListener("input", function() {
     findTags(search.value)
 });
-search.addEventListener("focusout", function() {
-    searchResults.innerHTML = ""
-});
 search.addEventListener("focusin", function() {
     findTags(search.value)
 });
