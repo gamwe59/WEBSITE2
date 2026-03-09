@@ -6,18 +6,21 @@ let curLoadedFromGallery = 0
 let loopLoaded = 0
 const maxLoaded = 20;
 let div = document.getElementById("gallery")
-const panelButton = document.getElementById("paneltoggle")
-const buttons = document.querySelectorAll("[id='tagbutton']")
-const select = document.getElementById("sort")
-const sortSett = document.getElementById("descending")
 const curLoadedText = document.getElementById("curloaded")
 const notes = document.getElementById("notes")
 const notesDiv = document.getElementById("notesDiv")
 const loader = document.getElementById("loader")
 const goback = document.getElementById("goback")
+const searchResults = document.getElementById("searchResults")
+const search = document.getElementById("search")
 let USP = new URLSearchParams(document.location.search);
 let url = new URL(window.location.href)
 let loading = false
+
+let types = {}
+let tagCount = {}
+
+let maxResults = 500
 
 let newImgObjs = []
 
@@ -201,7 +204,6 @@ function setParams() {
     sort(gallery)
     addImgs()
 }
-
 function clickTagButton(button, tag, val) {
     let found = USP.has(val, tag)
     if (found) {
@@ -237,6 +239,7 @@ function siteLoaded() {
 
     exclude = USP.getAll("e")
     
+    /*
     for (const [key, button] of Object.entries(buttons)) {
         if (tags.includes(button.tagid)) {
             button.classList.add("tag-t")
@@ -244,9 +247,10 @@ function siteLoaded() {
             button.classList.add("tag-e")
         }
     }
+        */
     setParams()
 }
-
+/*
 for (const [key, button] of Object.entries(buttons)) {
     button.onclick = function() {
         clickTagButton(button, button.tagid, "t")
@@ -256,6 +260,7 @@ for (const [key, button] of Object.entries(buttons)) {
         clickTagButton(button, button.tagid, "e");
     });
 }
+    */
 
 //uhmmm um ummm im doing the uhmmm gallery grid thing here tee hee
 
@@ -339,11 +344,6 @@ window.onresize = function() {
         }
     }, 300);
 };
-
-panelButton.onclick = function() {
-    document.querySelector(".wrapper").classList.toggle("side-panel-open")
-    goback.disabled = !goback.disabled
-}
 goback.onclick = function() {
     document.querySelector(".wrapper").classList.toggle("side-panel-open")
     goback.disabled = !goback.disabled
@@ -366,6 +366,7 @@ document.addEventListener('input', function (event) {
 
 }, false);
 
+/*
 sortSett.onclick = function() {
     sortBy = !sortBy
     if (sortBy) {
@@ -375,16 +376,8 @@ sortSett.onclick = function() {
     }
     setParams()
 }
-
-select.selectedIndex = 0;
+    */
 sortBy = true
-sortSett.textContent = "(DESCENDING)"
-
-notes.onclick = function() {
-    notes.classList.toggle("arrow-down")
-    notesDiv.classList.toggle("notes-open")
-    notesOpen = !notesOpen
-}
 
 document.addEventListener("DOMContentLoaded", (event) => {
   siteLoaded();
@@ -397,3 +390,77 @@ window.addEventListener('scroll', function() {
     addImgs()
   }
 });
+
+function findTags(query) {
+    let results = []
+    for (const [key, tag] of Object.entries(tagsJSON)) {
+        if (tag.long.includes(query) || key.includes(query)) {
+            results.push(tag)
+        }
+    }
+    searchResults.innerHTML = ""
+    //note, add a thing to like sort the results based on how close they are to the search term
+    let tags = USP.getAll("t")
+    let exclude = USP.getAll("e")
+    for (let i = 0; i < Math.min(maxResults, results.length); i++) {
+        let tag = results[i]
+            let b = document.createElement("button")
+            let folder = document.getElementById(tag.type)
+            let count = tagCount[tag.id]
+            if (count) {
+                b.textContent = tag.long+" ["+count+"]"
+                if (count == 1) {
+                    b.classList.add("one")
+                }
+            } else {
+                b.textContent = tag.long+" [0]"
+                b.classList.add("zero")
+            }
+            b.id = "tagbutton"
+            b.tagid = tag.id
+            b.classList.add("tagbutton")
+            if (tags.includes(b.tagid)) {
+                b.classList.add("tag-t")
+            } else if (exclude.includes(b.tagid)) {
+                b.classList.add("tag-e")
+            }
+            searchResults.appendChild(b)
+            b.addEventListener("click", function() { clickTagButton(b, tag.id, "t") });
+    }
+}
+
+search.addEventListener("input", function() {
+    findTags(search.value)
+});
+search.addEventListener("focusout", function() {
+    searchResults.innerHTML = ""
+});
+search.addEventListener("focusin", function() {
+    findTags(search.value)
+});
+
+function countTags() {
+    for (const [key, tag] of Object.entries(tagsJSON)) {
+        if (types[tag.type]) {
+            if (!types[tag.type].includes(tag)) {
+                tag.id = key
+                types[tag.type].push(tag)
+            }
+        } else {
+            tag.id = key
+            types[tag.type] = new Array()
+            types[tag.type].push(tag)
+        }
+    }
+    for (const [key, img] of Object.entries(yuri)) {
+        for (const [key2, tag] of Object.entries(img.tags)) {
+            if (tagCount[tag]) {
+                tagCount[tag] = tagCount[tag]+1
+            } else {
+                tagCount[tag] = 1
+            }
+        }
+    }
+}
+
+countTags()
