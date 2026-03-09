@@ -347,6 +347,10 @@
         "long": "ENA",
         "type": "origin"
     },
+    "fanyaan": {
+        "long": "fanyaan",
+        "type": "artist"
+    },
     "farmer": {
         "long": "female farmer",
         "type": "character"
@@ -399,6 +403,10 @@
         "long": "gaz7v7",
         "type": "artist"
     },
+    "gbc": {
+        "long": "girls band cry",
+        "type": "origin"
+    },
     "genderswap": {
         "long": "genderswap",
         "type": "content"
@@ -435,8 +443,16 @@
         "long": "haley",
         "type": "character"
     },
+    "haruurara": {
+        "long": "haru urara",
+        "type": "character"
+    },
     "hasukeii": {
         "long": "hasukeii",
+        "type": "artist"
+    },
+    "haunterclere": {
+        "long": "haunterclere",
         "type": "artist"
     },
     "hegaiii": {
@@ -695,6 +711,10 @@
         "long": "light physical",
         "type": "intimacy"
     },
+    "lucentbeauty": {
+        "long": "lucentbeauty_",
+        "type": "artist"
+    },
     "luka": {
         "long": "megurine luka",
         "type": "character"
@@ -795,6 +815,10 @@
         "long": "mizuki",
         "type": "character"
     },
+    "momoka": {
+        "long": "momoka kawaragi",
+        "type": "character"
+    },
     "moriinakasa": {
         "long": "moriinakasa",
         "type": "artist"
@@ -861,6 +885,10 @@
     },
     "nijika": {
         "long": "nijika ijichi",
+        "type": "character"
+    },
+    "nina": {
+        "long": "iseri nina",
         "type": "character"
     },
     "nohartandsoles": {
@@ -958,6 +986,10 @@
     "portal": {
         "long": "portal",
         "type": "origin"
+    },
+    "pumpupthejam": {
+        "long": "pump_upthejam_",
+        "type": "artist"
     },
     "pyonfye": {
         "long": "pyonfye",
@@ -1142,6 +1174,10 @@
     "soapyak": {
         "long": "soapyak",
         "type": "artist"
+    },
+    "sonata": {
+        "long": "sonata (oc)",
+        "type": "character"
     },
     "sorimachi": {
         "long": "sorimachi-doufu",
@@ -1349,6 +1385,10 @@
     },
     "y4ntaoist": {
         "long": "b4ekhap",
+        "type": "artist"
+    },
+    "yaoyao": {
+        "long": "yaoyao is here",
         "type": "artist"
     },
     "yhrt": {
