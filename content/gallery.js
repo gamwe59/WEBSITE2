@@ -13,6 +13,7 @@ const loader = document.getElementById("loader")
 const goback = document.getElementById("goback")
 const searchResults = document.getElementById("searchResults")
 const search = document.getElementById("search")
+const right = document.getElementById("right")
 let USP = new URLSearchParams(document.location.search);
 let url = new URL(window.location.href)
 let loading = false
@@ -231,7 +232,7 @@ function siteLoaded() {
     let tags = USP.getAll("t")
     let exclude = USP.getAll("e")
 
-    if (!exclude.includes("suggestive")) {
+    if (!exclude.includes("suggestive") && !tags.includes("suggestive")) {
         USP.append("e", "suggestive")
         url.searchParams.append("e", "suggestive")
         history.replaceState({}, '', url.href)
@@ -435,6 +436,13 @@ search.addEventListener("input", function() {
 search.addEventListener("focusin", function() {
     findTags(search.value)
 });
+
+const onClickOutside = (element, callback) => {
+  document.addEventListener('click', e => {
+    if (!element.contains(e.target)) callback();
+  });
+};
+onClickOutside(right, () => searchResults.innerHTML = "");
 
 function countTags() {
     for (const [key, tag] of Object.entries(tagsJSON)) {
