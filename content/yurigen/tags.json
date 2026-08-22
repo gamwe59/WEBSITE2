@@ -579,6 +579,10 @@
         "long": "jsnttzzj",
         "type": "artist"
     },
+    "julieeggs": {
+        "long": "julie__eggs",
+        "type": "artist"
+    },
     "kadedotwebp": {
         "long": "kade.webp",
         "type": "artist"
@@ -626,6 +630,10 @@
     "kissing": {
         "long": "kissing",
         "type": "content"
+    },
+    "kisuniee": {
+        "long": "Kisuniee",
+        "type": "artist"
     },
     "kita": {
         "long": "kita ikuyo",
@@ -779,6 +787,10 @@
         "long": "megan",
         "type": "character"
     },
+    "meiko": {
+        "long": "MEIKO",
+        "type": "character"
+    },
     "mfortune": {
         "long": "miss fortune",
         "type": "character"
@@ -914,6 +926,10 @@
     "oc": {
         "long": "original character",
         "type": "origin"
+    },
+    "ocs": {
+        "long": "original characters",
+        "type": "character"
     },
     "ohrt": {
         "long": "jovial merriment",
