@@ -178,6 +178,10 @@ main {
     z-index: 2;
 }
 
+.gallery a p {
+    max-width: 80%;
+}
+
 .notransition {
   -webkit-transition: none !important;
   -moz-transition: none !important;
@@ -535,13 +539,25 @@ select {
 /* Mobile CSS */
 
 @media only screen and (max-width: 768px) {
-    nav {
-        flex-wrap: wrap;
-        height: fit-content;
+
+    .right {
+        position:fixed;
+        visibility: hidden;
     }
 
     .searchcontainer input {
         width:300px;
+    }
+    nav .searchcontainer {
+        position: fixed;
+        left:0;
+        top:60px;
+        margin:0;
+        width:100%;
+        transition-duration: 0.1s;
+    }
+    .searchcontainer input {
+        background: none;
     }
     nav * {
         margin-left:0px;
@@ -550,5 +566,22 @@ select {
         padding-right:10px;
         height:55px;
         line-height: 70px;
+        font-size: 14px;
+    }
+    .left {
+        visibility: hidden;
+        position: fixed;;
+    }
+    .bigSearch {
+        top:0px !important;
+    }
+
+    
+    .gallery {
+        width:70vw;
+    }
+
+    .main {
+        top:120px;
     }
 }
