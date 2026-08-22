@@ -385,6 +385,12 @@ document.addEventListener("DOMContentLoaded", (event) => {
 });
 
 window.addEventListener('scroll', function() {
+    if (window.scrollY === 0) {
+        right.classList.remove("bigSearch")
+    } else {
+        right.classList.add("bigSearch")
+    }
+
   // Check if the user has scrolled to the bottom of the page
   if (window.innerHeight + window.scrollY >= document.body.scrollHeight) {
     // Perform the desired action, e.g., showing a popup
@@ -420,10 +426,13 @@ function findTags(query) {
             b.id = "tagbutton"
             b.tagid = tag.id
             b.classList.add("tagbutton")
+            b.style = `order: ${i+1};`
             if (tags.includes(b.tagid)) {
                 b.classList.add("tag-t")
+                b.style = `order: 0`
             } else if (exclude.includes(b.tagid)) {
                 b.classList.add("tag-e")
+                b.style = `order: 0`
             }
             searchResults.appendChild(b)
             b.addEventListener("click", function() { clickTagButton(b, tag.id, "t") });

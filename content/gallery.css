@@ -327,7 +327,6 @@ main {
 
 nav {
     overflow: visible;
-    position:fixed;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -337,8 +336,13 @@ nav {
     width:100%;
     top:0px;
     box-shadow: 0px 5px 5px 0px rgb(17, 14, 16);
-    height:65px;
+    height:fit-content;
     z-index:100;
+}
+.searchnav {
+    overflow: hidden;
+    width:100%;
+    position:fixed;
 }
 nav * {
     background-color: rgba(0, 0, 0, 0);
@@ -384,6 +388,7 @@ nav .left {
     display:flex;
     align-items: baseline;
     justify-content: baseline;
+    z-index: 2;
 }
 nav .left a {
     text-align: left;
@@ -405,15 +410,17 @@ nav .left a img:hover {
 }
 
 nav .searchcontainer {
+    background-color: rgba(59, 37, 49);
     display:flex;
     align-items: center;
     justify-content: flex-end;
     flex-direction: column;
-    position:absolute;
+    position:fixed;
     right:0;
     top:0;
     width:fit-content;
     height:fit-content;
+    transition-duration: 0.5s;
 }
 
 .searchcontainer input {
@@ -442,7 +449,7 @@ nav .searchcontainer {
     overflow:scroll;
     top:50px;
     z-index: 0;
-    display: flex;
+    display: grid;
     justify-content: baseline;
     align-items: baseline;
     flex-direction: column;
@@ -452,6 +459,39 @@ nav .searchcontainer {
     margin-left: 0;
     height:fit-content;
     line-height: 25px;
+}
+
+.searchcontainer li {
+    padding:0px;
+    list-style-type:none;
+    margin-left: 5px;
+}
+.searchcontainer ul {
+    padding:5px;
+    list-style-type: none;
+}
+
+.bigSearch {
+    width:100vw !important;
+    right:0;
+    margin:0;
+}
+.bigSearch input {
+    position: relative;
+    width: calc(100% - 20px);
+    height:65px;
+    padding:10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.bigSearch .results {
+    align-self: baseline;
+    margin-left: 10px;
+    width:calc(100% - 20px);
+}
+
+.bigSearch .results button {
+    margin-bottom: 15px;
 }
 
 select {
@@ -492,12 +532,23 @@ select {
     text-decoration:line-through !important;
 }
 
-.searchcontainer li {
-    padding:0px;
-    list-style-type:none;
-    margin-left: 5px;
-}
-.searchcontainer ul {
-    padding:5px;
-    list-style-type: none;
+/* Mobile CSS */
+
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+
+    .searchcontainer input {
+        width:300px;
+    }
+    nav * {
+        margin-left:0px;
+        margin-right:0px;
+        padding-left:10px;
+        padding-right:10px;
+        height:55px;
+        line-height: 70px;
+    }
 }

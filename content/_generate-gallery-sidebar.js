@@ -53,6 +53,7 @@ function addContent() {
             }
         }
     }
+    let i = 0
     for (const [key, type] of Object.entries(types)) {
         for (const [key2, tag] of Object.entries(type)) {
             let li = document.createElement("li")
@@ -73,6 +74,7 @@ function addContent() {
             b.classList.add("tagbutton")
             li.appendChild(b)
             folder.appendChild(li)
+            i++
         }
     }
 }
